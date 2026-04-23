@@ -170,6 +170,7 @@
 const DATA_URL = './data/exam-questions.json';
 let ALL_QUESTIONS = [];
 let LOADED = false;
+let FILTERED_QUESTIONS = [];  // global so onclick handlers can reference it
 
 // ============ UTILS ============
 const $ = (sel) => document.querySelector(sel);
@@ -314,6 +315,7 @@ function renderFilter() {
     if (filterState.answer === 'no' && q.answer) return false;
     return true;
   });
+  FILTERED_QUESTIONS = filtered;  // store globally for onclick handlers
 
   $('#app').innerHTML = html`
   <div class="section-title">🔍 進階篩選</div>
@@ -366,11 +368,12 @@ function renderFilter() {
   </div>
 
   <div class="card">
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;flex-wrap:wrap;gap:0.5rem;">
       <span style="font-weight:600;">找到 <span style="color:var(--primary);font-size:1.1rem;">${filtered.length}</span> 題</span>
       <div class="btn-group">
-        <button class="btn btn-primary" onclick="startQuiz(filtered)" ${filtered.length===0?'disabled':''}>▶ 開始作答</button>
-        ${filtered.length > 0 ? html`<button class="btn btn-outline" onclick="previewQuestions(filtered)">👁 預覽</button>` : ''}
+        <button class="btn btn-primary" onclick="startQuiz(FILTERED_QUESTIONS)" ${filtered.length===0?'disabled':''}>▶ 開始作答</button>
+        <button class="btn btn-outline" onclick="previewQuestions(FILTERED_QUESTIONS)" ${filtered.length===0?'disabled':''}>👁 預覽</button>
+        <button class="btn btn-outline" onclick="printQuiz(FILTERED_QUESTIONS)" ${filtered.length===0?'disabled':''}>🖨️ 列印試卷</button>
       </div>
     </div>
     ${filtered.length === 0 ? '<div class="empty">沒有符合條件的題目，請調整篩選條件</div>' :
@@ -396,6 +399,114 @@ function renderQuestionCard(q, idx) {
   </div>
   `;
 }
+
+// ============ PRINT ============
+window.printQuiz = function(questions) {
+  const count = questions.length;
+  const now = new Date().toLocaleDateString('zh-TW');
+  let html_content = `
+  <div class="print-header" style="text-align:center;margin-bottom:2rem;">
+    <h1 style="font-size:1.5rem;margin-bottom:0.5rem;">台灣國中教育會考｜英語科練習卷</h1>
+    <p style="color:#666;">${now} · 共 ${count} 題</p>
+  </div>
+  `;
+  questions.forEach((q, idx) => {
+    const num = idx + 1;
+    const opts = Object.entries(q.options || {}).filter(([k]) => k !== 'passage');
+    html_content += `
+    <div class="print-question" style="margin-bottom:1.75rem;page-break-inside:avoid;">
+      <div class="print-q-meta" style="display:flex;gap:0.5rem;align-items:center;margin-bottom:0.5rem;flex-wrap:wrap;">
+        <span style="font-weight:700;font-size:0.95rem;">${num}.</span>
+        <span class="badge badge-year">${q.year}年</span>
+        <span class="badge badge-type">${q.type||''}</span>
+        <span class="badge badge-difficulty">${q.difficulty||''}</span>
+      </div>
+      <div class="print-q-text" style="margin-bottom:0.75rem;line-height:1.8;font-size:1rem;white-space:pre-wrap;">${q.question||''}</div>
+      <div class="print-options" style="padding-left:1.5rem;">
+        ${opts.map(([k, v]) => `<div style="display:flex;align-items:flex-start;gap:0.5rem;margin-bottom:0.4rem;line-height:1.6;">
+          <span style="font-weight:700;min-width:1.2rem;">(${k})</span>
+          <span>${v}</span>
+        </div>`).join('')}
+      </div>
+    </div>
+    `;
+  });
+
+  // Answer sheet
+  html_content += `
+  <div class="print-answer-sheet" style="margin-top:2rem;page-break-before:always;">
+    <h2 style="font-size:1.2rem;margin-bottom:1rem;text-align:center;border-bottom:2px solid #000;padding-bottom:0.5rem;">作答區</h2>
+    <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:0.25rem;font-size:0.9rem;text-align:center;">
+      <div style="font-weight:700;padding:0.25rem;background:#eee;">題號</div>
+      <div style="font-weight:700;padding:0.25rem;background:#eee;">答案</div>
+      <div style="font-weight:700;padding:0.25rem;background:#eee;">題號</div>
+      <div style="font-weight:700;padding:0.25rem;background:#eee;">答案</div>
+      <div style="font-weight:700;padding:0.25rem;background:#eee;"></div>
+      ${Array.from({length: count}, (_, i) => {
+        const col1 = i;
+        const col2 = i + 1;
+        const col3 = i + 2;
+        const col4 = i + 3;
+        if (col4 >= count) return '';
+        return `
+        <div style="padding:0.3rem;border-bottom:1px solid #ccc;">${col1+1}</div>
+        <div style="padding:0.3rem;border-bottom:1px solid #ccc;"></div>
+        <div style="padding:0.3rem;border-bottom:1px solid #ccc;">${col2+1}</div>
+        <div style="padding:0.3rem;border-bottom:1px solid #ccc;"></div>
+        <div></div>`;
+      }).join('')}
+    </div>
+  </div>
+
+  <div class="print-answer-key" style="margin-top:2rem;">
+    <h2 style="font-size:1.2rem;margin-bottom:1rem;text-align:center;border-bottom:2px solid #000;padding-bottom:0.5rem;">解答</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(3rem,1fr));gap:0.5rem;text-align:center;">
+      ${questions.map((q, i) => html`<div style="padding:0.3rem 0.5rem;border:1px solid #ccc;border-radius:4px;font-size:0.85rem;">
+        <div style="font-weight:700;color:#666;">${i+1}</div>
+        <div style="font-size:1rem;font-weight:700;">${q.answer || '?'}</div>
+      </div>`).join('')}
+    </div>
+  </div>
+  `;
+
+  const printWin = window.open('', '_blank', 'width=800,height=600');
+  printWin.document.write(`
+  <!DOCTYPE html>
+  <html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8">
+    <title>英語科練習卷</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body { font-family: 'Noto Sans TC', 'PingFang TC', sans-serif; padding: 2rem 2.5rem; color: #111; font-size: 14px; line-height: 1.6; }
+      .badge { display: inline-block; padding: 0.1rem 0.45rem; border-radius: 4px; font-size: 0.7rem; font-weight: 600; }
+      .badge-year { background: #dbeafe; color: #1e40af; }
+      .badge-type { background: #dcfce7; color: #166534; }
+      .badge-difficulty { background: #fef3c7; color: #92400e; }
+      @media print {
+        @page { size: A4; margin: 1.5cm 2cm; }
+        body { padding: 0; font-size: 13px; }
+        .print-question { page-break-inside: avoid; }
+        .print-answer-sheet { page-break-before: always; }
+      }
+      @media screen {
+        body { background: #f5f5f5; }
+        .print-question { background: white; padding: 1rem; border-radius: 8px; border: 1px solid #e5e7eb; margin-bottom: 1.5rem; }
+        .print-header { background: white; padding: 1.5rem; border-radius: 12px; border: 1px solid #e5e7eb; }
+        .print-answer-sheet, .print-answer-key { background: white; padding: 1.5rem; border-radius: 12px; border: 1px solid #e5e7eb; }
+      }
+    </style>
+  </head>
+  <body>
+    ${html_content}
+    <script>
+      window.onload = function() { window.print(); };
+    <\/script>
+  </body>
+  </html>`);
+  printWin.document.close();
+};
 
 // ============ ABOUT ============
 function renderAbout() {
