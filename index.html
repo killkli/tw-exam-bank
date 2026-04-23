@@ -292,6 +292,11 @@ function renderQuizList() {
 // ============ FILTER ============
 let filterState = { year:'', type:'', difficulty:'', concept:'', answer:'' };
 
+window.clearFilters = function() {
+  filterState = { year:'', type:'', difficulty:'', concept:'', answer:'' };
+  renderFilter();
+};
+
 function renderFilter() {
   if (!LOADED) { $('#app').innerHTML = '<div class="loading"><div class="spinner"></div>'; return; }
 
@@ -314,46 +319,49 @@ function renderFilter() {
   <div class="section-title">🔍 進階篩選</div>
 
   <div class="card">
-    <div class="filters">
-      <div class="filter-group">
-        <label>年度</label>
-        <select id="f-year" onchange="filterState.year=this.value;renderFilter();">
-          <option value="">全部</option>
-          ${years.map(y => html`<option value="${y}">${y}年</option>`).join('')}
-        </select>
+    <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:1rem;flex-wrap:wrap;">
+      <div class="filters" style="flex:1;margin-bottom:0;">
+        <div class="filter-group">
+          <label>年度</label>
+          <select id="f-year" onchange="filterState.year=this.value;renderFilter();">
+            <option value="">全部</option>
+            ${years.map(y => html`<option value="${y}" ${filterState.year==y?'selected':''}>${y}年</option>`).join('')}
+          </select>
+        </div>
+        <div class="filter-group">
+          <label>題型</label>
+          <select id="f-type" onchange="filterState.type=this.value;renderFilter();">
+            <option value="">全部</option>
+            ${types.map(t => html`<option value="${t}" ${filterState.type===t?'selected':''}>${t}</option>`).join('')}
+          </select>
+        </div>
+        <div class="filter-group">
+          <label>難度</label>
+          <select id="f-difficulty" onchange="filterState.difficulty=this.value;renderFilter();">
+            <option value="">全部</option>
+            ${difficulties.map(d => html`<option value="${d}" ${filterState.difficulty===d?'selected':''}>${d}</option>`).join('')}
+          </select>
+        </div>
+        <div class="filter-group">
+          <label>有答案</label>
+          <select id="f-answer" onchange="filterState.answer=this.value;renderFilter();">
+            <option value="">全部</option>
+            <option value="yes" ${filterState.answer==='yes'?'selected':''}>有答案</option>
+            <option value="no" ${filterState.answer==='no'?'selected':''}>無答案</option>
+          </select>
+        </div>
       </div>
-      <div class="filter-group">
-        <label>題型</label>
-        <select id="f-type" onchange="filterState.type=this.value;renderFilter();">
-          <option value="">全部</option>
-          ${types.map(t => html`<option value="${t}">${t}</option>`).join('')}
-        </select>
-      </div>
-      <div class="filter-group">
-        <label>難度</label>
-        <select id="f-difficulty" onchange="filterState.difficulty=this.value;renderFilter();">
-          <option value="">全部</option>
-          ${difficulties.map(d => html`<option value="${d}">${d}</option>`).join('')}
-        </select>
-      </div>
-      <div class="filter-group">
-        <label>有答案</label>
-        <select id="f-answer" onchange="filterState.answer=this.value;renderFilter();">
-          <option value="">全部</option>
-          <option value="yes">有答案</option>
-          <option value="no">無答案</option>
-        </select>
-      </div>
+      <button class="btn btn-outline" style="margin-top:1.4rem;padding:0.5rem 1rem;" onclick="clearFilters()">清除全部</button>
     </div>
-    <div class="filter-group" style="margin-bottom:0.75rem;">
+    <div class="filter-group" style="margin-bottom:0.5rem;">
       <label>學習概念</label>
       <select id="f-concept" onchange="filterState.concept=this.value;renderFilter();">
         <option value="">全部概念</option>
-        ${concepts.map(c => html`<option value="${c}">${c}</option>`).join('')}
+        ${concepts.map(c => html`<option value="${c}" ${filterState.concept===c?'selected':''}>${c}</option>`).join('')}
       </select>
     </div>
     <div class="filter-tags">
-      ${concepts.map(c => html`<span class="filter-tag ${filterState.concept===c?'active':''}" onclick="filterState.concept='${c}';$('#f-concept').value='${c}';renderFilter();">${c}</span>`).join('')}
+      ${concepts.map(c => html`<span class="filter-tag ${filterState.concept===c?'active':''}" onclick="clearFilters();filterState.concept='${c}';renderFilter();">${c}</span>`).join('')}
     </div>
   </div>
 
