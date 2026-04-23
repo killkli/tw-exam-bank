@@ -227,8 +227,8 @@
       "difficulty": "medium",
       "concepts": [
         "cloze test",
-        "general comprehension",
-        "reading inference"
+        "reading comprehension",
+        "contextual inference"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -247,8 +247,8 @@
       "difficulty": "medium",
       "concepts": [
         "cloze test",
-        "general comprehension",
-        "reading inference"
+        "reading comprehension",
+        "contextual inference"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -403,7 +403,7 @@
         "present simple",
         "past simple",
         "present perfect",
-        "verbs",
+        "verb patterns",
         "modals",
         "prepositions",
         "comparatives"
@@ -427,7 +427,7 @@
         "present simple",
         "past simple",
         "present perfect",
-        "verbs",
+        "verb patterns",
         "modals",
         "prepositions",
         "comparatives"
@@ -451,7 +451,7 @@
         "present simple",
         "past simple",
         "present perfect",
-        "verbs",
+        "verb patterns",
         "modals",
         "prepositions",
         "comparatives"
@@ -494,7 +494,7 @@
         "present simple",
         "past simple",
         "present perfect",
-        "verbs",
+        "verb patterns",
         "modals",
         "prepositions",
         "comparatives"
@@ -518,7 +518,7 @@
         "present simple",
         "past simple",
         "present perfect",
-        "verbs",
+        "verb patterns",
         "modals",
         "prepositions",
         "comparatives"
@@ -542,7 +542,7 @@
         "present simple",
         "past simple",
         "present perfect",
-        "verbs",
+        "verb patterns",
         "modals",
         "prepositions",
         "comparatives"
@@ -566,7 +566,7 @@
         "present simple",
         "past simple",
         "present perfect",
-        "verbs",
+        "verb patterns",
         "modals",
         "prepositions",
         "comparatives"
@@ -590,7 +590,7 @@
         "present simple",
         "past simple",
         "present perfect",
-        "verbs",
+        "verb patterns",
         "modals",
         "prepositions",
         "comparatives"
@@ -633,7 +633,7 @@
         "present simple",
         "past simple",
         "present perfect",
-        "verbs",
+        "verb patterns",
         "modals",
         "prepositions",
         "comparatives"
@@ -657,7 +657,7 @@
         "present simple",
         "past simple",
         "present perfect",
-        "verbs",
+        "verb patterns",
         "modals",
         "prepositions",
         "comparatives"
@@ -970,6 +970,7 @@
       "difficulty": "basic",
       "concepts": [
         "conjunctions",
+        "contrast connectors",
         "present simple"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -1010,7 +1011,7 @@
       "concepts": [
         "future tense",
         "time clauses",
-        "tense comparison"
+        "present simple vs will"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -1028,7 +1029,8 @@
       "answer": "B",
       "difficulty": "medium",
       "concepts": [
-        "verbs",
+        "verb patterns",
+        "verb selection",
         "vocabulary in context"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -1048,7 +1050,7 @@
       "difficulty": "medium",
       "concepts": [
         "present perfect",
-        "tense comparison",
+        "past simple vs present perfect",
         "time expressions"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -1088,6 +1090,7 @@
       "difficulty": "basic",
       "concepts": [
         "adjectives",
+        "service vocabulary",
         "vocabulary in context"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -1107,7 +1110,7 @@
       "difficulty": "medium",
       "concepts": [
         "verb tenses",
-        "tense comparison",
+        "past simple vs future forms",
         "context clues"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -1128,7 +1131,7 @@
       "concepts": [
         "ellipsis",
         "verb omission",
-        "past simple"
+        "past simple in time clause"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -1147,8 +1150,8 @@
       "difficulty": "medium",
       "concepts": [
         "reading inference",
-        "numerical reasoning",
-        "menu/comic reading"
+        "numerical calculation",
+        "menu comprehension"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -1167,7 +1170,7 @@
       "difficulty": "medium",
       "concepts": [
         "reading inference",
-        "sequence/chronology",
+        "temporal reasoning",
         "schedule interpretation"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -1208,7 +1211,7 @@
       "concepts": [
         "reading inference",
         "detail comprehension",
-        "factual details"
+        "fact extraction"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -1247,7 +1250,7 @@
       "difficulty": "medium",
       "concepts": [
         "vocabulary in context",
-        "idioms",
+        "idiomatic expression",
         "reading inference"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -1287,8 +1290,9 @@
       "difficulty": "difficult",
       "concepts": [
         "reading inference",
-        "chart/graph comprehension",
-        "comparative reading"
+        "data interpretation",
+        "comparative analysis",
+        "chart comprehension"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -1308,7 +1312,7 @@
       "concepts": [
         "reading inference",
         "moral/lesson identification",
-        "story/narrative comprehension"
+        "story comprehension"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -1367,9 +1371,9 @@
       "difficulty": "difficult",
       "concepts": [
         "reading inference",
-        "chart/graph comprehension",
+        "statistical comprehension",
         "trend analysis",
-        "factual details"
+        "detail extraction"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -1409,7 +1413,7 @@
       "concepts": [
         "reading inference",
         "critical analysis",
-        "comparative reading",
+        "comparative reasoning",
         "evaluating evidence"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -1429,7 +1433,7 @@
       "difficulty": "basic",
       "concepts": [
         "present simple",
-        "verbs"
+        "verb patterns"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -1448,7 +1452,7 @@
       "difficulty": "basic",
       "concepts": [
         "past simple",
-        "verbs"
+        "verb patterns"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -1504,7 +1508,7 @@
       "answer": "B",
       "difficulty": "basic",
       "concepts": [
-        "verbs",
+        "verb patterns",
         "present simple"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -1562,7 +1566,7 @@
       "difficulty": "basic",
       "concepts": [
         "present simple",
-        "verbs",
+        "verb patterns",
         "gerunds"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -1677,7 +1681,7 @@
       "difficulty": "medium",
       "concepts": [
         "gerunds",
-        "verbs",
+        "verb patterns",
         "present simple"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -1999,7 +2003,7 @@
       "answer": "B",
       "difficulty": "medium",
       "concepts": [
-        "verbs",
+        "verb patterns",
         "past simple",
         "present perfect"
       ],
@@ -2019,7 +2023,7 @@
       "answer": "B",
       "difficulty": "medium",
       "concepts": [
-        "verbs",
+        "verb patterns",
         "past simple"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -2038,7 +2042,7 @@
       "answer": "A",
       "difficulty": "medium",
       "concepts": [
-        "verbs",
+        "verb patterns",
         "past simple",
         "used to"
       ],
@@ -2058,7 +2062,7 @@
       "answer": "A",
       "difficulty": "medium",
       "concepts": [
-        "verbs",
+        "verb patterns",
         "past simple",
         "present perfect"
       ],
@@ -2079,7 +2083,7 @@
       "difficulty": "basic",
       "concepts": [
         "conjunctions",
-        "verbs"
+        "verb patterns"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -2097,7 +2101,7 @@
       "answer": "C",
       "difficulty": "basic",
       "concepts": [
-        "verbs",
+        "verb patterns",
         "vocabulary in context"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -2117,7 +2121,7 @@
       "difficulty": "basic",
       "concepts": [
         "passive voice",
-        "verbs"
+        "verb patterns"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -2136,7 +2140,7 @@
       "difficulty": "basic",
       "concepts": [
         "present continuous",
-        "verbs"
+        "verb patterns"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -2154,7 +2158,7 @@
       "answer": "D",
       "difficulty": "basic",
       "concepts": [
-        "verbs",
+        "verb patterns",
         "vocabulary in context"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -2174,7 +2178,7 @@
       "difficulty": "basic",
       "concepts": [
         "vocabulary in context",
-        "nouns"
+        "noun patterns"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -2212,7 +2216,7 @@
       "difficulty": "basic",
       "concepts": [
         "pronouns",
-        "verbs"
+        "verb patterns"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -2421,7 +2425,7 @@
       "difficulty": "medium",
       "concepts": [
         "past continuous",
-        "time clauses"
+        "when clause"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -2535,7 +2539,7 @@
       "difficulty": "basic",
       "concepts": [
         "wh questions",
-        "conjunctions"
+        "subordinating conjunctions"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -2553,8 +2557,8 @@
       "answer": "D",
       "difficulty": "medium",
       "concepts": [
-        "verbs",
-        "infinitives"
+        "verb patterns",
+        "infinitive"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -2648,7 +2652,7 @@
       "answer": "A",
       "difficulty": "medium",
       "concepts": [
-        "conjunctions",
+        "coordinating conjunctions",
         "present perfect"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -2689,7 +2693,7 @@
       "concepts": [
         "reading inference",
         "past continuous",
-        "gerunds"
+        "gerund"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -2748,7 +2752,8 @@
       "difficulty": "medium",
       "concepts": [
         "cloze test",
-        "conjunctions"
+        "connectors",
+        "coordinating conjunctions"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -2883,7 +2888,7 @@
       "concepts": [
         "reading inference",
         "present continuous",
-        "vocabulary in context"
+        "season vocabulary"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -2941,7 +2946,7 @@
       "difficulty": "medium",
       "concepts": [
         "reading inference",
-        "metaphors/figurative language",
+        "metaphor",
         "present continuous"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -3001,7 +3006,7 @@
       "concepts": [
         "reading inference",
         "present simple",
-        "dialogue/conversation comprehension"
+        "conversation understanding"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -3079,7 +3084,7 @@
       "difficulty": "medium",
       "concepts": [
         "reading inference",
-        "verbs",
+        "verb patterns",
         "present simple"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -3100,7 +3105,7 @@
       "concepts": [
         "reading inference",
         "present simple",
-        "news article reading"
+        "news reading"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -3196,7 +3201,7 @@
       "difficulty": "basic",
       "concepts": [
         "subject-verb agreement",
-        "gerunds"
+        "gerund as subject"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -3214,7 +3219,7 @@
       "answer": "D",
       "difficulty": "basic",
       "concepts": [
-        "there is/are",
+        "there is/there are",
         "subject-verb agreement"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -3253,7 +3258,7 @@
       "difficulty": "basic",
       "concepts": [
         "possessive pronouns",
-        "possessive forms"
+        "double possessives"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -3291,7 +3296,7 @@
       "difficulty": "medium",
       "concepts": [
         "pronouns",
-        "verbs"
+        "verb patterns"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -3309,7 +3314,7 @@
       "answer": "C",
       "difficulty": "basic",
       "concepts": [
-        "verbs",
+        "verb meanings",
         "context clues"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -3328,7 +3333,7 @@
       "answer": "B",
       "difficulty": "basic",
       "concepts": [
-        "nouns",
+        "noun meanings",
         "context clues"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -3347,8 +3352,8 @@
       "answer": "D",
       "difficulty": "medium",
       "concepts": [
-        "tense comparison",
-        "wh questions"
+        "present perfect vs past continuous",
+        "question formation"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -3404,9 +3409,9 @@
       "answer": "D",
       "difficulty": "medium",
       "concepts": [
-        "verbs",
+        "verb meanings",
         "context clues",
-        "vocabulary in context"
+        "emotion description"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -3425,7 +3430,7 @@
       "difficulty": "medium",
       "concepts": [
         "quantifiers",
-        "reading inference"
+        "logical deduction"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -3482,8 +3487,8 @@
       "answer": null,
       "difficulty": "medium",
       "concepts": [
-        "general comprehension",
-        "info extraction"
+        "reading comprehension",
+        "information retrieval"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -3501,8 +3506,8 @@
       "answer": null,
       "difficulty": "medium",
       "concepts": [
-        "general comprehension",
-        "comparative reading"
+        "reading comprehension",
+        "comparative analysis"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -3521,7 +3526,7 @@
       "difficulty": "medium",
       "concepts": [
         "reading inference",
-        "dialogue/conversation comprehension"
+        "dialogue comprehension"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -3540,7 +3545,7 @@
       "difficulty": "medium",
       "concepts": [
         "pronoun reference",
-        "dialogue/conversation comprehension"
+        "dialogue comprehension"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -3558,8 +3563,8 @@
       "answer": "A",
       "difficulty": "medium",
       "concepts": [
-        "reading inference",
-        "general comprehension"
+        "character inference",
+        "reading comprehension"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -3597,7 +3602,7 @@
       "difficulty": "basic",
       "concepts": [
         "vocabulary in context",
-        "idioms"
+        "idiomatic expressions"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -3634,7 +3639,7 @@
       "answer": "D",
       "difficulty": "medium",
       "concepts": [
-        "general comprehension",
+        "reading comprehension",
         "main idea"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -3672,8 +3677,8 @@
       "answer": null,
       "difficulty": "medium",
       "concepts": [
-        "general comprehension",
-        "chart/graph comprehension"
+        "reading comprehension",
+        "visual information integration"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -3692,7 +3697,7 @@
       "difficulty": "medium",
       "concepts": [
         "reading inference",
-        "author's perspective"
+        "opinion comprehension"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -3710,8 +3715,8 @@
       "answer": "C",
       "difficulty": "medium",
       "concepts": [
-        "general comprehension",
-        "reading inference"
+        "reading comprehension",
+        "negative inference"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -3729,8 +3734,8 @@
       "answer": "D",
       "difficulty": "medium",
       "concepts": [
-        "general comprehension",
-        "factual details"
+        "reading comprehension",
+        "detail retrieval"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -3750,7 +3755,7 @@
       "concepts": [
         "cloze test",
         "context clues",
-        "general comprehension"
+        "reading comprehension"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -3770,7 +3775,7 @@
       "concepts": [
         "cloze test",
         "context clues",
-        "reading inference"
+        "emotional inference"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -3790,7 +3795,7 @@
       "concepts": [
         "cloze test",
         "verb tenses",
-        "vocabulary in context"
+        "historical facts"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -3810,7 +3815,7 @@
       "concepts": [
         "cloze test",
         "past perfect",
-        "sequence/chronology"
+        "sequence of events"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -3830,7 +3835,7 @@
       "concepts": [
         "cloze test",
         "cause and effect",
-        "reading inference"
+        "inference"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -4048,7 +4053,7 @@
       "answer": "A",
       "difficulty": "medium",
       "concepts": [
-        "verbs"
+        "verb patterns"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -4122,7 +4127,7 @@
       "concepts": [
         "main idea",
         "poetry interpretation",
-        "vocabulary in context"
+        "weather phenomena"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -4142,7 +4147,7 @@
       "concepts": [
         "reading inference",
         "poetry interpretation",
-        "vocabulary in context"
+        "weather phenomena"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -4160,9 +4165,9 @@
       "answer": "A",
       "difficulty": "medium",
       "concepts": [
-        "factual details",
-        "dialogue/conversation comprehension",
-        "author's perspective"
+        "detail extraction",
+        "conversation understanding",
+        "opinion extraction"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -4180,8 +4185,9 @@
       "answer": "D",
       "difficulty": "medium",
       "concepts": [
-        "author's perspective",
-        "dialogue/conversation comprehension"
+        "author perspective",
+        "conversation understanding",
+        "opinion extraction"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -4200,7 +4206,7 @@
       "difficulty": "medium",
       "concepts": [
         "determiners",
-        "advertisement/poster reading",
+        "advertisement reading",
         "numerical reasoning"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -4219,7 +4225,7 @@
       "answer": "B",
       "difficulty": "medium",
       "concepts": [
-        "advertisement/poster reading",
+        "advertisement reading",
         "numerical reasoning"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -4239,7 +4245,7 @@
       "difficulty": "medium",
       "concepts": [
         "instruction following",
-        "vocabulary in context"
+        "cooking terminology"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -4258,7 +4264,7 @@
       "difficulty": "medium",
       "concepts": [
         "instruction following",
-        "vocabulary in context"
+        "cooking terminology"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -4337,8 +4343,8 @@
       "answer": "B",
       "difficulty": "difficult",
       "concepts": [
-        "letter/email comprehension",
-        "vocabulary in context"
+        "letter comprehension",
+        "health science"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -4356,8 +4362,8 @@
       "answer": "D",
       "difficulty": "difficult",
       "concepts": [
-        "letter/email comprehension",
-        "vocabulary in context"
+        "letter comprehension",
+        "health science"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -4376,8 +4382,8 @@
       "difficulty": "difficult",
       "concepts": [
         "determiners",
-        "letter/email comprehension",
-        "vocabulary in context"
+        "letter comprehension",
+        "health science"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -4396,8 +4402,9 @@
       "difficulty": "difficult",
       "concepts": [
         "quantifiers",
-        "factual details",
-        "vocabulary in context"
+        "detail extraction",
+        "environmental article",
+        "global issues"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -4415,7 +4422,8 @@
       "answer": "D",
       "difficulty": "difficult",
       "concepts": [
-        "vocabulary in context"
+        "environmental article",
+        "global issues"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -4433,8 +4441,9 @@
       "answer": "B",
       "difficulty": "difficult",
       "concepts": [
-        "author's perspective",
-        "vocabulary in context"
+        "author perspective",
+        "environmental article",
+        "global issues"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -4452,7 +4461,8 @@
       "answer": "C",
       "difficulty": "difficult",
       "concepts": [
-        "vocabulary in context"
+        "environmental article",
+        "global issues"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -4473,7 +4483,7 @@
         "quantifiers",
         "reading inference",
         "cloze test",
-        "conjunctions"
+        "logical connectors"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -4494,7 +4504,7 @@
         "quantifiers",
         "reading inference",
         "cloze test",
-        "conjunctions"
+        "logical connectors"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -4515,7 +4525,7 @@
         "quantifiers",
         "reading inference",
         "cloze test",
-        "conjunctions"
+        "logical connectors"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -4613,7 +4623,7 @@
       "answer": "D",
       "difficulty": "basic",
       "concepts": [
-        "verbs",
+        "verb patterns",
         "prepositions"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -4670,7 +4680,8 @@
       "answer": "A",
       "difficulty": "basic",
       "concepts": [
-        "vocabulary in context"
+        "vocabulary in context",
+        "professions"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -4707,7 +4718,7 @@
       "answer": "B",
       "difficulty": "medium",
       "concepts": [
-        "verbs",
+        "verb patterns",
         "do replacement"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -4764,7 +4775,7 @@
       "difficulty": "basic",
       "concepts": [
         "imperative",
-        "verbs"
+        "verb patterns"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -4783,7 +4794,7 @@
       "difficulty": "medium",
       "concepts": [
         "conjunctions",
-        "subordinate clauses"
+        "subordinating clauses"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -4802,7 +4813,7 @@
       "difficulty": "basic",
       "concepts": [
         "vocabulary in context",
-        "verbs"
+        "verb patterns"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -5032,7 +5043,7 @@
       "concepts": [
         "past simple",
         "past continuous",
-        "verbs"
+        "verb patterns"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -5070,7 +5081,7 @@
       "difficulty": "medium",
       "concepts": [
         "past simple",
-        "verbs"
+        "verb patterns"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -5089,7 +5100,7 @@
       "difficulty": "medium",
       "concepts": [
         "past continuous",
-        "verbs"
+        "verb patterns"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -5127,7 +5138,7 @@
       "difficulty": "basic",
       "concepts": [
         "vocabulary in context",
-        "nouns"
+        "noun identification"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -5184,7 +5195,7 @@
       "difficulty": "basic",
       "concepts": [
         "vocabulary in context",
-        "nouns"
+        "noun identification"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -5221,8 +5232,8 @@
       "answer": "B",
       "difficulty": "medium",
       "concepts": [
-        "verbs",
-        "infinitives vs gerunds"
+        "verb patterns",
+        "infinitive vs gerund"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -5259,7 +5270,7 @@
       "answer": "D",
       "difficulty": "medium",
       "concepts": [
-        "superlatives",
+        "superlative adjectives",
         "comparatives"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -5373,7 +5384,7 @@
       "answer": "D",
       "difficulty": "medium",
       "concepts": [
-        "verbs",
+        "verb patterns",
         "past simple"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -5507,7 +5518,7 @@
       "difficulty": "basic",
       "concepts": [
         "reading inference",
-        "dialogue/conversation comprehension"
+        "conversation understanding"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -5583,7 +5594,7 @@
       "difficulty": "difficult",
       "concepts": [
         "reading inference",
-        "chart/graph comprehension"
+        "data interpretation"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -5602,7 +5613,7 @@
       "difficulty": "medium",
       "concepts": [
         "reading inference",
-        "sequence/chronology"
+        "historical sequence"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -5752,7 +5763,7 @@
       "difficulty": "medium",
       "concepts": [
         "cloze test",
-        "word play",
+        "anagrams",
         "context clues"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -5812,7 +5823,7 @@
       "difficulty": "basic",
       "concepts": [
         "vocabulary in context",
-        "verbs"
+        "verb patterns"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -5850,7 +5861,7 @@
       "difficulty": "medium",
       "concepts": [
         "present continuous",
-        "verbs"
+        "verb patterns"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -5888,7 +5899,7 @@
       "difficulty": "medium",
       "concepts": [
         "past continuous",
-        "verbs"
+        "verb patterns"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -5906,8 +5917,8 @@
       "answer": "A",
       "difficulty": "medium",
       "concepts": [
-        "verbs",
-        "gerunds"
+        "verb patterns",
+        "gerund"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -5964,7 +5975,7 @@
       "difficulty": "medium",
       "concepts": [
         "subordinate clauses",
-        "wh questions"
+        "question words"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -6040,7 +6051,7 @@
       "difficulty": "medium",
       "concepts": [
         "there is/are",
-        "conditionals"
+        "first conditional"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -6154,7 +6165,7 @@
       "difficulty": "medium",
       "concepts": [
         "past simple",
-        "verbs"
+        "verb patterns"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -6192,7 +6203,7 @@
       "difficulty": "medium",
       "concepts": [
         "present perfect",
-        "verbs"
+        "verb patterns"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -6211,7 +6222,7 @@
       "difficulty": "medium",
       "concepts": [
         "present simple",
-        "verbs"
+        "verb patterns"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -6269,7 +6280,8 @@
       "concepts": [
         "reading inference",
         "main idea",
-        "vocabulary in context"
+        "food waste",
+        "logistics"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -6288,8 +6300,9 @@
       "difficulty": "medium",
       "concepts": [
         "reading inference",
-        "comparative reading",
-        "vocabulary in context"
+        "comparative analysis",
+        "food waste stages",
+        "regional comparison"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -6403,7 +6416,7 @@
       "difficulty": "medium",
       "concepts": [
         "reading inference",
-        "comparative reading"
+        "comparative analysis"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -6460,7 +6473,7 @@
       "difficulty": "difficult",
       "concepts": [
         "reading inference",
-        "text structure"
+        "text structure analysis"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -6516,7 +6529,8 @@
       "answer": "C",
       "difficulty": "basic",
       "concepts": [
-        "vocabulary in context"
+        "vocabulary in context",
+        "body parts"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -6534,7 +6548,7 @@
       "answer": "B",
       "difficulty": "basic",
       "concepts": [
-        "verbs",
+        "verb patterns",
         "prepositions"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -6554,7 +6568,7 @@
       "difficulty": "basic",
       "concepts": [
         "vocabulary in context",
-        "verbs"
+        "verb patterns"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -6610,7 +6624,7 @@
       "difficulty": "medium",
       "concepts": [
         "present simple",
-        "verbs"
+        "verb patterns"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -6705,7 +6719,7 @@
       "difficulty": "medium",
       "concepts": [
         "relative clauses",
-        "verbs"
+        "verb patterns"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -6781,7 +6795,7 @@
       "difficulty": "medium",
       "concepts": [
         "vocabulary in context",
-        "metaphors/figurative language"
+        "metaphors"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -6799,7 +6813,7 @@
       "answer": "B",
       "difficulty": "medium",
       "concepts": [
-        "verbs",
+        "verb patterns",
         "vocabulary in context"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -6876,7 +6890,7 @@
       "difficulty": "medium",
       "concepts": [
         "vocabulary in context",
-        "nouns"
+        "noun forms"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -6895,7 +6909,7 @@
       "difficulty": "medium",
       "concepts": [
         "modals",
-        "conditionals"
+        "conditional sentences"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -6989,7 +7003,7 @@
       "answer": "B",
       "difficulty": "basic",
       "concepts": [
-        "verbs",
+        "verb patterns",
         "vocabulary in context"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
@@ -7161,7 +7175,7 @@
       "difficulty": "medium",
       "concepts": [
         "vocabulary in context",
-        "nouns"
+        "noun forms"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -7313,7 +7327,7 @@
       "difficulty": "medium",
       "concepts": [
         "reading inference",
-        "conjunctions"
+        "connectors"
       ],
       "teacher_note": "題目結構完整，可供教學使用"
     },
@@ -7331,7 +7345,7 @@
       "answer": "D",
       "difficulty": "medium",
       "concepts": [
-        "verbs",
+        "verb patterns",
         "present simple",
         "past simple"
       ],
@@ -7369,7 +7383,7 @@
       "answer": "B",
       "difficulty": "medium",
       "concepts": [
-        "verbs",
+        "verb patterns",
         "present simple",
         "past simple"
       ],
@@ -7389,7 +7403,7 @@
       "answer": "D",
       "difficulty": "medium",
       "concepts": [
-        "verbs",
+        "verb patterns",
         "present simple",
         "past simple"
       ],
@@ -7409,7 +7423,7 @@
       "answer": "A",
       "difficulty": "medium",
       "concepts": [
-        "verbs",
+        "verb patterns",
         "present simple",
         "past simple"
       ],
@@ -7429,7 +7443,7 @@
       "answer": "A",
       "difficulty": "medium",
       "concepts": [
-        "verbs",
+        "verb patterns",
         "present simple",
         "past simple"
       ],
@@ -7521,7 +7535,7 @@
       "answer": "D",
       "difficulty": "medium",
       "concepts": [
-        "verbs",
+        "verb patterns",
         "present simple",
         "past simple"
       ],
@@ -7541,7 +7555,7 @@
       "answer": "D",
       "difficulty": "medium",
       "concepts": [
-        "verbs",
+        "verb patterns",
         "present simple",
         "past simple"
       ],
@@ -7597,7 +7611,7 @@
       "answer": "B",
       "difficulty": "medium",
       "concepts": [
-        "verbs",
+        "verb patterns",
         "present simple",
         "past simple"
       ],
@@ -7635,7 +7649,7 @@
       "answer": "B",
       "difficulty": "medium",
       "concepts": [
-        "verbs",
+        "verb patterns",
         "present simple",
         "past simple"
       ],
@@ -7655,7 +7669,7 @@
       "answer": "B",
       "difficulty": "medium",
       "concepts": [
-        "verbs",
+        "verb patterns",
         "present simple",
         "past simple"
       ],
@@ -7675,7 +7689,7 @@
       "answer": "B",
       "difficulty": "medium",
       "concepts": [
-        "verbs",
+        "verb patterns",
         "present simple",
         "past simple"
       ],
@@ -7695,7 +7709,7 @@
       "answer": "A",
       "difficulty": "medium",
       "concepts": [
-        "verbs",
+        "verb patterns",
         "present simple",
         "past simple"
       ],
