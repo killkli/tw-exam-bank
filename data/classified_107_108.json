@@ -1,0 +1,689 @@
+{
+  "years": [107, 108],
+  "questions": [
+    {
+      "year": 107,
+      "number": 2,
+      "type": "vocabulary",
+      "difficulty": "basic",
+      "concepts": ["weather vocabulary", "wind"],
+      "classification_note_zh": "此題考天氣相關詞彙wind的理解，屬基礎難度。",
+      "answer": "D"
+    },
+    {
+      "year": 107,
+      "number": 3,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["past continuous", "time clauses"],
+      "classification_note_zh": "此題考過去進行式與時間副詞子句的運用，需理解when與進行式的搭配。",
+      "answer": "B"
+    },
+    {
+      "year": 107,
+      "number": 4,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["past simple", "because clause"],
+      "classification_note_zh": "此題考過去式的使用，特別是because子句與過去式的搭配。",
+      "answer": "C"
+    },
+    {
+      "year": 107,
+      "number": 5,
+      "type": "vocabulary",
+      "difficulty": "basic",
+      "concepts": ["adjectives", "context clues"],
+      "classification_note_zh": "此題考形容詞的詞彙辨識，需結合上下文判斷successful為正確選項。",
+      "answer": "B"
+    },
+    {
+      "year": 107,
+      "number": 6,
+      "type": "vocabulary",
+      "difficulty": "basic",
+      "concepts": ["relative clauses", "vocabulary in context"],
+      "classification_note_zh": "此題考 관계절與詞義理解，stranger意為陌生人，符合上下文語意。",
+      "answer": "C"
+    },
+    {
+      "year": 107,
+      "number": 7,
+      "type": "vocabulary",
+      "difficulty": "basic",
+      "concepts": ["comparatives", "adjectives"],
+      "classification_note_zh": "此題考比較級與形容詞，convenient為便利的，符合節省時間的語境。",
+      "answer": "D"
+    },
+    {
+      "year": 107,
+      "number": 8,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["present perfect", "future simple"],
+      "classification_note_zh": "此題考現在完成式與未來式的區別，will表示未來將進行的動作。",
+      "answer": "D"
+    },
+    {
+      "year": 107,
+      "number": 9,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": ["wh questions", "conjunctions"],
+      "classification_note_zh": "此題考wh疑問詞when的使用，用於詢問時間。",
+      "answer": "B"
+    },
+    {
+      "year": 107,
+      "number": 10,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["infinitives", "verbs"],
+      "classification_note_zh": "此題考不定詞to find out的用法，It took time to do something為常用句型。",
+      "answer": "D"
+    },
+    {
+      "year": 107,
+      "number": 11,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["passive voice", "present simple"],
+      "classification_note_zh": "此題考被動語態現在式的用法，are seen為被動語態的正確形式。",
+      "answer": "C"
+    },
+    {
+      "year": 107,
+      "number": 12,
+      "type": "vocabulary",
+      "difficulty": "basic",
+      "concepts": ["vocabulary in context", "passive voice"],
+      "classification_note_zh": "此題考詞彙action的理解，同時涉及must be taken的被動語態。",
+      "answer": "A"
+    },
+    {
+      "year": 107,
+      "number": 13,
+      "type": "vocabulary",
+      "difficulty": "basic",
+      "concepts": ["vocabulary in context", "present simple"],
+      "classification_note_zh": "此題考動詞marks的詞義，意為標誌、標示。",
+      "answer": "B"
+    },
+    {
+      "year": 107,
+      "number": 14,
+      "type": "vocabulary",
+      "difficulty": "medium",
+      "concepts": ["adverbs", "vocabulary in context"],
+      "classification_note_zh": "此題考副詞片語in fact的理解，意為事實上。",
+      "answer": "C"
+    },
+    {
+      "year": 107,
+      "number": 15,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["conjunctions", "present perfect"],
+      "classification_note_zh": "此題考對等連接詞and的用法，連接兩個相關的動作。",
+      "answer": "A"
+    },
+    {
+      "year": 107,
+      "number": 16,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "relative clauses"],
+      "classification_note_zh": "此題為閱讀理解推論題，需根據短文內容推斷that could move的含義。",
+      "answer": "B"
+    },
+    {
+      "year": 107,
+      "number": 17,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "past continuous"],
+      "classification_note_zh": "此題為閱讀理解題，需理解蛇當時的動作狀態為正在爬長凳。",
+      "answer": "C"
+    },
+    {
+      "year": 107,
+      "number": 18,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "passive voice"],
+      "classification_note_zh": "此題為閱讀理解題，需根據上下文推斷人們會被蛇嚇到。",
+      "answer": "D"
+    },
+    {
+      "year": 107,
+      "number": 19,
+      "type": "cloze",
+      "difficulty": "medium",
+      "concepts": ["cloze test", "reading inference", "main idea"],
+      "classification_note_zh": "此題為克漏字測驗，考理解文章主旨為make traffic lighter。",
+      "answer": "A"
+    },
+    {
+      "year": 107,
+      "number": 20,
+      "type": "cloze",
+      "difficulty": "medium",
+      "concepts": ["cloze test", "conjunctions"],
+      "classification_note_zh": "此題為克漏字測驗，需填入正確的連接詞For example。",
+      "answer": "C"
+    },
+    {
+      "year": 107,
+      "number": 21,
+      "type": "cloze",
+      "difficulty": "medium",
+      "concepts": ["cloze test", "reading inference", "main idea"],
+      "classification_note_zh": "此題為克漏字測驗，需理解文章最後why Zurich is doing this的問題。",
+      "answer": "A"
+    },
+    {
+      "year": 107,
+      "number": 22,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["main idea", "reading inference"],
+      "classification_note_zh": "此題為閱讀理解主旨題，文章主要介紹如何選擇度假公寓。",
+      "answer": "B"
+    },
+    {
+      "year": 107,
+      "number": 23,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "present simple"],
+      "classification_note_zh": "此題為閱讀理解推論題，三人以上的團體旅行適合選擇度假公寓。",
+      "answer": "B"
+    },
+    {
+      "year": 107,
+      "number": 24,
+      "type": "reading",
+      "difficulty": "basic",
+      "concepts": ["vocabulary in context", "present simple"],
+      "classification_note_zh": "此題考片語at your disposal的詞義理解，意為可自由使用。",
+      "answer": "A"
+    },
+    {
+      "year": 107,
+      "number": 25,
+      "type": "reading",
+      "difficulty": "basic",
+      "concepts": ["reading inference", "main idea"],
+      "classification_note_zh": "此題為閱讀理解題，SHARP WEAR的快速導購說明如何購買T恤。",
+      "answer": "C"
+    },
+    {
+      "year": 107,
+      "number": 26,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "present simple"],
+      "classification_note_zh": "此題為閱讀理解細節題，有些T恤前後兩面都有圖案。",
+      "answer": "C"
+    },
+    {
+      "year": 107,
+      "number": 27,
+      "type": "reading",
+      "difficulty": "basic",
+      "concepts": ["reading inference", "present continuous", "vocabulary in context"],
+      "classification_note_zh": "此題為閱讀理解詩歌題，根據詩中描述春天來臨的線索可判斷季節。",
+      "answer": "A"
+    },
+    {
+      "year": 107,
+      "number": 28,
+      "type": "reading",
+      "difficulty": "basic",
+      "concepts": ["vocabulary in context", "present simple"],
+      "classification_note_zh": "此題為詞義理解題，daisy為雛菊，是一種花。",
+      "answer": "C"
+    },
+    {
+      "year": 107,
+      "number": 29,
+      "type": "reading",
+      "difficulty": "basic",
+      "concepts": ["reading inference", "vocabulary in context"],
+      "classification_note_zh": "此題為閱讀理解推論題，詩句描述雛菊在春天甦醒。",
+      "answer": "A"
+    },
+    {
+      "year": 107,
+      "number": 30,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "metaphors/figurative language", "present continuous"],
+      "classification_note_zh": "此題為閱讀理解隱喻題，地球穿著紅色和綠色代表花朵和植物覆蓋。",
+      "answer": "A"
+    },
+    {
+      "year": 107,
+      "number": 31,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "comparatives", "numbers"],
+      "classification_note_zh": "此題為圖表閱讀理解題，需根據文章數據比較動物甩動速度。",
+      "answer": "B"
+    },
+    {
+      "year": 107,
+      "number": 32,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["vocabulary in context", "reading inference"],
+      "classification_note_zh": "此題為詞義理解題，things like that指的是對Flora Cafe有麻煩的事。",
+      "answer": "B"
+    },
+    {
+      "year": 107,
+      "number": 33,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "dialogue/comversation comprehension"],
+      "classification_note_zh": "此題為對話閱讀理解題，Josh和Eric想出了讓人們接受免費咖啡的方法。",
+      "answer": "C"
+    },
+    {
+      "year": 107,
+      "number": 34,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "present simple"],
+      "classification_note_zh": "此題為閱讀理解細節題，黑板上顯示是否有免費咖啡可拿。",
+      "answer": "D"
+    },
+    {
+      "year": 107,
+      "number": 35,
+      "type": "reading",
+      "difficulty": "basic",
+      "concepts": ["reading inference", "comparatives", "present simple"],
+      "classification_note_zh": "此題為閱讀理解推論題，根據文章老鼠比老虎甩動更快是因為體型小。",
+      "answer": "A"
+    },
+    {
+      "year": 107,
+      "number": 36,
+      "type": "reading",
+      "difficulty": "basic",
+      "concepts": ["main idea", "comparatives", "present simple"],
+      "classification_note_zh": "此題為主旨題，文章主要說明小動物比大動物甩動更快。",
+      "answer": "A"
+    },
+    {
+      "year": 107,
+      "number": 37,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "verbs", "present simple"],
+      "classification_note_zh": "此題為閱讀理解推論題，動物甩動是為了清潔毛皮或身體。",
+      "answer": "B"
+    },
+    {
+      "year": 107,
+      "number": 38,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "news article reading"],
+      "classification_note_zh": "此題為新聞閱讀題，新轉折是Carolyn Cole本人沒有出席頒獎典禮。",
+      "answer": "D"
+    },
+    {
+      "year": 107,
+      "number": 39,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "present simple"],
+      "classification_note_zh": "此題為閱讀理解推論題，Inscriber Prize在國內受到作家重視。",
+      "answer": "D"
+    },
+    {
+      "year": 107,
+      "number": 40,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "present simple"],
+      "classification_note_zh": "此題為閱讀理解細節題，Thomas Goode告訴NBN報紙Paper Soldier是他的作品。",
+      "answer": "B"
+    },
+    {
+      "year": 107,
+      "number": 41,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "past simple"],
+      "classification_note_zh": "此題為閱讀理解細節題，Thomas Goode的第一本繪本在2006年出版。",
+      "answer": "C"
+    },
+    {
+      "year": 108,
+      "number": 2,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": ["conjunctions", "contrast relationships"],
+      "classification_note_zh": "此題考對等連接詞but的對比關係用法。",
+      "answer": "A"
+    },
+    {
+      "year": 108,
+      "number": 3,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": ["subject-verb agreement", "gerunds"],
+      "classification_note_zh": "此題考主動詞一致，動名詞Playing games作主語時視為單數。",
+      "answer": "A"
+    },
+    {
+      "year": 108,
+      "number": 4,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": ["there is/are", "subject-verb agreement"],
+      "classification_note_zh": "此題考there is/are與主詞一致的用法，more than twenty clubs為複數。",
+      "answer": "D"
+    },
+    {
+      "year": 108,
+      "number": 5,
+      "type": "vocabulary",
+      "difficulty": "basic",
+      "concepts": ["adjectives", "context clues"],
+      "classification_note_zh": "此題考形容詞weak的理解，根據感冒上下文判斷體弱。",
+      "answer": "C"
+    },
+    {
+      "year": 108,
+      "number": 6,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": ["possessive pronouns", "possessive forms"],
+      "classification_note_zh": "此題考所有格代詞mine的用法。",
+      "answer": "D"
+    },
+    {
+      "year": 108,
+      "number": 7,
+      "type": "vocabulary",
+      "difficulty": "basic",
+      "concepts": ["adjectives", "context clues"],
+      "classification_note_zh": "此題考形容詞dirty的理解，垃圾車翻覆導致街道骯髒。",
+      "answer": "B"
+    },
+    {
+      "year": 108,
+      "number": 8,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["pronouns", "verbs"],
+      "classification_note_zh": "此題考代詞it的用法，it代替to take care of his baby sister。",
+      "answer": "B"
+    },
+    {
+      "year": 108,
+      "number": 9,
+      "type": "vocabulary",
+      "difficulty": "basic",
+      "concepts": ["verbs", "context clues"],
+      "classification_note_zh": "此題考動詞hides的理解，根據tells everything可知她從不隱瞞。",
+      "answer": "C"
+    },
+    {
+      "year": 108,
+      "number": 10,
+      "type": "vocabulary",
+      "difficulty": "basic",
+      "concepts": ["nouns", "context clues"],
+      "classification_note_zh": "此題考名詞excuse的理解，用生日作為藉口要父親買東西。",
+      "answer": "B"
+    },
+    {
+      "year": 108,
+      "number": 11,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["tense comparison", "wh questions"],
+      "classification_note_zh": "此題考時態比較，Are you going to eat詢問未來意圖。",
+      "answer": "D"
+    },
+    {
+      "year": 108,
+      "number": 12,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": ["prepositions", "exception expressions"],
+      "classification_note_zh": "此題考介系詞except的用法，表示除了Bill之外大家都喜歡下棋。",
+      "answer": "A"
+    },
+    {
+      "year": 108,
+      "number": 13,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["used to", "past habits"],
+      "classification_note_zh": "此題考used to表示過去習慣性動作的用法。",
+      "answer": "C"
+    },
+    {
+      "year": 108,
+      "number": 14,
+      "type": "vocabulary",
+      "difficulty": "medium",
+      "concepts": ["verbs", "context clues", "vocabulary in context"],
+      "classification_note_zh": "此題考動詞rises的理解，根據脸红脖子粗的描述可知聲音變大。",
+      "answer": "D"
+    },
+    {
+      "year": 108,
+      "number": 15,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["quantifiers", "reading inference"],
+      "classification_note_zh": "此題考數量詞Few的用法，意為幾乎沒有人比Clark工作更久。",
+      "answer": "D"
+    },
+    {
+      "year": 108,
+      "number": 16,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "main idea", "poetry interpretation"],
+      "classification_note_zh": "此題為詩歌閱讀理解題，詩中描述父子一起做燉肉的場景。",
+      "answer": "D"
+    },
+    {
+      "year": 108,
+      "number": 17,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "character understanding"],
+      "classification_note_zh": "此題為閱讀理解推論題，從詩中可感受到說話者享受與父親相處的時光。",
+      "answer": "B"
+    },
+    {
+      "year": 108,
+      "number": 18,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["general comprehension", "info extraction"],
+      "classification_note_zh": "此題為公車遊覽閱讀理解題，寵物需支付全額票價。",
+      "answer": null
+    },
+    {
+      "year": 108,
+      "number": 19,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["general comprehension", "comparative reading"],
+      "classification_note_zh": "此題為公車路線閱讀理解題，兩條路線都從中央車站出發。",
+      "answer": null
+    },
+    {
+      "year": 108,
+      "number": 20,
+      "type": "conversation",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "dialogue/comversation comprehension"],
+      "classification_note_zh": "此題為對話閱讀理解題，有十七通電話是因為Mike的名字沒出現在球員名單上。",
+      "answer": "D"
+    },
+    {
+      "year": 108,
+      "number": 21,
+      "type": "conversation",
+      "difficulty": "medium",
+      "concepts": ["pronoun reference", "dialogue/comversation comprehension"],
+      "classification_note_zh": "此題為代詞理解題，It指的是禮拜天的足球比賽。",
+      "answer": "C"
+    },
+    {
+      "year": 108,
+      "number": 22,
+      "type": "conversation",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "general comprehension"],
+      "classification_note_zh": "此題為對話閱讀理解題，Mike對粉絲俱樂部的人很友善。",
+      "answer": "A"
+    },
+    {
+      "year": 108,
+      "number": 26,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["main idea", "comparative reading"],
+      "classification_note_zh": "此題為兩篇新聞的主旨比較題，共同概念是為幾乎被遺忘的藝術注入新生命。",
+      "answer": "D"
+    },
+    {
+      "year": 108,
+      "number": 27,
+      "type": "vocabulary",
+      "difficulty": "basic",
+      "concepts": ["vocabulary in context", "idioms"],
+      "classification_note_zh": "此題考片語smash hit的詞義理解，意為成功的作品。",
+      "answer": "B"
+    },
+    {
+      "year": 108,
+      "number": 28,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "detail comprehension"],
+      "classification_note_zh": "此題為新聞閱讀理解題，人們不像以前那樣經常焚燒紙紮品給亡者。",
+      "answer": null
+    },
+    {
+      "year": 108,
+      "number": 29,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["general comprehension", "main idea"],
+      "classification_note_zh": "此題為閱讀理解主旨題，文章主要說明錯誤時間喝咖啡會發生什麼事。",
+      "answer": "D"
+    },
+    {
+      "year": 108,
+      "number": 30,
+      "type": "vocabulary",
+      "difficulty": "basic",
+      "concepts": ["vocabulary in context", "adverb meaning"],
+      "classification_note_zh": "此題考副詞otherwise的理解，意為以不同的方式看待事物。",
+      "answer": "C"
+    },
+    {
+      "year": 108,
+      "number": 31,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["general comprehension", "chart/graph comprehension"],
+      "classification_note_zh": "此題為圖表閱讀理解題，需根據皮質醇水平圖判斷喝咖啡的最佳時機。",
+      "answer": null
+    },
+    {
+      "year": 108,
+      "number": 32,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "author's perspective"],
+      "classification_note_zh": "此題為閱讀理解推論題，四位讀者都不同意文章所說的喝咖啡時機。",
+      "answer": "C"
+    },
+    {
+      "year": 108,
+      "number": 33,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["general comprehension", "reading inference"],
+      "classification_note_zh": "此題為閱讀理解細節題，報告沒有提議幫助平日早上的業務。",
+      "answer": "C"
+    },
+    {
+      "year": 108,
+      "number": 34,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["general comprehension", "factual details"],
+      "classification_note_zh": "此題為閱讀理解細節題，平日傍晚的大部分顧客是通勤家長。",
+      "answer": "D"
+    },
+    {
+      "year": 108,
+      "number": 36,
+      "type": "cloze",
+      "difficulty": "medium",
+      "concepts": ["cloze test", "context clues", "general comprehension"],
+      "classification_note_zh": "此題為克漏字測驗，根據上下文你要改變自己的樣子符合語意。",
+      "answer": "A"
+    },
+    {
+      "year": 108,
+      "number": 37,
+      "type": "cloze",
+      "difficulty": "medium",
+      "concepts": ["cloze test", "context clues", "reading inference"],
+      "classification_note_zh": "此題為克漏字測驗，根據文章你不認為自己夠好符合語意。",
+      "answer": "C"
+    },
+    {
+      "year": 108,
+      "number": 38,
+      "type": "cloze",
+      "difficulty": "medium",
+      "concepts": ["cloze test", "verb tenses", "vocabulary in context"],
+      "classification_note_zh": "此題為克漏字測驗，未來假設would become表示當時沒人想到她會成為女王。",
+      "answer": "D"
+    },
+    {
+      "year": 108,
+      "number": 39,
+      "type": "cloze",
+      "difficulty": "medium",
+      "concepts": ["cloze test", "past perfect", "sequence/chronology"],
+      "classification_note_zh": "此題為克漏字測驗，過去完成式had fallen表示在1936年之前就已墜入愛河。",
+      "answer": "C"
+    },
+    {
+      "year": 108,
+      "number": 40,
+      "type": "cloze",
+      "difficulty": "medium",
+      "concepts": ["cloze test", "cause and effect", "reading inference"],
+      "classification_note_zh": "此題為克漏字測驗，愛德華放棄王位改變了伊莉莎白的人生。",
+      "answer": "A"
+    },
+    {
+      "year": 108,
+      "number": 41,
+      "type": "cloze",
+      "difficulty": "medium",
+      "concepts": ["cloze test", "context clues", "summary"],
+      "classification_note_zh": "此題為克漏字測驗，根據後文描述她一直為英國努力工作。",
+      "answer": "A"
+    }
+  ]
+}

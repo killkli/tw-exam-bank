@@ -1,0 +1,661 @@
+{
+  "years": [
+    105,
+    106
+  ],
+  "classification_summary": {
+    "105": {
+      "type_distribution": {
+        "grammar": 8,
+        "vocabulary": 9,
+        "reading": 13,
+        "cloze": 4
+      },
+      "difficulty_distribution": {
+        "basic": 12,
+        "medium": 19,
+        "difficult": 3
+      }
+    },
+    "106": {
+      "type_distribution": {
+        "grammar": 4,
+        "vocabulary": 5,
+        "reading": 8
+      },
+      "difficulty_distribution": {
+        "basic": 9,
+        "medium": 7,
+        "difficult": 1
+      }
+    }
+  },
+  "questions": [
+    {
+      "year": 105,
+      "number": 2,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": [
+        "sentence formation",
+        "grammar structures"
+      ],
+      "classification_note_zh": "文法題：測驗grammar能力，正確答案為A（難度：基礎）。",
+      "answer": "A"
+    },
+    {
+      "year": 105,
+      "number": 3,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": [
+        "sentence formation",
+        "grammar structures"
+      ],
+      "classification_note_zh": "文法題：測驗grammar能力，正確答案為B（難度：基礎）。",
+      "answer": "B"
+    },
+    {
+      "year": 105,
+      "number": 4,
+      "type": "vocabulary",
+      "difficulty": "basic",
+      "concepts": [
+        "word meaning",
+        "vocabulary in context"
+      ],
+      "classification_note_zh": "詞彙題：測驗vocabulary能力，正確答案為B（難度：基礎）。",
+      "answer": "B"
+    },
+    {
+      "year": 105,
+      "number": 5,
+      "type": "vocabulary",
+      "difficulty": "basic",
+      "concepts": [
+        "word meaning",
+        "vocabulary in context"
+      ],
+      "classification_note_zh": "詞彙題：測驗vocabulary能力，正確答案為D（難度：基礎）。",
+      "answer": "D"
+    },
+    {
+      "year": 105,
+      "number": 6,
+      "type": "vocabulary",
+      "difficulty": "basic",
+      "concepts": [
+        "present simple",
+        "verbs",
+        "word meaning"
+      ],
+      "classification_note_zh": "詞彙題：測驗vocabulary能力，正確答案為B（難度：基礎）。",
+      "answer": "B"
+    },
+    {
+      "year": 105,
+      "number": 7,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": [
+        "adverbs of time",
+        "present perfect",
+        "already-yet"
+      ],
+      "classification_note_zh": "文法題：測驗grammar能力，正確答案為C（難度：基礎）。",
+      "answer": "C"
+    },
+    {
+      "year": 105,
+      "number": 8,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": [
+        "sentence formation",
+        "grammar structures"
+      ],
+      "classification_note_zh": "文法題：測驗grammar能力，正確答案為B（難度：基礎）。",
+      "answer": "B"
+    },
+    {
+      "year": 105,
+      "number": 9,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": [
+        "gerunds as subjects",
+        "subject-verb agreement"
+      ],
+      "classification_note_zh": "文法題：測驗grammar能力，正確答案為A（難度：基礎）。",
+      "answer": "A"
+    },
+    {
+      "year": 105,
+      "number": 10,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": [
+        "pronouns",
+        "distributive pronouns"
+      ],
+      "classification_note_zh": "文法題：測驗grammar能力，正確答案為C（難度：基礎）。",
+      "answer": "C"
+    },
+    {
+      "year": 105,
+      "number": 11,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": [
+        "pronouns",
+        "reflexive pronouns"
+      ],
+      "classification_note_zh": "文法題：測驗grammar能力，正確答案為B（難度：基礎）。",
+      "answer": "B"
+    },
+    {
+      "year": 105,
+      "number": 12,
+      "type": "vocabulary",
+      "difficulty": "medium",
+      "concepts": [
+        "comparatives",
+        "word meaning",
+        "adjectives"
+      ],
+      "classification_note_zh": "詞彙題：測驗vocabulary能力，正確答案為A（難度：中等）。",
+      "answer": "A"
+    },
+    {
+      "year": 105,
+      "number": 13,
+      "type": "vocabulary",
+      "difficulty": "medium",
+      "concepts": [
+        "movement vocabulary",
+        "phrasal verbs"
+      ],
+      "classification_note_zh": "詞彙題：測驗vocabulary能力，正確答案為D（難度：中等）。",
+      "answer": "D"
+    },
+    {
+      "year": 105,
+      "number": 14,
+      "type": "vocabulary",
+      "difficulty": "medium",
+      "concepts": [
+        "comparatives",
+        "word meaning",
+        "adjectives"
+      ],
+      "classification_note_zh": "詞彙題：測驗vocabulary能力，正確答案為A（難度：中等）。",
+      "answer": "A"
+    },
+    {
+      "year": 105,
+      "number": 15,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": [
+        "verb forms",
+        "passive voice",
+        "gerunds"
+      ],
+      "classification_note_zh": "文法題：測驗grammar能力，正確答案為D（難度：中等）。",
+      "answer": "D"
+    },
+    {
+      "year": 105,
+      "number": 16,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": [
+        "purpose identification",
+        "main idea"
+      ],
+      "classification_note_zh": "閱讀題：測驗reading能力，正確答案為C（難度：中等）。",
+      "answer": "C"
+    },
+    {
+      "year": 105,
+      "number": 17,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": [
+        "negative information",
+        "detail retrieval"
+      ],
+      "classification_note_zh": "閱讀題：測驗reading能力，正確答案為A（難度：中等）。",
+      "answer": "A"
+    },
+    {
+      "year": 105,
+      "number": 18,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": [
+        "reading comprehension",
+        "reading inference"
+      ],
+      "classification_note_zh": "閱讀題：測驗reading能力，正確答案為D（難度：中等）。",
+      "answer": "D"
+    },
+    {
+      "year": 105,
+      "number": 19,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": [
+        "reading comprehension",
+        "reading inference"
+      ],
+      "classification_note_zh": "閱讀題：測驗reading能力，正確答案為B（難度：中等）。",
+      "answer": "B"
+    },
+    {
+      "year": 105,
+      "number": 20,
+      "type": "vocabulary",
+      "difficulty": "basic",
+      "concepts": [
+        "spatial relationships",
+        "word meaning",
+        "context clues"
+      ],
+      "classification_note_zh": "詞彙題：測驗vocabulary能力，正確答案為B（難度：基礎）。",
+      "answer": "B"
+    },
+    {
+      "year": 105,
+      "number": 21,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": [
+        "reading comprehension",
+        "information inference"
+      ],
+      "classification_note_zh": "閱讀題：測驗reading能力，正確答案為None（難度：中等）。",
+      "answer": null
+    },
+    {
+      "year": 105,
+      "number": 22,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": [
+        "reading comprehension",
+        "reading inference"
+      ],
+      "classification_note_zh": "閱讀題：測驗reading能力，正確答案為D（難度：中等）。",
+      "answer": "D"
+    },
+    {
+      "year": 105,
+      "number": 23,
+      "type": "reading",
+      "difficulty": "difficult",
+      "concepts": [
+        "poetry comprehension",
+        "reading inference",
+        "figurative language"
+      ],
+      "classification_note_zh": "閱讀題：測驗reading能力，正確答案為D（難度：較難）。",
+      "answer": "D"
+    },
+    {
+      "year": 105,
+      "number": 24,
+      "type": "reading",
+      "difficulty": "difficult",
+      "concepts": [
+        "reading comprehension",
+        "information inference"
+      ],
+      "classification_note_zh": "閱讀題：測驗reading能力，正確答案為B（難度：較難）。",
+      "answer": "B"
+    },
+    {
+      "year": 105,
+      "number": 28,
+      "type": "vocabulary",
+      "difficulty": "medium",
+      "concepts": [
+        "word meaning",
+        "vocabulary in context"
+      ],
+      "classification_note_zh": "詞彙題：測驗vocabulary能力，正確答案為C（難度：中等）。",
+      "answer": "C"
+    },
+    {
+      "year": 105,
+      "number": 29,
+      "type": "vocabulary",
+      "difficulty": "medium",
+      "concepts": [
+        "word meaning",
+        "vocabulary in context"
+      ],
+      "classification_note_zh": "詞彙題：測驗vocabulary能力，正確答案為D（難度：中等）。",
+      "answer": "D"
+    },
+    {
+      "year": 105,
+      "number": 30,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": [
+        "reading comprehension",
+        "information inference"
+      ],
+      "classification_note_zh": "閱讀題：測驗reading能力，正確答案為D（難度：中等）。",
+      "answer": "D"
+    },
+    {
+      "year": 105,
+      "number": 31,
+      "type": "reading",
+      "difficulty": "difficult",
+      "concepts": [
+        "reading comprehension",
+        "reading inference"
+      ],
+      "classification_note_zh": "閱讀題：測驗reading能力，正確答案為C（難度：較難）。",
+      "answer": "C"
+    },
+    {
+      "year": 105,
+      "number": 32,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": [
+        "reading comprehension",
+        "information inference"
+      ],
+      "classification_note_zh": "閱讀題：測驗reading能力，正確答案為C（難度：中等）。",
+      "answer": "C"
+    },
+    {
+      "year": 105,
+      "number": 33,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": [
+        "comparatives",
+        "chart interpretation",
+        "data analysis"
+      ],
+      "classification_note_zh": "閱讀題：測驗reading能力，正確答案為None（難度：中等）。",
+      "answer": null
+    },
+    {
+      "year": 105,
+      "number": 34,
+      "type": "reading",
+      "difficulty": "basic",
+      "concepts": [
+        "comparatives",
+        "chart interpretation",
+        "data analysis"
+      ],
+      "classification_note_zh": "閱讀題：測驗reading能力，正確答案為A（難度：基礎）。",
+      "answer": "A"
+    },
+    {
+      "year": 105,
+      "number": 35,
+      "type": "cloze",
+      "difficulty": "medium",
+      "concepts": [
+        "sequence of events",
+        "verb tenses",
+        "past perfect"
+      ],
+      "classification_note_zh": "填空題：測驗cloze能力，正確答案為B（難度：中等）。",
+      "answer": "B"
+    },
+    {
+      "year": 105,
+      "number": 36,
+      "type": "cloze",
+      "difficulty": "medium",
+      "concepts": [
+        "past simple",
+        "verb tenses",
+        "context clues"
+      ],
+      "classification_note_zh": "填空題：測驗cloze能力，正確答案為B（難度：中等）。",
+      "answer": "B"
+    },
+    {
+      "year": 105,
+      "number": 37,
+      "type": "cloze",
+      "difficulty": "medium",
+      "concepts": [
+        "past simple",
+        "past habits",
+        "used to"
+      ],
+      "classification_note_zh": "填空題：測驗cloze能力，正確答案為A（難度：中等）。",
+      "answer": "A"
+    },
+    {
+      "year": 105,
+      "number": 38,
+      "type": "cloze",
+      "difficulty": "medium",
+      "concepts": [
+        "sequence of events",
+        "verb tenses",
+        "past perfect"
+      ],
+      "classification_note_zh": "填空題：測驗cloze能力，正確答案為A（難度：中等）。",
+      "answer": "A"
+    },
+    {
+      "year": 106,
+      "number": 2,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": [
+        "sentence formation",
+        "grammar structures"
+      ],
+      "classification_note_zh": "文法題：測驗grammar能力，正確答案為B（難度：基礎）。",
+      "answer": "B"
+    },
+    {
+      "year": 106,
+      "number": 3,
+      "type": "vocabulary",
+      "difficulty": "basic",
+      "concepts": [
+        "word meaning",
+        "vocabulary in context"
+      ],
+      "classification_note_zh": "詞彙題：測驗vocabulary能力，正確答案為C（難度：基礎）。",
+      "answer": "C"
+    },
+    {
+      "year": 106,
+      "number": 4,
+      "type": "vocabulary",
+      "difficulty": "basic",
+      "concepts": [
+        "word meaning",
+        "vocabulary in context"
+      ],
+      "classification_note_zh": "詞彙題：測驗vocabulary能力，正確答案為A（難度：基礎）。",
+      "answer": "A"
+    },
+    {
+      "year": 106,
+      "number": 5,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": [
+        "sentence formation",
+        "grammar structures"
+      ],
+      "classification_note_zh": "文法題：測驗grammar能力，正確答案為A（難度：基礎）。",
+      "answer": "A"
+    },
+    {
+      "year": 106,
+      "number": 6,
+      "type": "vocabulary",
+      "difficulty": "basic",
+      "concepts": [
+        "word meaning",
+        "vocabulary in context"
+      ],
+      "classification_note_zh": "詞彙題：測驗vocabulary能力，正確答案為D（難度：基礎）。",
+      "answer": "D"
+    },
+    {
+      "year": 106,
+      "number": 7,
+      "type": "vocabulary",
+      "difficulty": "basic",
+      "concepts": [
+        "word meaning",
+        "vocabulary in context"
+      ],
+      "classification_note_zh": "詞彙題：測驗vocabulary能力，正確答案為D（難度：基礎）。",
+      "answer": "D"
+    },
+    {
+      "year": 106,
+      "number": 8,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": [
+        "sentence formation",
+        "grammar structures"
+      ],
+      "classification_note_zh": "文法題：測驗grammar能力，正確答案為C（難度：基礎）。",
+      "answer": "C"
+    },
+    {
+      "year": 106,
+      "number": 9,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": [
+        "sentence formation",
+        "grammar structures"
+      ],
+      "classification_note_zh": "文法題：測驗grammar能力，正確答案為A（難度：基礎）。",
+      "answer": "A"
+    },
+    {
+      "year": 106,
+      "number": 19,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": [
+        "reading comprehension",
+        "sequence of events"
+      ],
+      "classification_note_zh": "閱讀題：測驗reading能力，正確答案為D（難度：中等）。",
+      "answer": "D"
+    },
+    {
+      "year": 106,
+      "number": 20,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": [
+        "reading comprehension",
+        "information inference"
+      ],
+      "classification_note_zh": "閱讀題：測驗reading能力，正確答案為C（難度：中等）。",
+      "answer": "C"
+    },
+    {
+      "year": 106,
+      "number": 21,
+      "type": "reading",
+      "difficulty": "basic",
+      "concepts": [
+        "reading inference",
+        "vocabulary in context"
+      ],
+      "classification_note_zh": "閱讀題：測驗reading能力，正確答案為C（難度：基礎）。",
+      "answer": "C"
+    },
+    {
+      "year": 106,
+      "number": 25,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": [
+        "purpose identification",
+        "main idea"
+      ],
+      "classification_note_zh": "閱讀題：測驗reading能力，正確答案為B（難度：中等）。",
+      "answer": "B"
+    },
+    {
+      "year": 106,
+      "number": 26,
+      "type": "vocabulary",
+      "difficulty": "medium",
+      "concepts": [
+        "word meaning",
+        "vocabulary in context"
+      ],
+      "classification_note_zh": "詞彙題：測驗vocabulary能力，正確答案為A（難度：中等）。",
+      "answer": "A"
+    },
+    {
+      "year": 106,
+      "number": 29,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": [
+        "reading comprehension",
+        "information inference"
+      ],
+      "classification_note_zh": "閱讀題：測驗reading能力，正確答案為B（難度：中等）。",
+      "answer": "B"
+    },
+    {
+      "year": 106,
+      "number": 31,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": [
+        "reading comprehension",
+        "reading inference"
+      ],
+      "classification_note_zh": "閱讀題：測驗reading能力，正確答案為B（難度：中等）。",
+      "answer": "B"
+    },
+    {
+      "year": 106,
+      "number": 32,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": [
+        "reading comprehension",
+        "information inference"
+      ],
+      "classification_note_zh": "閱讀題：測驗reading能力，正確答案為D（難度：中等）。",
+      "answer": "D"
+    },
+    {
+      "year": 106,
+      "number": 33,
+      "type": "reading",
+      "difficulty": "difficult",
+      "concepts": [
+        "comparatives",
+        "chart interpretation",
+        "data analysis"
+      ],
+      "classification_note_zh": "閱讀題：測驗reading能力，正確答案為D（難度：較難）。",
+      "answer": "D"
+    }
+  ]
+}

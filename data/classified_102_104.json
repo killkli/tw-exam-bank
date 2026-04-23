@@ -1,0 +1,701 @@
+{
+  "years": [102, 103, 104],
+  "classification_summary": {
+    "102": {
+      "type_distribution": {
+        "vocabulary": 4,
+        "grammar": 10,
+        "cloze": 2,
+        "reading": 6
+      },
+      "difficulty_distribution": {
+        "basic": 6,
+        "medium": 14,
+        "difficult": 2
+      }
+    },
+    "103": {
+      "type_distribution": {
+        "conversation": 2,
+        "grammar": 11,
+        "reading": 20
+      },
+      "difficulty_distribution": {
+        "basic": 0,
+        "medium": 27,
+        "difficult": 6
+      }
+    },
+    "104": {
+      "type_distribution": {
+        "grammar": 5,
+        "vocabulary": 3,
+        "reading": 12
+      },
+      "difficulty_distribution": {
+        "basic": 3,
+        "medium": 15,
+        "difficult": 2
+      }
+    }
+  },
+  "questions": [
+    {
+      "year": 102,
+      "number": 22,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": ["prepositions", "time expressions"],
+      "classification_note_zh": "考時間介詞on的用法，Friday nights是特定日子，需用on。屬基礎語法題。",
+      "answer": "D"
+    },
+    {
+      "year": 102,
+      "number": 23,
+      "type": "vocabulary",
+      "difficulty": "basic",
+      "concepts": ["adverbs of manner", "weather vocabulary"],
+      "classification_note_zh": "修飾動詞raining需用副詞，heavily為副詞表雨勢猛烈。屬基礎詞彙題。",
+      "answer": "B"
+    },
+    {
+      "year": 102,
+      "number": 24,
+      "type": "vocabulary",
+      "difficulty": "basic",
+      "concepts": ["adjectives", "context clues"],
+      "classification_note_zh": "be famous for為固定搭配，意指以...聞名。屬基礎詞彙題。",
+      "answer": "C"
+    },
+    {
+      "year": 102,
+      "number": 25,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": ["infinitives", "it takes time to do something"],
+      "classification_note_zh": "It took her three hours to clean it. 使用不定式to clean。屬基礎語法題。",
+      "answer": "D"
+    },
+    {
+      "year": 102,
+      "number": 26,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": ["imperatives", "be sure to do"],
+      "classification_note_zh": "Be sure to...為祈使句用法，表達提醒。屬基礎語法題。",
+      "answer": "A"
+    },
+    {
+      "year": 102,
+      "number": 27,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": ["subject-verb agreement", "present simple"],
+      "classification_note_zh": "brothers為複數主詞，動詞應用don't。考主謂一致概念。屬基礎語法題。",
+      "answer": "A"
+    },
+    {
+      "year": 102,
+      "number": 28,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["subordinating conjunctions", "whether clause"],
+      "classification_note_zh": "whether引導的名詞子句，作為know的受詞。屬中等難度語法題。",
+      "answer": "C"
+    },
+    {
+      "year": 102,
+      "number": 29,
+      "type": "vocabulary",
+      "difficulty": "medium",
+      "concepts": ["verbs", "borrow vs lend", "vocabulary in context"],
+      "classification_note_zh": "lend為借出，borrow為借進。根據句意我借給他60元，應選lent。屬中等詞彙題。",
+      "answer": "B"
+    },
+    {
+      "year": 102,
+      "number": 30,
+      "type": "vocabulary",
+      "difficulty": "basic",
+      "concepts": ["nouns", "context clues"],
+      "classification_note_zh": "根據wear the same thing提示，uniform為制服。屬基礎詞彙題。",
+      "answer": "D"
+    },
+    {
+      "year": 102,
+      "number": 31,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["relative clauses", "reduced relative clauses"],
+      "classification_note_zh": "The tall man (who/that) you saw at the bookstore. 關係子句簡化。屬中等語法題。",
+      "answer": "A"
+    },
+    {
+      "year": 102,
+      "number": 32,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": ["possessive pronouns", "mine vs my"],
+      "classification_note_zh": "it's mine = it is mine，mine為所有格代名詞。屬基礎語法題。",
+      "answer": "D"
+    },
+    {
+      "year": 102,
+      "number": 33,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": ["conjunctions", "in fact", "discourse markers"],
+      "classification_note_zh": "In fact表轉折，強調她是最善良的人。屬基礎語法題。",
+      "answer": "B"
+    },
+    {
+      "year": 102,
+      "number": 34,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["there is/are", "quantifiers", "subject-verb agreement"],
+      "classification_note_zh": "Why are there so many things to do? 考there is/are疑問句型。屬中等語法題。",
+      "answer": "D"
+    },
+    {
+      "year": 102,
+      "number": 35,
+      "type": "cloze",
+      "difficulty": "medium",
+      "concepts": ["cloze test", "general comprehension", "reading inference"],
+      "classification_note_zh": "克漏字題型，根據上下文理解Alice對Tina感到抱歉的原因。原文有明確線索。",
+      "answer": "A"
+    },
+    {
+      "year": 102,
+      "number": 36,
+      "type": "cloze",
+      "difficulty": "medium",
+      "concepts": ["cloze test", "general comprehension", "reading inference"],
+      "classification_note_zh": "克漏字題型，根據I've tried to call you many times...推斷Tina可能不想接電話。",
+      "answer": "C"
+    },
+    {
+      "year": 102,
+      "number": 38,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "detail comprehension", "restaurant description"],
+      "classification_note_zh": "閱讀理解 Sherry描述餐廳特色，需從细节推斷答案。",
+      "answer": "B"
+    },
+    {
+      "year": 102,
+      "number": 39,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "main idea", "poem comprehension"],
+      "classification_note_zh": "閱讀詩作理解作者對生命的態度，live life to the fullest為關鍵。",
+      "answer": "B"
+    },
+    {
+      "year": 102,
+      "number": 40,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["vocabulary in context", "opposites meaning", "reading inference"],
+      "classification_note_zh": "根據詩中描述晴天雨天、愛恨等對比，推斷opposites指人生的光明與黑暗面。",
+      "answer": "C"
+    },
+    {
+      "year": 102,
+      "number": 41,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "main idea", "DVD description analysis"],
+      "classification_note_zh": "三個DVD都涉及動物：亞馬遜的動物、寵物、海底動物。屬中等難度閱讀題。",
+      "answer": "D"
+    },
+    {
+      "year": 102,
+      "number": 42,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "detail comprehension", "fact vs opinion"],
+      "classification_note_zh": "關於Into the Amazon的描述，需找出何者未提及。屬中等難度閱讀題。",
+      "answer": "D"
+    },
+    {
+      "year": 102,
+      "number": 43,
+      "type": "vocabulary",
+      "difficulty": "basic",
+      "concepts": ["vocabulary in context", "word meaning", "creepy meaning"],
+      "classification_note_zh": "creepy在原文描述魚類令人害怕，選項afraid最符合意境。屬基礎詞彙題。",
+      "answer": "C"
+    },
+    {
+      "year": 103,
+      "number": 18,
+      "type": "conversation",
+      "difficulty": "medium",
+      "concepts": ["listening comprehension", "future tense", "context inference"],
+      "classification_note_zh": "聽力測驗對話題，根據內容推斷女孩將做的行動。",
+      "answer": "C"
+    },
+    {
+      "year": 103,
+      "number": 19,
+      "type": "conversation",
+      "difficulty": "medium",
+      "concepts": ["listening comprehension", "relationship inference", "reading inference"],
+      "classification_note_zh": "聽力測驗對話題，推斷女人與Peter的關係。",
+      "answer": "B"
+    },
+    {
+      "year": 103,
+      "number": 21,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["coordinating conjunctions", "or meaning", "logic relationship"],
+      "classification_note_zh": "or在條件句中表「否則」，否則會趕不上派對。原有概念過於廣泛，保留核心：邏輯關係理解。",
+      "answer": "C"
+    },
+    {
+      "year": 103,
+      "number": 22,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["past simple", "verbs", "context clues"],
+      "classification_note_zh": "根據saw his favorite band得知為過去式，shouted為正確動詞。",
+      "answer": "B"
+    },
+    {
+      "year": 103,
+      "number": 23,
+      "type": "vocabulary",
+      "difficulty": "medium",
+      "concepts": ["adjectives", "vocabulary in context", "honest meaning"],
+      "classification_note_zh": "根據gave me back the wallet線索，老闆誠實歸還錢包，honest爲正確答案。",
+      "answer": "B"
+    },
+    {
+      "year": 103,
+      "number": 24,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "main idea", "lexie reading maps"],
+      "classification_note_zh": "即使有地圖在陌生城市仍找不到路，has trouble為合理推斷。",
+      "answer": "D"
+    },
+    {
+      "year": 103,
+      "number": 25,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["adjectives", "serious meaning", "context clues"],
+      "classification_note_zh": "農場將關閉，問題必然嚴重，serious為正確選項。",
+      "answer": "C"
+    },
+    {
+      "year": 103,
+      "number": 26,
+      "type": "vocabulary",
+      "difficulty": "medium",
+      "concepts": ["nouns", "time meaning", "vocabulary in context"],
+      "classification_note_zh": "經得起時間考驗的歌，time為正確答案。",
+      "answer": "C"
+    },
+    {
+      "year": 103,
+      "number": 27,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["future tense", "if clause", "tense selection"],
+      "classification_note_zh": "if條件句中用現在式表未來，will come in為正確。",
+      "answer": "A"
+    },
+    {
+      "year": 103,
+      "number": 28,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["comparatives", "farther vs farther", "context clues"],
+      "classification_note_zh": "路不會再更遠了，farther為比較級正確保留。",
+      "answer": "B"
+    },
+    {
+      "year": 103,
+      "number": 29,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["quantifiers", "few meaning", "context clues"],
+      "classification_note_zh": "慢跑是唯一喜歡的運動，其他運動無聊，few為正確。",
+      "answer": "B"
+    },
+    {
+      "year": 103,
+      "number": 30,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "main idea", "Smart Head TV program"],
+      "classification_note_zh": "節目提供免費機票，gives為現在式第三人稱。",
+      "answer": "B"
+    },
+    {
+      "year": 103,
+      "number": 31,
+      "type": "vocabulary",
+      "difficulty": "medium",
+      "concepts": ["nouns", "noise meaning", "context clues"],
+      "classification_note_zh": "無法在噪音下學習，noise為正確選項。",
+      "answer": "A"
+    },
+    {
+      "year": 103,
+      "number": 32,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["question words", "when meaning", "listening comprehension"],
+      "classification_note_zh": "Carson說See you tomorrow，問何時見面，when為正確疑問詞。",
+      "answer": "B"
+    },
+    {
+      "year": 103,
+      "number": 33,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "vocabulary in context", "meat consumption trend"],
+      "classification_note_zh": "肉的消費量從21kg增到40kg，growing need符合趨勢。原文內容齊全但answer=null屬閱讀組題。",
+      "answer": null
+    },
+    {
+      "year": 103,
+      "number": 34,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "vocabulary in context", "meat preference changes"],
+      "classification_note_zh": "牛肉40%降至豬肉領先，變化表現在肉類喜好名單的改變。answer=null屬閱讀組題。",
+      "answer": null
+    },
+    {
+      "year": 103,
+      "number": 35,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "vocabulary in context", "Luxembourg meat consumption"],
+      "classification_note_zh": "人均肉類消費量最高國家，which country...each person為正確。answer=null屬閱讀組題。",
+      "answer": null
+    },
+    {
+      "year": 103,
+      "number": 36,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "main idea", "Angelica party invitation"],
+      "classification_note_zh": "邀請朋友參加新家的派對，To see her new home為正確。answer=null屬閱讀組題，缺原文漫畫/地圖。",
+      "answer": null
+    },
+    {
+      "year": 103,
+      "number": 37,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "map interpretation", "direction following"],
+      "classification_note_zh": "需看地圖才能回答位置，answer=null屬閱讀組題，缺原文地圖。",
+      "answer": null
+    },
+    {
+      "year": 103,
+      "number": 40,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "main idea", "Cheetah Car Racing homepage"],
+      "classification_note_zh": "需要該網站首頁才能回答，answer=null屬閱讀組題，缺原文網頁。",
+      "answer": null
+    },
+    {
+      "year": 103,
+      "number": 41,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "main idea", "volunteer work page"],
+      "classification_note_zh": "內容提到打掃賽道、照顧車手等，屬志工招募網頁，Join Our Work Team為正確。",
+      "answer": "D"
+    },
+    {
+      "year": 103,
+      "number": 42,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "main idea", "Eddie baking party dialogue"],
+      "classification_note_zh": "Gloria說 waking him up from his dream of making clothes，代表衣服製作不受歡迎。",
+      "answer": "C"
+    },
+    {
+      "year": 103,
+      "number": 45,
+      "type": "reading",
+      "difficulty": "difficult",
+      "concepts": ["reading inference", "main idea", "Josie hospital diary"],
+      "classification_note_zh": "處理傷患、12/25人們受傷需幫助，Josie應在醫院工作。",
+      "answer": "B"
+    },
+    {
+      "year": 103,
+      "number": 46,
+      "type": "reading",
+      "difficulty": "difficult",
+      "concepts": ["reading inference", "detail comprehension", "Josie likes/dislikes"],
+      "classification_note_zh": "Howell談論切開的頭部，Josie吃飯時不想聽，呼應選項B。",
+      "answer": "B"
+    },
+    {
+      "year": 103,
+      "number": 50,
+      "type": "reading",
+      "difficulty": "difficult",
+      "concepts": ["reading inference", "movie review analysis", "Nathan Lang movies"],
+      "classification_note_zh": "從評論内容推斷Dreams的評價，nothing new、didn't do homework暗示負面評價。",
+      "answer": "A"
+    },
+    {
+      "year": 103,
+      "number": 51,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "main idea", "Top Ten Cities report"],
+      "classification_note_zh": "報告說明各城市特色與排名依據，What some cities are known for為正確。",
+      "answer": "A"
+    },
+    {
+      "year": 103,
+      "number": 53,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "ranking comparison", "Animal Island cities"],
+      "classification_note_zh": "根據今年與去年排名變化推斷，D為最可能去年的排名。",
+      "answer": "D"
+    },
+    {
+      "year": 103,
+      "number": 54,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "main idea", "roof garden interview"],
+      "classification_note_zh": "Jasmine、Wilber等人參與屋頂花園計畫，Some of them worked on the plan為正確。",
+      "answer": "D"
+    },
+    {
+      "year": 103,
+      "number": 55,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "detail comprehension", "roof garden benefits"],
+      "classification_note_zh": "選項B雨水收集功能未在訪談中提及，為正確答案。",
+      "answer": "B"
+    },
+    {
+      "year": 104,
+      "number": 2,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": ["conjunctions", "but meaning", "contrast relationship"],
+      "classification_note_zh": "but表轉折對比，裙子漂亮但不合身。屬基礎語法題。",
+      "answer": "B"
+    },
+    {
+      "year": 104,
+      "number": 3,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": ["tag questions", "present simple", "subject-verb agreement"],
+      "classification_note_zh": "否定祈使句+is it?為標準附加問句。屬基礎語法題。",
+      "answer": "D"
+    },
+    {
+      "year": 104,
+      "number": 4,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["future tense", "time clauses", "present simple for future"],
+      "classification_note_zh": "until引導的時間子句，用現在式表未來。屬中等難度語法題。",
+      "answer": "A"
+    },
+    {
+      "year": 104,
+      "number": 5,
+      "type": "vocabulary",
+      "difficulty": "medium",
+      "concepts": ["verbs", "spend meaning", "time expression"],
+      "classification_note_zh": "spend time doing something為固定用法，spend a day looking for為正確。",
+      "answer": "B"
+    },
+    {
+      "year": 104,
+      "number": 6,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["present perfect", "over the past two months", "time expressions"],
+      "classification_note_zh": "過去兩個月已發生並持續到現在，用現在完成式。屬中等難度語法題。",
+      "answer": "B"
+    },
+    {
+      "year": 104,
+      "number": 7,
+      "type": "vocabulary",
+      "difficulty": "medium",
+      "concepts": ["pronouns", "another meaning", "indefinite pronouns"],
+      "classification_note_zh": "another one表另一個，三個都不喜歡，要看另一個。屬中等詞彙題。",
+      "answer": "D"
+    },
+    {
+      "year": 104,
+      "number": 8,
+      "type": "vocabulary",
+      "difficulty": "basic",
+      "concepts": ["adjectives", "polite meaning", "service vocabulary"],
+      "classification_note_zh": "服務員被要求禮貌，微笑說Welcome和Please，polite為正確。屬基礎詞彙題。",
+      "answer": "B"
+    },
+    {
+      "year": 104,
+      "number": 9,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["past simple", "verb tenses", "narrative context"],
+      "classification_note_zh": "描述過去事件用過去式，came為正確。屬中等難度語法題。",
+      "answer": "A"
+    },
+    {
+      "year": 104,
+      "number": 10,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["ellipsis", "verb omission", "did substitution"],
+      "classification_note_zh": "did代替前文appeared，避免重複。屬中等難度語法題。",
+      "answer": "D"
+    },
+    {
+      "year": 104,
+      "number": 19,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "numerical reasoning", "menu/order comprehension"],
+      "classification_note_zh": "需閱讀原文菜單/漫畫才能計算金額。answer=null屬閱讀組題，缺原文素材。",
+      "answer": null
+    },
+    {
+      "year": 104,
+      "number": 20,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "schedule interpretation", "Joy Time promotion"],
+      "classification_note_zh": "需理解Joy Time優惠時段與Howell's Bowl資訊。answer=null屬閱讀組題，缺原文時間表。",
+      "answer": null
+    },
+    {
+      "year": 104,
+      "number": 21,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "main idea", "context clues"],
+      "classification_note_zh": "需根據課文內容推斷老師最可能問的問題。answer=null屬閱讀組題，缺原文对话/文章。",
+      "answer": null
+    },
+    {
+      "year": 104,
+      "number": 22,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "detail comprehension", "factual details"],
+      "classification_note_zh": "需閱讀原文才能確認各選項事實。answer=null屬閱讀組題，缺原文。",
+      "answer": null
+    },
+    {
+      "year": 104,
+      "number": 23,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["vocabulary in context", "pronoun reference", "reading inference"],
+      "classification_note_zh": "them指代需根據上下文推斷。answer=null屬閱讀組題，缺原文。",
+      "answer": null
+    },
+    {
+      "year": 104,
+      "number": 24,
+      "type": "vocabulary",
+      "difficulty": "medium",
+      "concepts": ["vocabulary in context", "idioms", "lousy meaning"],
+      "classification_note_zh": "lousy at表不擅長、無法做得好的意思。",
+      "answer": "B"
+    },
+    {
+      "year": 104,
+      "number": 25,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "main idea", "Foster restaurant preface"],
+      "classification_note_zh": "需閱讀序言才能了解Foster從父親學烹飪的故事。answer=null屬閱讀組題，缺原文序言。",
+      "answer": null
+    },
+    {
+      "year": 104,
+      "number": 31,
+      "type": "reading",
+      "difficulty": "difficult",
+      "concepts": ["reading inference", "chart comprehension", "comparative reading"],
+      "classification_note_zh": "需解讀圖表並比較四國與坦尚尼亞的用水收集方式。answer=null屬閱讀組題，缺原文圖表。",
+      "answer": null
+    },
+    {
+      "year": 104,
+      "number": 35,
+      "type": "reading",
+      "difficulty": "difficult",
+      "concepts": ["reading inference", "moral identification", "Froggie story lesson"],
+      "classification_note_zh": "Froggie故事寓意：人們對逐漸惡化的問題視而不見。",
+      "answer": "C"
+    },
+    {
+      "year": 104,
+      "number": 36,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "detail comprehension", "Froggie character analysis"],
+      "classification_note_zh": "需閱讀Froggie故事才能回答角色細節。answer=null屬閱讀組題，缺原文故事。",
+      "answer": null
+    },
+    {
+      "year": 104,
+      "number": 37,
+      "type": "vocabulary",
+      "difficulty": "medium",
+      "concepts": ["vocabulary in context", "word meaning", "calamitous state"],
+      "classification_note_zh": "calamitous state指處於災難/困境狀態，have serious trouble為正確。",
+      "answer": "A"
+    },
+    {
+      "year": 104,
+      "number": 38,
+      "type": "reading",
+      "difficulty": "difficult",
+      "concepts": ["reading inference", "chart comprehension", "church attendance trend"],
+      "classification_note_zh": "需理解圖表數據與報告內容，分析1980-2020年教堂出席率趨勢。",
+      "answer": "D"
+    },
+    {
+      "year": 104,
+      "number": 39,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["reading inference", "main idea", "topic identification"],
+      "classification_note_zh": "報告主題為人們停止上教堂的原因分析。",
+      "answer": "D"
+    },
+    {
+      "year": 104,
+      "number": 40,
+      "type": "reading",
+      "difficulty": "difficult",
+      "concepts": ["reading inference", "critical analysis", "evaluating evidence"],
+      "classification_note_zh": "需找出與報告結論不符的發現，B選項新建教堂1000多但關閉2000多，與報告不符。",
+      "answer": "B"
+    }
+  ]
+}

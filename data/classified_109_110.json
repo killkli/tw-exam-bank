@@ -1,0 +1,619 @@
+{
+  "years": [109, 110],
+  "classification_summary": {
+    "109": {
+      "type分布": {
+        "vocabulary": 7,
+        "grammar": 13,
+        "reading": 13,
+        "cloze": 9
+      },
+      "difficulty分布": {
+        "basic": 10,
+        "medium": 17,
+        "difficult": 15
+      }
+    },
+    "110": {
+      "type分布": {
+        "vocabulary": 5,
+        "grammar": 10,
+        "reading": 6,
+        "conversation": 2,
+        "cloze": 4
+      },
+      "difficulty分布": {
+        "basic": 11,
+        "medium": 14,
+        "difficult": 2
+      }
+    }
+  },
+  "questions": [
+    {
+      "year": 109,
+      "number": 2,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": ["household items", "vocabulary in context", "present simple"],
+      "classification_note_zh": "題目要求選正確物品名稱(gloves)以保護雙手洗碗，為基礎詞彙題，理解情境即可作答。",
+      "answer": "A"
+    },
+    {
+      "year": 109,
+      "number": 3,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": ["action verbs", "phrasal verbs", "imperative mood"],
+      "classification_note_zh": "題目測試動作動詞(raise)搭配片語「抬起腳」，為基礎動詞理解題。",
+      "answer": "C"
+    },
+    {
+      "year": 109,
+      "number": 4,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": ["quantifiers", "determiners", "contextual meaning"],
+      "classification_note_zh": "題目測試數量詞(Both/Few/Most/Some)的使用，根據「年紀都比自己大」推斷需用Most，為基礎文法題。",
+      "answer": "C"
+    },
+    {
+      "year": 109,
+      "number": 5,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": ["adjectives", "contextual clues", "safety awareness"],
+      "classification_note_zh": "根據「每年夏天都有小孩溺水」情境，選擇dangerous(危險)描述海灘，為基礎形容詞題。",
+      "answer": "A"
+    },
+    {
+      "year": 109,
+      "number": 6,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": ["reflexive pronouns", "self-oriented action"],
+      "classification_note_zh": "題目測試反身代詞(myself)的使用，「獨自一人看電視」需用by myself，为基础语法题。",
+      "answer": "C"
+    },
+    {
+      "year": 109,
+      "number": 7,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": ["present perfect", "time expressions", "duration"],
+      "classification_note_zh": "「過去二十年」搭配現在完成式(has worked)表示持續性動作，为基础时态题。",
+      "answer": "B"
+    },
+    {
+      "year": 109,
+      "number": 8,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": ["verbs", "verb-noun collocation", "time saving"],
+      "classification_note_zh": "題目測試節省時間的表達，it takes us time為固定用法，为基础词汇题。",
+      "answer": "D"
+    },
+    {
+      "year": 109,
+      "number": 9,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": ["past simple", "historical facts", "age expressions"],
+      "classification_note_zh": "「六歲時」為過去時間點，使用wrote過去式，为基础时态题。",
+      "answer": "D"
+    },
+    {
+      "year": 109,
+      "number": 10,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": ["wh-questions", "future tense", "indirect questions"],
+      "classification_note_zh": "題目測試疑問詞how引導的間接問句結構，後接will celebrate，为基础句型题。",
+      "answer": "A"
+    },
+    {
+      "year": 109,
+      "number": 11,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["infinitives", "passive voice", "verb patterns"],
+      "classification_note_zh": "題目測試like to be told(被告知)的被動不定詞結構，为中等难度语法题。",
+      "answer": "D"
+    },
+    {
+      "year": 109,
+      "number": 12,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["verb forms", "parallel structure", "future plans"],
+      "classification_note_zh": "and連接兩個對稱的不定詞片語(mak a trip and visit...)，為中等難度動詞形態題。",
+      "answer": "A"
+    },
+    {
+      "year": 109,
+      "number": 13,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["determiners", "another vs other", "indefinite articles"],
+      "classification_note_zh": "題目測試another用於「另一個」的概念，離開工作時又來一通電話，为中等难度词汇题。",
+      "answer": "A"
+    },
+    {
+      "year": 109,
+      "number": 14,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["past simple", "confidence expression", "contextual inference"],
+      "classification_note_zh": "題目根據「過去經驗顯示他是正確人選」但結果失敗，需理解did在此表達「確實」之意，為中等難度閱讀推理題。",
+      "answer": "B"
+    },
+    {
+      "year": 109,
+      "number": 15,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["superlatives", "comparative forms", "emphasis"],
+      "classification_note_zh": "題目測試the most important最高級用法，表示最不重要，為中等難度文法題。",
+      "answer": "B"
+    },
+    {
+      "year": 109,
+      "number": 16,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["poetry interpretation", "weather phenomena", "wind imagery"],
+      "classification_note_zh": "詩歌描述衣服在風中飄動、樹葉落下等情境，判斷描寫的是風(rain/wind/sun)，為中等難度詩歌閱讀題。",
+      "answer": "C"
+    },
+    {
+      "year": 109,
+      "number": 17,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["emotion inference", "poetry interpretation", "contextual clues"],
+      "classification_note_zh": "詩歌中Dad's face falls表示不開心(unhappy)，需推斷情緒變化，为中等难度阅读题。",
+      "answer": "C"
+    },
+    {
+      "year": 109,
+      "number": 18,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["dialogue comprehension", "factual recall", "opinion inference"],
+      "classification_note_zh": "根據對話中Matt說「我在上次yard sale認識了一些好朋友」，推斷他有經驗，为中等难度阅读题。",
+      "answer": "A"
+    },
+    {
+      "year": 109,
+      "number": 19,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["dialogue comprehension", "summarizing opinions", "author's perspective"],
+      "classification_note_zh": "需整合多位對話者的意見，Jamie同意Debby認為yard sale麻煩，為中等難度閱讀理解題。",
+      "answer": "D"
+    },
+    {
+      "year": 109,
+      "number": 20,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["advertisement reading", "numerical comprehension", "detail extraction"],
+      "classification_note_zh": "根據廣告「書籍和CD除外」可推斷買書不能獲得Sunny Sun積點，為中等難度閱讀理解題。",
+      "answer": "D"
+    },
+    {
+      "year": 109,
+      "number": 21,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["numerical reasoning", "advertisement reading", "problem solving"],
+      "classification_note_zh": "根據集點規則，7點想免費換杯需12點，或用6點加200元，為中等難度數理推斷題。",
+      "answer": "B"
+    },
+    {
+      "year": 109,
+      "number": 23,
+      "type": "vocabulary",
+      "difficulty": "medium",
+      "concepts": ["vocabulary in context", "referent identification", "chocolate terminology"],
+      "classification_note_zh": "them前文指small pieces of chocolate，考查上下文詞義，为中等难度词汇题。",
+      "answer": "D"
+    },
+    {
+      "year": 109,
+      "number": 24,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["instruction following", "factual details", "temperature control"],
+      "classification_note_zh": "根據文章「水不應超過50°C」可判斷選項B正確，为中等难度阅读题。",
+      "answer": "B"
+    },
+    {
+      "year": 109,
+      "number": 25,
+      "type": "vocabulary",
+      "difficulty": "medium",
+      "concepts": ["news article reading", "main idea", "topic identification"],
+      "classification_note_zh": "題目問「新聞故事說關於Yangs的food truck什麼」，根據文章描述吸引人之處，為中等難度主旨題。",
+      "answer": "A"
+    },
+    {
+      "year": 109,
+      "number": 26,
+      "type": "vocabulary",
+      "difficulty": "difficult",
+      "concepts": ["idiomatic expressions", "business terminology", "contextual meaning"],
+      "classification_note_zh": "slack表示業務清淡、不好，屬較難的商務詞彙，为困难词汇题。",
+      "answer": "A"
+    },
+    {
+      "year": 109,
+      "number": 27,
+      "type": "vocabulary",
+      "difficulty": "difficult",
+      "concepts": ["contextual reference", "paragraph-level inference", "advanced vocabulary"],
+      "classification_note_zh": "that指代前文提到的a block with Taiwanese food，即台灣美食街，为困难词汇题。",
+      "answer": "C"
+    },
+    {
+      "year": 109,
+      "number": 28,
+      "type": "reading",
+      "difficulty": "difficult",
+      "concepts": ["letter comprehension", "problem identification", "main idea"],
+      "classification_note_zh": "Selena Bieber的信旨在改變學校上課時間(7:30太早)，為困難閱讀理解題。",
+      "answer": "B"
+    },
+    {
+      "year": 109,
+      "number": 29,
+      "type": "reading",
+      "difficulty": "difficult",
+      "concepts": ["scientific content", "reading inference", "cause-effect relationship"],
+      "classification_note_zh": "題目關於melatonin與睡眠的科學資訊，需理解「大腦分泌時容易入睡」，為困難閱讀題。",
+      "answer": "D"
+    },
+    {
+      "year": 109,
+      "number": 30,
+      "type": "reading",
+      "difficulty": "difficult",
+      "concepts": ["comparative reading", "argument evaluation", "critical thinking"],
+      "classification_note_zh": "需比較Selena信件內容與研究資訊是否一致，涉及論證分析，为困难阅读题。",
+      "answer": "D"
+    },
+    {
+      "year": 109,
+      "number": 31,
+      "type": "reading",
+      "difficulty": "difficult",
+      "concepts": ["main idea", "survival hope", "author's message"],
+      "classification_note_zh": "文章描述Kivalina居民奋力争取最后的希望( fighting for one last hope)，為困難主旨題。",
+      "answer": "C"
+    },
+    {
+      "year": 109,
+      "number": 32,
+      "type": "vocabulary",
+      "difficulty": "difficult",
+      "concepts": ["prefix analysis", "habitable vs uninhabitable", "word formation"],
+      "classification_note_zh": "uninhabitable前綴un-表示「無法居住」，為困難詞義分析題。",
+      "answer": "D"
+    },
+    {
+      "year": 109,
+      "number": 33,
+      "type": "vocabulary",
+      "difficulty": "difficult",
+      "concepts": ["author's perspective", "inference", "financial concern"],
+      "classification_note_zh": "作者認為他們可能無法籌到足夠搬遷費用，涉及作者觀點推斷，为困难阅读题。",
+      "answer": "B"
+    },
+    {
+      "year": 109,
+      "number": 34,
+      "type": "vocabulary",
+      "difficulty": "difficult",
+      "concepts": ["factual recall", "protective function", "ice benefits"],
+      "classification_note_zh": "北極冰幫助原住民抵擋惡劣天氣，為困難事實理解題。",
+      "answer": "C"
+    },
+    {
+      "year": 109,
+      "number": 35,
+      "type": "cloze",
+      "difficulty": "difficult",
+      "concepts": ["cloze test", "topic sentence", "main idea prediction"],
+      "classification_note_zh": "空格在段落開頭，需預測整篇文章主旨「通勤如何改變生活」，为困难完形题。",
+      "answer": "C"
+    },
+    {
+      "year": 109,
+      "number": 36,
+      "type": "cloze",
+      "difficulty": "difficult",
+      "concepts": ["cloze test", "not only...but also", "health consequences"],
+      "classification_note_zh": "not only...but also結構提示both time and health，根據上下文「容易發胖、有頸背問題、心臟問題」，為困難完形題。",
+      "answer": "B"
+    },
+    {
+      "year": 109,
+      "number": 37,
+      "type": "cloze",
+      "difficulty": "difficult",
+      "concepts": ["cloze test", "discourse markers", "result escalation"],
+      "classification_note_zh": "前文說心臟問題，後文脾氣變差等，為遞進關係，But that's not all意為「不僅如此」，为困难完形题。",
+      "answer": "B"
+    },
+    {
+      "year": 109,
+      "number": 38,
+      "type": "cloze",
+      "difficulty": "difficult",
+      "concepts": ["cloze test", "news article", "idiomatic expression"],
+      "classification_note_zh": "慕尼黑拒辦奧運對其他城市而言是明智回答(a smart answer)，為困難完形題。",
+      "answer": "C"
+    },
+    {
+      "year": 109,
+      "number": 39,
+      "type": "cloze",
+      "difficulty": "difficult",
+      "concepts": ["cloze test", "contrast structure", "past experience"],
+      "classification_note_zh": "對慕尼黑而言奧運是另一回事(are a different story)，暗示過去經驗不好，为困难完形题。",
+      "answer": "B"
+    },
+    {
+      "year": 109,
+      "number": 40,
+      "type": "cloze",
+      "difficulty": "difficult",
+      "concepts": ["cloze test", "lesson learned", "past experience reference"],
+      "classification_note_zh": "這不是猜測而是從慘痛經驗學到的教訓，呼应1972和1936年的歷史，为困难完形题。",
+      "answer": "D"
+    },
+    {
+      "year": 109,
+      "number": 41,
+      "type": "cloze",
+      "difficulty": "difficult",
+      "concepts": ["cloze test", "discourse markers", "fact confirmation"],
+      "classification_note_zh": "其他城市事實上(In fact)很高興慕尼黑拒絕了奧運，為轉折語，為困難完形題。",
+      "answer": "A"
+    },
+    {
+      "year": 110,
+      "number": 1,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": ["prepositions", "verb-preposition collocation", "respect gesture"],
+      "classification_note_zh": "題目測試「向...鞠躬」的片語(bowing to)，為基礎動詞搭配題。",
+      "answer": "D"
+    },
+    {
+      "year": 110,
+      "number": 2,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["present continuous", " Listen context", "immediate action"],
+      "classification_note_zh": "Listen!提示正在進行的動作，使用is crying，為中等難度時態題。",
+      "answer": "C"
+    },
+    {
+      "year": 110,
+      "number": 3,
+      "type": "vocabulary",
+      "difficulty": "basic",
+      "concepts": ["emotion vocabulary", "contextual clues", "negative emotion"],
+      "classification_note_zh": "根據「公園關閉所以無法慢跑」推斷Jill不開心，为基础词汇题。",
+      "answer": "D"
+    },
+    {
+      "year": 110,
+      "number": 4,
+      "type": "vocabulary",
+      "difficulty": "basic",
+      "concepts": ["profession vocabulary", "context clues", "cooking interest"],
+      "classification_note_zh": "「看別人享受他準備的食物」暗示想成為廚師，为基础词汇题。",
+      "answer": "A"
+    },
+    {
+      "year": 110,
+      "number": 5,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["present perfect", "since clause", "time reference"],
+      "classification_note_zh": "since +過去時間點(a year ago)需用現在完成式hasn't seen，为中等难度时态题。",
+      "answer": "C"
+    },
+    {
+      "year": 110,
+      "number": 6,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["do replacement", "ellipsis", "verb substitution"],
+      "classification_note_zh": "does替代laughs避免重複，為do代替用法，為中等難度文法題。",
+      "answer": "B"
+    },
+    {
+      "year": 110,
+      "number": 7,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["future tense", "will vs present continuous", "scheduled action"],
+      "classification_note_zh": "表達未來將停留一週，使用will stay，為中等難度未來式題目。",
+      "answer": "D"
+    },
+    {
+      "year": 110,
+      "number": 8,
+      "type": "vocabulary",
+      "difficulty": "basic",
+      "concepts": ["work experience", "career development", "contextual meaning"],
+      "classification_note_zh": "十年的電腦工程師經驗(experience)幫助他開店，為基礎詞彙題。",
+      "answer": "B"
+    },
+    {
+      "year": 110,
+      "number": 9,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": ["imperative mood", "verb forms", "instruction giving"],
+      "classification_note_zh": "打電話給某人為祈使句，用call原型，为基础语法题。",
+      "answer": "B"
+    },
+    {
+      "year": 110,
+      "number": 10,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["subordinating conjunctions", "although vs because", "contrast relationship"],
+      "classification_note_zh": "兩句為轉折關係，although(雖然)符合句意，为中等难度连词题。",
+      "answer": "A"
+    },
+    {
+      "year": 110,
+      "number": 11,
+      "type": "vocabulary",
+      "difficulty": "basic",
+      "concepts": ["business verbs", "entrepreneurship", "context clues"],
+      "classification_note_zh": "「嘗試搶救書店」意為開始(start)經營，为基础词汇题。",
+      "answer": "D"
+    },
+    {
+      "year": 110,
+      "number": 12,
+      "type": "grammar",
+      "difficulty": "medium",
+      "concepts": ["relative clauses", "passive voice", "embedding"],
+      "classification_note_zh": "題目測試that they are learned關係子句中被動語態，為中等難度文法題。",
+      "answer": "D"
+    },
+    {
+      "year": 110,
+      "number": 13,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": ["prepositions", "between meals", "time relationship"],
+      "classification_note_zh": "between meals(兩餐之間)爲固定搭配，为基础介词题。",
+      "answer": "B"
+    },
+    {
+      "year": 110,
+      "number": 14,
+      "type": "grammar",
+      "difficulty": "basic",
+      "concepts": ["pronouns", "any in questions", "determiners"],
+      "classification_note_zh": "any用於疑問句中代表「一些」工具，为基础代词题。",
+      "answer": "A"
+    },
+    {
+      "year": 110,
+      "number": 17,
+      "type": "conversation",
+      "difficulty": "medium",
+      "concepts": ["inference", "main idea", "cultural knowledge"],
+      "classification_note_zh": "根據描述Caldron餐廳火鍋料理(boiling pot)，推斷照片是人们在桌上下从大锅中取食，为中等难度对话理解题。",
+      "answer": "B"
+    },
+    {
+      "year": 110,
+      "number": 18,
+      "type": "conversation",
+      "difficulty": "medium",
+      "concepts": ["opinion extraction", "speaker attitude", "negative preference"],
+      "classification_note_zh": "Lynn明確表示不喜歡Caldron的食物(never thought I would have to cook for myself...How could they taste different?)，為中等難度對話理解題。",
+      "answer": "C"
+    },
+    {
+      "year": 110,
+      "number": 22,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["art appreciation", "historical context", "biographical inference"],
+      "classification_note_zh": "根據「Pierre已去當兵，父親不知他能否歸來」可知畫作於兒子離家時創作，为中等难度阅读题。",
+      "answer": "A"
+    },
+    {
+      "year": 110,
+      "number": 23,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["pronoun reference", "textual evidence", "artist technique"],
+      "classification_note_zh": "do that指的是「把之前的作品放進新畫作中」(putting earlier work in a new painting)，為中等難度詞義題。",
+      "answer": "D"
+    },
+    {
+      "year": 110,
+      "number": 24,
+      "type": "reading",
+      "difficulty": "basic",
+      "concepts": ["vocabulary in context", "term identification", "referent mapping"],
+      "classification_note_zh": "the poor kid指的是Pierre，是Matisse對兒子的稱呼，為基礎詞義題。",
+      "answer": "C"
+    },
+    {
+      "year": 110,
+      "number": 29,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["letter purpose", "main idea", "announcement comprehension"],
+      "classification_note_zh": "信函旨在通知火車將在不同路線行駛，為中等難度主旨題。",
+      "answer": "D"
+    },
+    {
+      "year": 110,
+      "number": 30,
+      "type": "reading",
+      "difficulty": "medium",
+      "concepts": ["detail comprehension", "route information", "system understanding"],
+      "classification_note_zh": "根據信件可在Green City和Cloud City之間任何火車前往Hill Town，为中等难度阅读题。",
+      "answer": "D"
+    },
+    {
+      "year": 110,
+      "number": 31,
+      "type": "reading",
+      "difficulty": "difficult",
+      "concepts": ["route planning", "multi-step reasoning", "transfer information"],
+      "classification_note_zh": "需規劃從Smoke Town到Black Town的路線，涉及轉車和免費公交，为困难阅读题。",
+      "answer": "A"
+    },
+    {
+      "year": 110,
+      "number": 38,
+      "type": "cloze",
+      "difficulty": "medium",
+      "concepts": ["past continuous", "were coming", "mental image"],
+      "classification_note_zh": "故事描繪過去情景，were all coming錶示生動的想像畫面，为中等难度完形题。",
+      "answer": "C"
+    },
+    {
+      "year": 110,
+      "number": 39,
+      "type": "cloze",
+      "difficulty": "medium",
+      "concepts": ["another", "sequence of actions", "indefinite article"],
+      "classification_note_zh": "第一件蠢事後又做了另一件(another)蠢事，为中等难度完形题。",
+      "answer": "A"
+    },
+    {
+      "year": 110,
+      "number": 40,
+      "type": "cloze",
+      "difficulty": "medium",
+      "concepts": ["past simple", "did emphasis", "verb confirmation"],
+      "classification_note_zh": "but they also made...為主要子句，did強調「確實」擋住了雨，为中等难度完形题。",
+      "answer": "B"
+    },
+    {
+      "year": 110,
+      "number": 41,
+      "type": "cloze",
+      "difficulty": "medium",
+      "concepts": ["past continuous", "was trying to", "action interruption"],
+      "classification_note_zh": "過去持續嘗試還包(was trying to give back)，為過去進行式，为中等难度完形题。",
+      "answer": "A"
+    }
+  ]
+}
