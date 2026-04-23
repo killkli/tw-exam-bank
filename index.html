@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>台灣國中教育會考｜英語科題庫</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --primary: #2563eb;
+      --primary-dark: #1d4ed8;
+      --success: #16a34a;
+      --danger: #dc2626;
+      --warning: #f59e0b;
+      --gray-100: #f3f4f6;
+      --gray-200: #e5e7eb;
+      --gray-500: #6b7280;
+      --gray-800: #1f2937;
+    }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: var(--gray-100); color: var(--gray-800); min-height: 100vh; }
+
+    /* Header */
+    header { background: var(--primary); color: white; padding: 1.5rem 2rem; }
+    header h1 { font-size: 1.5rem; font-weight: 700; }
+    header p { opacity: 0.85; font-size: 0.9rem; margin-top: 0.25rem; }
+
+    /* Nav */
+    nav { background: white; border-bottom: 1px solid var(--gray-200); padding: 0 2rem; display: flex; gap: 0.5rem; }
+    nav button { background: none; border: none; padding: 1rem 1.25rem; cursor: pointer; font-size: 0.95rem; color: var(--gray-500); border-bottom: 2px solid transparent; transition: all 0.2s; }
+    nav button:hover { color: var(--primary); }
+    nav button.active { color: var(--primary); border-bottom-color: var(--primary); font-weight: 600; }
+
+    /* Container */
+    .container { max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+    /* Card */
+    .card { background: white; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); padding: 1.5rem; margin-bottom: 1rem; }
+    .card h2 { font-size: 1.1rem; margin-bottom: 1rem; color: var(--gray-800); }
+
+    /* Filters */
+    .filters { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 0.75rem; margin-bottom: 1.5rem; }
+    .filter-group label { display: block; font-size: 0.8rem; color: var(--gray-500); margin-bottom: 0.25rem; font-weight: 500; }
+    .filter-group select { width: 100%; padding: 0.5rem 0.75rem; border: 1px solid var(--gray-200); border-radius: 6px; font-size: 0.9rem; background: white; cursor: pointer; }
+    .filter-group select:focus { outline: none; border-color: var(--primary); }
+    .filter-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem; }
+    .filter-tag { background: var(--gray-100); border: 1px solid var(--gray-200); border-radius: 9999px; padding: 0.25rem 0.75rem; font-size: 0.8rem; cursor: pointer; transition: all 0.15s; }
+    .filter-tag:hover { border-color: var(--primary); color: var(--primary); }
+    .filter-tag.active { background: var(--primary); color: white; border-color: var(--primary); }
+
+    /* Stats bar */
+    .stats-bar { display: flex; align-items: center; gap: 1.5rem; padding: 1rem 1.5rem; background: white; border-radius: 10px; margin-bottom: 1.5rem; flex-wrap: wrap; }
+    .stat { text-align: center; }
+    .stat .num { font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+    .stat .label { font-size: 0.75rem; color: var(--gray-500); }
+    .stat-divider { width: 1px; height: 2rem; background: var(--gray-200); }
+
+    /* Buttons */
+    .btn { padding: 0.6rem 1.25rem; border-radius: 8px; font-size: 0.9rem; font-weight: 600; cursor: pointer; border: none; transition: all 0.15s; }
+    .btn-primary { background: var(--primary); color: white; }
+    .btn-primary:hover { background: var(--primary-dark); }
+    .btn-outline { background: white; border: 1px solid var(--gray-200); color: var(--gray-800); }
+    .btn-outline:hover { border-color: var(--primary); color: var(--primary); }
+    .btn-success { background: var(--success); color: white; }
+    .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+    .btn-group { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+
+    /* Question */
+    .question-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem; }
+    .question-meta { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+    .badge { padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.75rem; font-weight: 600; }
+    .badge-year { background: #dbeafe; color: #1e40af; }
+    .badge-type { background: #dcfce7; color: #166534; }
+    .badge-difficulty { background: #fef3c7; color: #92400e; }
+    .question-text { font-size: 1rem; line-height: 1.7; margin-bottom: 1.25rem; white-space: pre-wrap; }
+    .options { display: flex; flex-direction: column; gap: 0.6rem; }
+    .option { display: flex; align-items: flex-start; gap: 0.75rem; padding: 0.75rem 1rem; border: 2px solid var(--gray-200); border-radius: 8px; cursor: pointer; transition: all 0.15s; font-size: 0.95rem; }
+    .option:hover:not(.selected):not(.correct):not(.wrong) { border-color: var(--primary); background: #eff6ff; }
+    .option .opt-label { font-weight: 700; min-width: 1.5rem; }
+    .option.selected { border-color: var(--primary); background: #dbeafe; }
+    .option.correct { border-color: var(--success); background: #dcfce7; }
+    .option.wrong { border-color: var(--danger); background: #fee2e2; }
+    .option.reveal { border-color: var(--success); background: #dcfce7; }
+
+    /* Pagination */
+    .pagination { display: flex; justify-content: space-between; align-items: center; margin-top: 1.5rem; flex-wrap: wrap; gap: 1rem; }
+    .page-info { color: var(--gray-500); font-size: 0.9rem; }
+    .page-btn { padding: 0.5rem 1rem; border: 1px solid var(--gray-200); background: white; border-radius: 6px; cursor: pointer; font-size: 0.9rem; }
+    .page-btn:hover:not(:disabled) { border-color: var(--primary); color: var(--primary); }
+    .page-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+    /* Quiz list */
+    .quiz-card { display: flex; justify-content: space-between; align-items: center; padding: 1rem; border: 1px solid var(--gray-200); border-radius: 10px; margin-bottom: 0.75rem; cursor: pointer; transition: all 0.15s; }
+    .quiz-card:hover { border-color: var(--primary); box-shadow: 0 2px 8px rgba(37,99,235,0.1); }
+    .quiz-card .quiz-info h3 { font-size: 1rem; margin-bottom: 0.25rem; }
+    .quiz-card .quiz-info p { font-size: 0.8rem; color: var(--gray-500); }
+    .quiz-card .quiz-stats { text-align: right; }
+    .quiz-card .quiz-stats .count { font-size: 1.25rem; font-weight: 700; color: var(--primary); }
+    .quiz-card .quiz-stats .label { font-size: 0.75rem; color: var(--gray-500); }
+
+    /* Score screen */
+    .score-screen { text-align: center; padding: 2rem; }
+    .score-circle { width: 120px; height: 120px; border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 2rem; font-weight: 700; }
+    .score-circle.perfect { background: #dcfce7; color: var(--success); }
+    .score-circle.good { background: #dbeafe; color: var(--primary); }
+    .score-circle.fail { background: #fee2e2; color: var(--danger); }
+    .score-circle span { font-size: 0.8rem; font-weight: 500; opacity: 0.8; }
+    .score-detail { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; max-width: 400px; margin: 0 auto 1.5rem; }
+    .score-item { text-align: center; padding: 1rem; background: var(--gray-100); border-radius: 8px; }
+    .score-item .num { font-size: 1.5rem; font-weight: 700; }
+    .score-item .num.correct { color: var(--success); }
+    .score-item .num.wrong { color: var(--danger); }
+    .score-item .num.skipped { color: var(--gray-500); }
+    .score-item .label { font-size: 0.75rem; color: var(--gray-500); }
+
+    /* Progress bar */
+    .progress-bar { height: 6px; background: var(--gray-200); border-radius: 3px; overflow: hidden; margin-top: 0.5rem; }
+    .progress-fill { height: 100%; background: var(--primary); border-radius: 3px; transition: width 0.3s; }
+
+    /* Concept pills */
+    .concepts { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.5rem; }
+    .concept-pill { background: var(--gray-100); border-radius: 4px; padding: 0.15rem 0.5rem; font-size: 0.75rem; color: var(--gray-500); }
+
+    /* Section title */
+    .section-title { font-size: 1.25rem; font-weight: 700; margin-bottom: 1.25rem; display: flex; align-items: center; gap: 0.75rem; }
+    .section-title::after { content: ''; flex: 1; height: 1px; background: var(--gray-200); }
+
+    /* Loading */
+    .loading { text-align: center; padding: 3rem; color: var(--gray-500); }
+    .spinner { width: 40px; height: 40px; border: 3px solid var(--gray-200); border-top-color: var(--primary); border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto 1rem; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* Toast */
+    .toast { position: fixed; bottom: 2rem; left: 50%; transform: translateX(-50%); background: var(--gray-800); color: white; padding: 0.75rem 1.5rem; border-radius: 8px; font-size: 0.9rem; opacity: 0; transition: opacity 0.3s; pointer-events: none; z-index: 9999; }
+    .toast.show { opacity: 1; }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+      .container { padding: 1rem; }
+      .filters { grid-template-columns: 1fr 1fr; }
+      .score-detail { grid-template-columns: 1fr; }
+    }
+
+    /* Hidden */
+    [hidden] { display: none !important; }
+
+    /* Empty state */
+    .empty { text-align: center; padding: 3rem; color: var(--gray-500); }
+    .empty p { margin-top: 0.5rem; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>📝 台灣國中教育會考｜英語科題庫</h1>
+  <p>102–114年度 · 386題專家校正解題 · 靜態無需伺服器</p>
+</header>
+
+<nav>
+  <button class="active" data-view="home">🏠 首頁</button>
+  <button data-view="quiz">📋 題庫列表</button>
+  <button data-view="filter">🔍 進階篩選</button>
+  <button data-view="about">ℹ️ 關於</button>
+</nav>
+
+<div class="container" id="app"></div>
+<div class="toast" id="toast"></div>
+
+<script>
+// ============ DATA ============
+const DATA_URL = './data/exam-questions.json';
+let ALL_QUESTIONS = [];
+let LOADED = false;
+
+// ============ UTILS ============
+const $ = (sel) => document.querySelector(sel);
+const $$ = (sel) => document.querySelectorAll(sel);
+const uuid = () => Math.random().toString(36).slice(2);
+
+function showToast(msg) {
+  const t = $('#toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2500);
+}
+
+function html(str, ...vals) {
+  return str.map((s,i) => s + (vals[i]||'')).join('');
+}
+
+// ============ RENDER ============
+function render() {
+  const view = currentView;
+  $('#app')[0] && $('#app').removeAttribute('hidden');
+  switch(view) {
+    case 'home': renderHome(); break;
+    case 'quiz': renderQuizList(); break;
+    case 'filter': renderFilter(); break;
+    case 'about': renderAbout(); break;
+    case 'practice': renderPractice(); break;
+    case 'result': renderResult(); break;
+  }
+}
+
+let currentView = 'home';
+
+function navigate(view, opts={}) {
+  currentView = view;
+  $$('nav button').forEach(b => b.classList.toggle('active', b.dataset.view === view));
+  render();
+}
+
+// ============ HOME ============
+function renderHome() {
+  if (!LOADED) {
+    $('#app').innerHTML = '<div class="loading"><div class="spinner"></div><p>載入題庫中...</p></div>';
+    return;
+  }
+  const total = ALL_QUESTIONS.length;
+  const withAnswer = ALL_QUESTIONS.filter(q => q.answer).length;
+  const byYear = {};
+  ALL_QUESTIONS.forEach(q => { byYear[q.year] = (byYear[q.year]||0)+1; });
+  const years = Object.keys(byYear).sort();
+  const concepts = [...new Set(ALL_QUESTIONS.flatMap(q => q.concepts||[]))].filter(Boolean);
+  const types = [...new Set(ALL_QUESTIONS.map(q => q.type).filter(Boolean))];
+
+  $('#app').innerHTML = html`
+  <div class="card">
+    <h2>📊 題庫概覽</h2>
+    <div class="stats-bar">
+      <div class="stat"><div class="num">${total}</div><div class="label">總題數</div></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><div class="num">${withAnswer}</div><div class="label">有答案</div></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><div class="num">${years.length}</div><div class="label">年度</div></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><div class="num">${concepts.length}</div><div class="label">學習概念</div></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><div class="num">${types.length}</div><div class="label">題型</div></div>
+    </div>
+    <div class="btn-group">
+      <button class="btn btn-primary" onclick="navigate('filter')">🔍 依條件選題</button>
+      <button class="btn btn-outline" onclick="navigate('quiz')">📋 瀏覽題庫</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>📅 各年度題數分布</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(80px,1fr));gap:0.5rem;margin-top:0.5rem;">
+      ${years.map(y => html`
+      <div style="text-align:center;padding:0.75rem;background:var(--gray-100);border-radius:8px;cursor:pointer;" onclick="startQuizByYear(${y})">
+        <div style="font-size:1.25rem;font-weight:700;color:var(--primary);">${byYear[y]}</div>
+        <div style="font-size:0.75rem;color:var(--gray-500);">${y}年</div>
+      </div>
+      `).join('')}
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>🏷️ 熱門學習概念</h2>
+    <div class="filter-tags">
+      ${concepts.slice(0,20).map(c => html`<span class="filter-tag" onclick="startQuizByConcept('${c}')">${c}</span>`).join('')}
+    </div>
+  </div>
+  `;
+}
+
+// ============ QUIZ LIST ============
+function renderQuizList() {
+  if (!LOADED) { $('#app').innerHTML = '<div class="loading"><div class="spinner"></div>'; return; }
+
+  const years = [...new Set(ALL_QUESTIONS.map(q=>q.year))].sort();
+  $('#app').innerHTML = html`
+  <div class="section-title">📋 題庫列表</div>
+  ${years.map(y => {
+    const qs = ALL_QUESTIONS.filter(q=>q.year===y);
+    return html`
+    <div class="quiz-card" onclick="startQuizByYear(${y})">
+      <div class="quiz-info">
+        <h3>${y}年度試卷</h3>
+        <p>共 ${qs.length} 題 · 有答案 ${qs.filter(q=>q.answer).length} 題</p>
+      </div>
+      <div class="quiz-stats">
+        <div class="count">${qs.length}</div>
+        <div class="label">題</div>
+      </div>
+    </div>
+    `;
+  }).join('')}
+  `;
+}
+
+// ============ FILTER ============
+let filterState = { year:'', type:'', difficulty:'', concept:'', answer:'' };
+
+function renderFilter() {
+  if (!LOADED) { $('#app').innerHTML = '<div class="loading"><div class="spinner"></div>'; return; }
+
+  const years = [...new Set(ALL_QUESTIONS.map(q=>q.year))].sort();
+  const types = [...new Set(ALL_QUESTIONS.map(q=>q.type).filter(Boolean))].sort();
+  const difficulties = [...new Set(ALL_QUESTIONS.map(q=>q.difficulty).filter(Boolean))].sort();
+  const concepts = [...new Set(ALL_QUESTIONS.flatMap(q=>q.concepts||[]))].filter(Boolean).sort();
+
+  const filtered = ALL_QUESTIONS.filter(q => {
+    if (filterState.year && q.year != filterState.year) return false;
+    if (filterState.type && q.type !== filterState.type) return false;
+    if (filterState.difficulty && q.difficulty !== filterState.difficulty) return false;
+    if (filterState.concept && !(q.concepts||[]).includes(filterState.concept)) return false;
+    if (filterState.answer === 'yes' && !q.answer) return false;
+    if (filterState.answer === 'no' && q.answer) return false;
+    return true;
+  });
+
+  $('#app').innerHTML = html`
+  <div class="section-title">🔍 進階篩選</div>
+
+  <div class="card">
+    <div class="filters">
+      <div class="filter-group">
+        <label>年度</label>
+        <select id="f-year" onchange="filterState.year=this.value;renderFilter();">
+          <option value="">全部</option>
+          ${years.map(y => html`<option value="${y}">${y}年</option>`).join('')}
+        </select>
+      </div>
+      <div class="filter-group">
+        <label>題型</label>
+        <select id="f-type" onchange="filterState.type=this.value;renderFilter();">
+          <option value="">全部</option>
+          ${types.map(t => html`<option value="${t}">${t}</option>`).join('')}
+        </select>
+      </div>
+      <div class="filter-group">
+        <label>難度</label>
+        <select id="f-difficulty" onchange="filterState.difficulty=this.value;renderFilter();">
+          <option value="">全部</option>
+          ${difficulties.map(d => html`<option value="${d}">${d}</option>`).join('')}
+        </select>
+      </div>
+      <div class="filter-group">
+        <label>有答案</label>
+        <select id="f-answer" onchange="filterState.answer=this.value;renderFilter();">
+          <option value="">全部</option>
+          <option value="yes">有答案</option>
+          <option value="no">無答案</option>
+        </select>
+      </div>
+    </div>
+    <div class="filter-group" style="margin-bottom:0.75rem;">
+      <label>學習概念</label>
+      <select id="f-concept" onchange="filterState.concept=this.value;renderFilter();">
+        <option value="">全部概念</option>
+        ${concepts.map(c => html`<option value="${c}">${c}</option>`).join('')}
+      </select>
+    </div>
+    <div class="filter-tags">
+      ${concepts.map(c => html`<span class="filter-tag ${filterState.concept===c?'active':''}" onclick="filterState.concept='${c}';$('#f-concept').value='${c}';renderFilter();">${c}</span>`).join('')}
+    </div>
+  </div>
+
+  <div class="card">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+      <span style="font-weight:600;">找到 <span style="color:var(--primary);font-size:1.1rem;">${filtered.length}</span> 題</span>
+      <div class="btn-group">
+        <button class="btn btn-primary" onclick="startQuiz(filtered)" ${filtered.length===0?'disabled':''}>▶ 開始作答</button>
+        ${filtered.length > 0 ? html`<button class="btn btn-outline" onclick="previewQuestions(filtered)">👁 預覽</button>` : ''}
+      </div>
+    </div>
+    ${filtered.length === 0 ? '<div class="empty">沒有符合條件的題目，請調整篩選條件</div>' :
+    filtered.slice(0,5).map((q,i) => renderQuestionCard(q,i)).join('') +
+    (filtered.length > 5 ? `<p style="text-align:center;color:var(--gray-500);font-size:0.85rem;margin-top:0.75rem;">還有 ${filtered.length-5} 題...</p>` : '')}
+  </div>
+  `;
+}
+
+function renderQuestionCard(q, idx) {
+  return html`
+  <div style="padding:1rem;border:1px solid var(--gray-200);border-radius:8px;margin-bottom:0.75rem;">
+    <div class="question-header">
+      <div class="question-meta">
+        <span class="badge badge-year">${q.year}年</span>
+        <span class="badge badge-type">${q.type||'unknown'}</span>
+        <span class="badge badge-difficulty">${q.difficulty||'unknown'}</span>
+      </div>
+      ${q.answer ? html`<span style="color:var(--success);font-size:0.85rem;font-weight:600;">✓ 有答案</span>` : '<span style="color:var(--gray-500);font-size:0.85rem;">無答案</span>'}
+    </div>
+    <p style="font-size:0.9rem;margin:0.5rem 0;white-space:pre-wrap;">${(q.question||'').slice(0,120)}${(q.question||'').length>120?'...':''}</p>
+    <div class="concepts">${(q.concepts||[]).map(c=>html`<span class="concept-pill">${c}</span>`).join('')}</div>
+  </div>
+  `;
+}
+
+// ============ ABOUT ============
+function renderAbout() {
+  $('#app').innerHTML = html`
+  <div class="card">
+    <h2>ℹ️ 關於本題庫</h2>
+    <p style="line-height:1.8;color:#374151;margin-bottom:1rem;">
+      本題庫收錄台灣 102–114 年度國中教育會考英語科試題，由專業英文教師審查校對，並為每題加上學習概念標籤與難度分級。
+    </p>
+    <h3 style="font-size:1rem;margin-bottom:0.5rem;">題型分布</h3>
+    <div class="filter-tags" style="margin-bottom:1rem;">
+      ${[...new Set(ALL_QUESTIONS.map(q=>q.type))].filter(Boolean).map(t => html`<span class="filter-tag">${t}</span>`).join('')}
+    </div>
+    <h3 style="font-size:1rem;margin-bottom:0.5rem;">難度分級</h3>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.75rem;margin-bottom:1rem;">
+      <div style="padding:1rem;background:#dcfce7;border-radius:8px;text-align:center;">
+        <div style="font-size:1.25rem;font-weight:700;color:#166534;">basic</div>
+        <div style="font-size:0.8rem;color:#166534;">基礎</div>
+      </div>
+      <div style="padding:1rem;background:#dbeafe;border-radius:8px;text-align:center;">
+        <div style="font-size:1.25rem;font-weight:700;color:#1e40af;">medium</div>
+        <div style="font-size:0.8rem;color:#1e40af;">中等</div>
+      </div>
+      <div style="padding:1rem;background:#fee2e2;border-radius:8px;text-align:center;">
+        <div style="font-size:1.25rem;font-weight:700;color:#991b1b;">difficult</div>
+        <div style="font-size:0.8rem;color:#991b1b;">困難</div>
+      </div>
+    </div>
+    <p style="font-size:0.85rem;color:var(--gray-500);line-height:1.7;">
+      ⚠️ 部分閱讀測驗缺少原文，屬原始試卷遺失，無法完全還原。標記為「無答案」的題目需參考原始試卷。
+    </p>
+  </div>
+  `;
+}
+
+// ============ PRACTICE ============
+let quizState = { questions: [], current: 0, answers: {}, revealed: false, sessionId: '' };
+
+function startQuiz(questions) {
+  quizState = { questions, current: 0, answers: {}, revealed: false, sessionId: uuid() };
+  navigate('practice');
+}
+
+window.startQuizByYear = function(year) {
+  const qs = ALL_QUESTIONS.filter(q => q.year == year);
+  if (qs.length === 0) { showToast('該年份沒有題目'); return; }
+  startQuiz(qs);
+};
+
+window.startQuizByConcept = function(concept) {
+  const qs = ALL_QUESTIONS.filter(q => (q.concepts||[]).includes(concept));
+  if (qs.length === 0) { showToast('沒有符合的題目'); return; }
+  startQuiz(qs);
+};
+
+window.previewQuestions = function(questions) {
+  startQuiz(questions.slice(0, Math.min(questions.length, 10)));
+};
+
+function renderPractice() {
+  const { questions, current, answers, revealed } = quizState;
+  const q = questions[current];
+  if (!q) { navigate('result'); return; }
+
+  const total = questions.length;
+  const progress = ((current) / total) * 100;
+  const selected = answers[current];
+  const hasAnswer = !!q.answer;
+
+  $('#app').innerHTML = html`
+  <div style="margin-bottom:1rem;">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem;">
+      <span style="font-weight:600;font-size:0.95rem;">第 ${current+1} / ${total} 題</span>
+      <span class="badge badge-year">${q.year}年</span>
+    </div>
+    <div class="progress-bar"><div class="progress-fill" style="width:${progress}%"></div></div>
+  </div>
+
+  <div class="card">
+    <div class="question-header">
+      <div class="question-meta">
+        <span class="badge badge-type">${q.type||'unknown'}</span>
+        <span class="badge badge-difficulty">${q.difficulty||'unknown'}</span>
+        ${(q.concepts||[]).slice(0,3).map(c=>html`<span class="badge" style="background:#f3f4f6;color:#6b7280;">${c}</span>`).join('')}
+      </div>
+    </div>
+    <div class="question-text">${q.question||'(無題目文字)'}</div>
+    <div class="options">
+      ${Object.entries(q.options||{}).filter(([k])=>k!=='passage').map(([k,v]) => {
+        const isSelected = selected === k;
+        const isCorrect = revealed && hasAnswer && q.answer === k;
+        const isWrong = revealed && isSelected && q.answer !== k;
+        const showReveal = revealed && !isSelected && hasAnswer && q.answer === k;
+        let cls = '';
+        if (isCorrect) cls = 'correct';
+        else if (isWrong) cls = 'wrong';
+        else if (showReveal) cls = 'reveal';
+        else if (isSelected) cls = 'selected';
+        return html`<div class="option ${cls}" onclick="selectOption('${k}')">
+          <span class="opt-label">${k}.</span>
+          <span>${v}</span>
+        </div>`;
+      }).join('')}
+    </div>
+    ${revealed && hasAnswer ? html`
+    <div style="margin-top:1rem;padding:0.75rem;background:#f0fdf4;border-radius:8px;font-size:0.9rem;">
+      <strong style="color:var(--success);">✅ 正確答案：${q.answer}</strong>
+      ${q.teacher_note ? html`<br><span style="color:#374151;">📝 ${q.teacher_note}</span>` : ''}
+    </div>` : ''}
+    ${revealed && !hasAnswer ? html`<div style="margin-top:1rem;padding:0.75rem;background:#fef3c7;border-radius:8px;font-size:0.9rem;">⚠️ 此題尚無專家答案</div>` : ''}
+  </div>
+
+  <div class="pagination">
+    <button class="btn btn-outline" onclick="prevQuestion()" ${current===0?'disabled':''}>← 上一題</button>
+    <div class="page-info">${current+1} / ${total}</div>
+    ${!revealed ? html`<button class="btn btn-primary" onclick="revealAnswer()">📋 確認答案</button>` :
+      html`<button class="btn btn-primary" onclick="nextQuestion()">${current<total-1?'下一題 →':'查看結果'}</button>`}
+  </div>
+  `;
+}
+
+window.selectOption = function(opt) {
+  const { revealed } = quizState;
+  if (revealed) return;
+  quizState.answers[quizState.current] = opt;
+  renderPractice();
+};
+
+window.revealAnswer = function() {
+  quizState.revealed = true;
+  renderPractice();
+};
+
+window.nextQuestion = function() {
+  quizState.current++;
+  quizState.revealed = false;
+  if (quizState.current >= quizState.questions.length) {
+    navigate('result');
+  } else {
+    renderPractice();
+  }
+};
+
+window.prevQuestion = function() {
+  if (quizState.current > 0) {
+    quizState.current--;
+    renderPractice();
+  }
+};
+
+// ============ RESULT ============
+function renderResult() {
+  const { questions, answers } = quizState;
+  let correct = 0, wrong = 0, skipped = 0;
+  questions.forEach((q,i) => {
+    if (answers[i] === undefined) skipped++;
+    else if (answers[i] === q.answer) correct++;
+    else wrong++;
+  });
+  const total = questions.length;
+  const pct = total > 0 ? Math.round(correct/total*100) : 0;
+  const scoreClass = pct === 100 ? 'perfect' : pct >= 60 ? 'good' : 'fail';
+
+  $('#app').innerHTML = html`
+  <div class="card">
+    <div class="score-screen">
+      <div class="score-circle ${scoreClass}">
+        ${pct}<span>%</span>
+      </div>
+      <h2 style="margin-bottom:0.5rem;">${pct===100?'🎉 滿分！':'成績結算'}</h2>
+      <p style="color:var(--gray-500);margin-bottom:1.5rem;">共 ${total} 題，正確 ${correct} 題，錯誤 ${wrong} 題</p>
+
+      <div class="score-detail">
+        <div class="score-item"><div class="num correct">${correct}</div><div class="label">答對</div></div>
+        <div class="score-item"><div class="num wrong">${wrong}</div><div class="label">答錯</div></div>
+        <div class="score-item"><div class="num skipped">${skipped}</div><div class="label">未作答</div></div>
+      </div>
+
+      <div class="btn-group" style="justify-content:center;">
+        <button class="btn btn-primary" onclick="restartQuiz()">🔄 再測一次</button>
+        <button class="btn btn-outline" onclick="navigate('home')">🏠 回首頁</button>
+        <button class="btn btn-outline" onclick="navigate('filter')">🔍 重新選題</button>
+      </div>
+    </div>
+  </div>
+
+  ${wrong > 0 ? html`
+  <div class="section-title">❌ 錯題複習</div>
+  ${questions.map((q,i) => {
+    if (answers[i] === q.answer || answers[i] === undefined) return '';
+    return html`
+    <div class="card">
+      <div class="question-header">
+        <div class="question-meta">
+          <span class="badge badge-year">${q.year}年-${q.number}題</span>
+          <span class="badge badge-type">${q.type||''}</span>
+        </div>
+        <div>
+          <span style="color:var(--danger);font-size:0.85rem;font-weight:600;">✗ 回答：${answers[i]}</span>
+          <span style="color:var(--success);font-size:0.85rem;font-weight:600;margin-left:0.5rem;">✓ 正確：${q.answer||'無答案'}</span>
+        </div>
+      </div>
+      <div class="question-text">${(q.question||'').slice(0,150)}${(q.question||'').length>150?'...':''}</div>
+    </div>`;
+  }).join('')}` : ''}
+  `;
+}
+
+window.restartQuiz = function() {
+  startQuiz(quizState.questions);
+};
+
+// ============ INIT ============
+async function init() {
+  try {
+    const resp = await fetch(DATA_URL);
+    if (!resp.ok) throw new Error('載入失敗');
+    const data = await resp.json();
+    ALL_QUESTIONS = data.questions || [];
+    LOADED = true;
+    render();
+  } catch(e) {
+    $('#app').innerHTML = html`
+    <div class="card">
+      <div class="empty">
+        <p>⚠️ 題庫載入失敗</p>
+        <p style="font-size:0.85rem;">請確認 data/exam-questions.json 存在</p>
+      </div>
+    </div>`;
+  }
+}
+
+// Nav
+$$('nav button').forEach(btn => {
+  btn.addEventListener('click', () => navigate(btn.dataset.view));
+});
+
+init();
+</script>
+</body>
+</html>
