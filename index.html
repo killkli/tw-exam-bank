@@ -366,12 +366,15 @@ let currentMode = 'study'; // 'study' or 'test'
 let QS = { questions: [], current: 0, answers: {}, revealed: [], startTime: 0, mode: 'study' };
 
 // ====== INIT ======
+let AVAILABLE_QUESTIONS = []; // 僅 available=true 的題目
+
 async function init() {
   try {
     const res = await fetch('./data/exam-questions.json');
     if (!res.ok) throw new Error('Failed to load');
     const data = await res.json();
     ALL_QUESTIONS = data;
+    AVAILABLE_QUESTIONS = data.filter(q => q.available !== false);
     LOADED = true;
     navigate('home');
   } catch(e) {
@@ -413,12 +416,12 @@ function render() {
 
 // ====== HOME ======
 function renderHome() {
-  const total = ALL_QUESTIONS.length;
-  const withAns = ALL_QUESTIONS.filter(q => q.answer).length;
+  const total = AVAILABLE_QUESTIONS.length;
+  const withAns = AVAILABLE_QUESTIONS.filter(q => q.answer).length;
   const years = {};
-  ALL_QUESTIONS.forEach(q => { years[q.year] = (years[q.year]||0)+1; });
+  AVAILABLE_QUESTIONS.forEach(q => { years[q.year] = (years[q.year]||0)+1; });
   const yearKeys = Object.keys(years).sort();
-  const concepts = [...new Set(ALL_QUESTIONS.flatMap(q => q.concepts||[]))].filter(Boolean);
+  const concepts = [...new Set(AVAILABLE_QUESTIONS.flatMap(q => q.concepts||[]))].filter(Boolean);
 
   $('#app').innerHTML = `
   <div class="stats-bar">
@@ -464,7 +467,7 @@ function clearFilters() {
 }
 
 function applyFilter() {
-  FILTERED = ALL_QUESTIONS.filter(q => {
+  FILTERED = AVAILABLE_QUESTIONS.filter(q => {
     if (F.year && q.year != F.year) return false;
     if (F.type && q.type !== F.type) return false;
     if (F.difficulty && q.difficulty !== F.difficulty) return false;
@@ -476,10 +479,10 @@ function applyFilter() {
 }
 
 function renderFilter() {
-  const years = [...new Set(ALL_QUESTIONS.map(q=>q.year))].sort();
-  const types = [...new Set(ALL_QUESTIONS.map(q=>q.type).filter(Boolean))].sort();
-  const difficulties = [...new Set(ALL_QUESTIONS.map(q=>q.difficulty).filter(Boolean))].sort();
-  const concepts = [...new Set(ALL_QUESTIONS.flatMap(q=>q.concepts||[]))].filter(Boolean).sort();
+  const years = [...new Set(AVAILABLE_QUESTIONS.map(q=>q.year))].sort();
+  const types = [...new Set(AVAILABLE_QUESTIONS.map(q=>q.type).filter(Boolean))].sort();
+  const difficulties = [...new Set(AVAILABLE_QUESTIONS.map(q=>q.difficulty).filter(Boolean))].sort();
+  const concepts = [...new Set(AVAILABLE_QUESTIONS.flatMap(q=>q.concepts||[]))].filter(Boolean).sort();
 
   applyFilter();
 
@@ -547,13 +550,13 @@ function renderFilter() {
 
 // ====== LIST ======
 function renderList() {
-  const years = [...new Set(ALL_QUESTIONS.map(q=>q.year))].sort();
+  const years = [...new Set(AVAILABLE_QUESTIONS.map(q=>q.year))].sort();
   $('#app').innerHTML = `
   <div class="card">
-    <div class="card-title">📋 題庫列表（${ALL_QUESTIONS.length}題）</div>
+    <div class="card-title">📋 題庫列表（${AVAILABLE_QUESTIONS.length}題）</div>
   </div>
   ${years.map(y => {
-    const qs = ALL_QUESTIONS.filter(q=>q.year===y);
+    const qs = AVAILABLE_QUESTIONS.filter(q=>q.year===y);
     return `
     <div class="card">
       <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.75rem;">
@@ -574,7 +577,7 @@ function renderQCard(q, idx) {
   const groupBadge = q.group_id ? `<span class="badge badge-group">題組${q.group_id}</span>` : '';
   const passageTag = q.passage ? '<span class="passage-indicator">📄</span>' : '';
   return `
-  <div class="q-card" onclick="startQuizAt(${ALL_QUESTIONS.indexOf(q)})">
+  <div class="q-card" onclick="startQuizAt(${AVAILABLE_QUESTIONS.indexOf(q)})">
     <div class="q-card-header">
       <div class="left">
         <span class="badge badge-year">${q.year}年</span>
@@ -603,24 +606,24 @@ function startQuiz(questions) {
 }
 
 function startQuizByYear(year) {
-  const qs = ALL_QUESTIONS.filter(q => q.year == year);
-  if (!qs.length) { alert('該年份沒有題目'); return; }
+  const qs = AVAILABLE_QUESTIONS.filter(q => q.year == year);
+  if (!qs.length) { alert('該年份沒有可用題目'); return; }
   startQuiz(qs);
 }
 
 function startQuizByConcept(concept) {
-  const qs = ALL_QUESTIONS.filter(q => (q.concepts||[]).includes(concept));
+  const qs = AVAILABLE_QUESTIONS.filter(q => (q.concepts||[]).includes(concept));
   if (!qs.length) { alert('沒有符合的題目'); return; }
   startQuiz(qs);
 }
 
 function startQuizAt(index) {
-  // Find which quiz set this question belongs to - just start from index with nearby context
-  // For simplicity, just start a quiz of nearby questions
-  const q = ALL_QUESTIONS[index];
-  const qs = ALL_QUESTIONS.filter(q2 => q2.year === q.year);
-  const startIdx = qs.findIndex(x => ALL_QUESTIONS.indexOf(x) === index);
-  startQuiz(qs.slice(Math.max(0,startIdx-2), startIdx+8));
+  const q = AVAILABLE_QUESTIONS[index];
+  if (!q) return;
+  // 找同年所有可用題
+  const qs = AVAILABLE_QUESTIONS.filter(q2 => q2.year === q.year);
+  const startIdx = Math.max(0, qs.indexOf(q) - 2);
+  startQuiz(qs.slice(startIdx, startIdx + 8));
 }
 
 function previewQuiz(questions) {
@@ -790,10 +793,10 @@ function renderResult() {
 
 // ====== ABOUT ======
 function renderAbout() {
-  const concepts = [...new Set(ALL_QUESTIONS.flatMap(q=>q.concepts||[]))].filter(Boolean);
+  const concepts = [...new Set(AVAILABLE_QUESTIONS.flatMap(q=>q.concepts||[]))].filter(Boolean);
   const typeMap = {'vocabulary':'詞彙題','grammar':'文法題','reading':'閱讀題','cloze':'克漏字','conversation':'對話題'};
   const typeCounts = {};
-  ALL_QUESTIONS.forEach(q => { typeCounts[q.type] = (typeCounts[q.type]||0)+1; });
+  AVAILABLE_QUESTIONS.forEach(q => { typeCounts[q.type] = (typeCounts[q.type]||0)+1; });
 
   const conceptDescs = {
     '詞義理解':'理解單字或情境中的詞義（word meaning / contextual meaning）',
@@ -815,12 +818,12 @@ function renderAbout() {
   <div class="card">
     <div class="card-title">ℹ️ 關於本題庫</div>
     <p style="line-height:1.8;color:var(--gray-700);margin-bottom:1rem;">
-      收錄台灣 <strong>102–114年度</strong> 國中教育會考英語科試題，共 <strong>${ALL_QUESTIONS.length}題</strong>，
+      收錄台灣 <strong>102–114年度</strong> 國中教育會考英語科試題，共 <strong>${AVAILABLE_QUESTIONS.length}題</strong>（篩除圖片題及無答案題），
       由專業英文教師補正與審查。屬教育研究者約翰·陳所有。
     </p>
     <div style="display:flex;flex-wrap:wrap;gap:0.75rem;margin-bottom:1rem;">
       <button class="btn btn-outline btn-sm" onclick="navigate('filter')">🔍 篩選題目</button>
-      <button class="btn btn-outline btn-sm" onclick="printQuiz(ALL_QUESTIONS)">🖨 列印整份</button>
+      <button class="btn btn-outline btn-sm" onclick="printQuiz(AVAILABLE_QUESTIONS)">🖨 列印整份</button>
     </div>
     <p style="font-size:0.8rem;color:var(--gray-500);line-height:1.7;">
       ⚠️ 部分圖片題、聽力題無文字內容，屬原始試卷限制，答案維持空白。
@@ -834,7 +837,7 @@ function renderAbout() {
       <div class="about-type-item">
         <div class="at-name">${typeMap[t]||t}</div>
         <div class="at-count">${c}</div>
-        <div class="at-desc">${Math.round(c/ALL_QUESTIONS.length*100)}%</div>
+        <div class="at-desc">${Math.round(c/AVAILABLE_QUESTIONS.length*100)}%</div>
       </div>`).join('')}
     </div>
   </div>
@@ -845,7 +848,7 @@ function renderAbout() {
       <thead><tr><th>概念</th><th>說明</th><th style="text-align:right;">題數</th></tr></thead>
       <tbody>
         ${concepts.map(c => {
-          const cnt = ALL_QUESTIONS.filter(q=>(q.concepts||[]).includes(c)).length;
+          const cnt = AVAILABLE_QUESTIONS.filter(q=>(q.concepts||[]).includes(c)).length;
           return `<tr><td><strong>${c}</strong></td><td style="color:var(--gray-500);font-size:0.8rem;">${conceptDescs[c]||''}</td><td style="text-align:right;font-weight:700;color:var(--primary);">${cnt}</td></tr>`;
         }).join('')}
       </tbody>
