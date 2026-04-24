@@ -404,7 +404,7 @@
     "year": 102,
     "number": 22,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -426,7 +426,7 @@
     "year": 102,
     "number": 23,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -448,7 +448,7 @@
     "year": 102,
     "number": 24,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -470,7 +470,7 @@
     "year": 102,
     "number": 25,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -492,7 +492,7 @@
     "year": 102,
     "number": 26,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "對話理解"
     ],
@@ -514,7 +514,7 @@
     "year": 102,
     "number": 27,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -536,7 +536,7 @@
     "year": 102,
     "number": 28,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解",
       "未來式"
@@ -559,7 +559,7 @@
     "year": 102,
     "number": 29,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -581,7 +581,7 @@
     "year": 102,
     "number": 30,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -603,7 +603,7 @@
     "year": 102,
     "number": 31,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "對話理解"
     ],
@@ -625,7 +625,7 @@
     "year": 102,
     "number": 32,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -647,7 +647,7 @@
     "year": 102,
     "number": 33,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -669,7 +669,7 @@
     "year": 102,
     "number": 34,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -691,7 +691,7 @@
     "year": 102,
     "number": 35,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -713,7 +713,7 @@
     "year": 102,
     "number": 36,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -735,7 +735,7 @@
     "year": 102,
     "number": 37,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "閱讀推理",
       "主旨與細節"
@@ -758,7 +758,7 @@
     "year": 102,
     "number": 38,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -780,7 +780,7 @@
     "year": 102,
     "number": 39,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "詞義理解"
@@ -803,7 +803,7 @@
     "year": 102,
     "number": 40,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "詞義理解"
@@ -826,7 +826,7 @@
     "year": 102,
     "number": 41,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "主旨與細節"
@@ -849,7 +849,7 @@
     "year": 102,
     "number": 42,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -871,7 +871,7 @@
     "year": 102,
     "number": 43,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -893,7 +893,7 @@
     "year": 102,
     "number": 44,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -915,7 +915,7 @@
     "year": 102,
     "number": 45,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "主旨與細節"
@@ -938,7 +938,7 @@
     "year": 102,
     "number": 46,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -960,7 +960,7 @@
     "year": 102,
     "number": 47,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -982,7 +982,7 @@
     "year": 102,
     "number": 48,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "詞義理解"
@@ -1005,7 +1005,7 @@
     "year": 102,
     "number": 49,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -1027,7 +1027,7 @@
     "year": 102,
     "number": 50,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -1049,7 +1049,7 @@
     "year": 102,
     "number": 51,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -1071,7 +1071,7 @@
     "year": 102,
     "number": 52,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -1137,7 +1137,7 @@
     "year": 102,
     "number": 55,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -1159,7 +1159,7 @@
     "year": 102,
     "number": 56,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -1181,7 +1181,7 @@
     "year": 102,
     "number": 57,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "主旨與細節"
@@ -1204,7 +1204,7 @@
     "year": 102,
     "number": 58,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "主旨與細節"
@@ -1227,7 +1227,7 @@
     "year": 102,
     "number": 59,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "主旨與細節"
@@ -1250,7 +1250,7 @@
     "year": 102,
     "number": 60,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "主旨與細節"
@@ -1652,7 +1652,7 @@
     "year": 103,
     "number": 21,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -1674,7 +1674,7 @@
     "year": 103,
     "number": 22,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -1696,7 +1696,7 @@
     "year": 103,
     "number": 23,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解",
       "過去式"
@@ -1719,7 +1719,7 @@
     "year": 103,
     "number": 24,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -1741,7 +1741,7 @@
     "year": 103,
     "number": 25,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解",
       "未來式"
@@ -1764,7 +1764,7 @@
     "year": 103,
     "number": 26,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -1786,7 +1786,7 @@
     "year": 103,
     "number": 27,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -1808,7 +1808,7 @@
     "year": 103,
     "number": 28,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -1830,7 +1830,7 @@
     "year": 103,
     "number": 29,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -1852,7 +1852,7 @@
     "year": 103,
     "number": 30,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -1874,7 +1874,7 @@
     "year": 103,
     "number": 31,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -1896,7 +1896,7 @@
     "year": 103,
     "number": 32,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -1918,7 +1918,7 @@
     "year": 103,
     "number": 33,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -1940,7 +1940,7 @@
     "year": 103,
     "number": 34,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -1962,7 +1962,7 @@
     "year": 103,
     "number": 35,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -1984,7 +1984,7 @@
     "year": 103,
     "number": 36,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "對話理解",
       "過去式"
@@ -2030,7 +2030,7 @@
     "year": 103,
     "number": 38,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -2052,7 +2052,7 @@
     "year": 103,
     "number": 39,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -2074,7 +2074,7 @@
     "year": 103,
     "number": 40,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解",
       "過去式"
@@ -2097,7 +2097,7 @@
     "year": 103,
     "number": 41,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -2119,7 +2119,7 @@
     "year": 103,
     "number": 42,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解",
       "過去式"
@@ -2142,7 +2142,7 @@
     "year": 103,
     "number": 43,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解",
       "過去式"
@@ -2165,7 +2165,7 @@
     "year": 103,
     "number": 44,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解",
       "過去式"
@@ -2188,7 +2188,7 @@
     "year": 103,
     "number": 45,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解",
       "過去式"
@@ -2211,7 +2211,7 @@
     "year": 103,
     "number": 46,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解",
       "過去式"
@@ -2234,7 +2234,7 @@
     "year": 103,
     "number": 47,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解",
       "過去式"
@@ -2257,7 +2257,7 @@
     "year": 103,
     "number": 48,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解",
       "過去式"
@@ -2280,7 +2280,7 @@
     "year": 103,
     "number": 49,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解",
       "過去式"
@@ -2303,7 +2303,7 @@
     "year": 103,
     "number": 50,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -2325,7 +2325,7 @@
     "year": 103,
     "number": 51,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解",
       "過去式"
@@ -2348,7 +2348,7 @@
     "year": 103,
     "number": 52,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解",
       "過去式"
@@ -2371,7 +2371,7 @@
     "year": 103,
     "number": 53,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解",
       "過去式"
@@ -2394,7 +2394,7 @@
     "year": 103,
     "number": 54,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -2416,7 +2416,7 @@
     "year": 103,
     "number": 55,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -2438,7 +2438,7 @@
     "year": 103,
     "number": 56,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -2460,7 +2460,7 @@
     "year": 103,
     "number": 57,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解",
       "過去式"
@@ -2483,7 +2483,7 @@
     "year": 103,
     "number": 58,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解",
       "過去式"
@@ -2506,7 +2506,7 @@
     "year": 103,
     "number": 59,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解",
       "過去式"
@@ -2529,7 +2529,7 @@
     "year": 103,
     "number": 60,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解",
       "過去式"
@@ -2574,7 +2574,7 @@
     "year": 104,
     "number": 2,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -2596,7 +2596,7 @@
     "year": 104,
     "number": 3,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -2618,7 +2618,7 @@
     "year": 104,
     "number": 4,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -2640,7 +2640,7 @@
     "year": 104,
     "number": 5,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -2662,7 +2662,7 @@
     "year": 104,
     "number": 6,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -2684,7 +2684,7 @@
     "year": 104,
     "number": 7,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -2706,7 +2706,7 @@
     "year": 104,
     "number": 8,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -2728,7 +2728,7 @@
     "year": 104,
     "number": 9,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -2750,7 +2750,7 @@
     "year": 104,
     "number": 10,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -2772,7 +2772,7 @@
     "year": 104,
     "number": 11,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -2794,7 +2794,7 @@
     "year": 104,
     "number": 12,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -2816,7 +2816,7 @@
     "year": 104,
     "number": 13,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -2838,7 +2838,7 @@
     "year": 104,
     "number": 14,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "對話理解"
     ],
@@ -2860,7 +2860,7 @@
     "year": 104,
     "number": 15,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "對話理解"
     ],
@@ -2882,7 +2882,7 @@
     "year": 104,
     "number": 16,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -2904,7 +2904,7 @@
     "year": 104,
     "number": 17,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -2926,7 +2926,7 @@
     "year": 104,
     "number": 18,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -2948,7 +2948,7 @@
     "year": 104,
     "number": 19,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -2970,7 +2970,7 @@
     "year": 104,
     "number": 20,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解",
       "未來式"
@@ -2993,7 +2993,7 @@
     "year": 104,
     "number": 21,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -3015,7 +3015,7 @@
     "year": 104,
     "number": 22,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -3037,7 +3037,7 @@
     "year": 104,
     "number": 23,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -3059,7 +3059,7 @@
     "year": 104,
     "number": 24,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -3081,7 +3081,7 @@
     "year": 104,
     "number": 25,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -3103,7 +3103,7 @@
     "year": 104,
     "number": 26,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -3125,7 +3125,7 @@
     "year": 104,
     "number": 27,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -3147,7 +3147,7 @@
     "year": 104,
     "number": 28,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -3169,7 +3169,7 @@
     "year": 104,
     "number": 29,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "對話理解"
     ],
@@ -3191,7 +3191,7 @@
     "year": 104,
     "number": 30,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -3213,7 +3213,7 @@
     "year": 104,
     "number": 31,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -3235,7 +3235,7 @@
     "year": 104,
     "number": 32,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -3257,7 +3257,7 @@
     "year": 104,
     "number": 33,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "對話理解"
     ],
@@ -3279,7 +3279,7 @@
     "year": 104,
     "number": 34,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -3301,7 +3301,7 @@
     "year": 104,
     "number": 35,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -3323,7 +3323,7 @@
     "year": 104,
     "number": 36,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -3345,7 +3345,7 @@
     "year": 104,
     "number": 37,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -3367,7 +3367,7 @@
     "year": 104,
     "number": 38,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "對話理解"
     ],
@@ -3389,7 +3389,7 @@
     "year": 104,
     "number": 39,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -3411,7 +3411,7 @@
     "year": 104,
     "number": 40,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -3433,7 +3433,7 @@
     "year": 105,
     "number": 1,
     "type": "vocabulary",
-    "difficulty": "basic",
+    "difficulty": null,
     "concepts": [
       "詞義理解",
       "現在式"
@@ -3456,7 +3456,7 @@
     "year": 105,
     "number": 2,
     "type": "grammar",
-    "difficulty": "basic",
+    "difficulty": "medium",
     "concepts": [
       "現在式",
       "介係詞",
@@ -3480,7 +3480,7 @@
     "year": 105,
     "number": 3,
     "type": "grammar",
-    "difficulty": "basic",
+    "difficulty": "medium",
     "concepts": [
       "現在式",
       "介係詞",
@@ -3527,7 +3527,7 @@
     "year": 105,
     "number": 5,
     "type": "vocabulary",
-    "difficulty": "basic",
+    "difficulty": "medium",
     "concepts": [
       "詞義理解",
       "現在式"
@@ -3550,7 +3550,7 @@
     "year": 105,
     "number": 6,
     "type": "vocabulary",
-    "difficulty": "basic",
+    "difficulty": "medium",
     "concepts": [
       "詞義理解",
       "現在完成式"
@@ -3573,7 +3573,7 @@
     "year": 105,
     "number": 7,
     "type": "grammar",
-    "difficulty": "basic",
+    "difficulty": "medium",
     "concepts": [
       "現在完成式",
       "介係詞",
@@ -3645,7 +3645,7 @@
     "year": 105,
     "number": 10,
     "type": "grammar",
-    "difficulty": "basic",
+    "difficulty": "medium",
     "concepts": [
       "現在完成式",
       "代名詞"
@@ -3668,7 +3668,7 @@
     "year": 105,
     "number": 11,
     "type": "grammar",
-    "difficulty": "basic",
+    "difficulty": "medium",
     "concepts": [
       "現在式",
       "介係詞",
@@ -3692,7 +3692,7 @@
     "year": 105,
     "number": 12,
     "type": "vocabulary",
-    "difficulty": "medium",
+    "difficulty": "basic",
     "concepts": [
       "詞義理解",
       "過去式"
@@ -3715,7 +3715,7 @@
     "year": 105,
     "number": 13,
     "type": "vocabulary",
-    "difficulty": "medium",
+    "difficulty": "basic",
     "concepts": [
       "詞義理解",
       "過去式"
@@ -3738,7 +3738,7 @@
     "year": 105,
     "number": 14,
     "type": "vocabulary",
-    "difficulty": "medium",
+    "difficulty": "basic",
     "concepts": [
       "詞義理解",
       "過去式"
@@ -3761,7 +3761,7 @@
     "year": 105,
     "number": 15,
     "type": "grammar",
-    "difficulty": "medium",
+    "difficulty": "basic",
     "concepts": [
       "現在完成式",
       "介係詞",
@@ -3829,7 +3829,7 @@
     "year": 105,
     "number": 18,
     "type": "reading",
-    "difficulty": "medium",
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -3897,7 +3897,7 @@
     "year": 105,
     "number": 21,
     "type": "reading",
-    "difficulty": "medium",
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -3963,7 +3963,7 @@
     "year": 105,
     "number": 24,
     "type": "reading",
-    "difficulty": "difficult",
+    "difficulty": "basic",
     "concepts": [
       "閱讀推理"
     ],
@@ -3985,7 +3985,7 @@
     "year": 105,
     "number": 25,
     "type": "reading",
-    "difficulty": "medium",
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "詞義理解"
@@ -4052,7 +4052,7 @@
     "year": 105,
     "number": 28,
     "type": "reading",
-    "difficulty": "medium",
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "詞義理解"
@@ -4075,7 +4075,7 @@
     "year": 105,
     "number": 29,
     "type": "reading",
-    "difficulty": "medium",
+    "difficulty": "basic",
     "concepts": [
       "閱讀推理",
       "詞義理解"
@@ -4098,7 +4098,7 @@
     "year": 105,
     "number": 30,
     "type": "reading",
-    "difficulty": "medium",
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -4142,7 +4142,7 @@
     "year": 105,
     "number": 32,
     "type": "reading",
-    "difficulty": "medium",
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -4164,7 +4164,7 @@
     "year": 105,
     "number": 33,
     "type": "reading",
-    "difficulty": "medium",
+    "difficulty": null,
     "concepts": [
       "閱讀推理"
     ],
@@ -4186,7 +4186,7 @@
     "year": 105,
     "number": 34,
     "type": "reading",
-    "difficulty": "basic",
+    "difficulty": "medium",
     "concepts": [
       "閱讀推理"
     ],
@@ -4208,7 +4208,7 @@
     "year": 105,
     "number": 35,
     "type": "cloze",
-    "difficulty": "medium",
+    "difficulty": "difficult",
     "concepts": [
       "克漏字",
       "現在式"
@@ -4231,7 +4231,7 @@
     "year": 105,
     "number": 36,
     "type": "cloze",
-    "difficulty": "medium",
+    "difficulty": "basic",
     "concepts": [
       "克漏字",
       "現在式"
@@ -4277,7 +4277,7 @@
     "year": 105,
     "number": 38,
     "type": "cloze",
-    "difficulty": "medium",
+    "difficulty": "basic",
     "concepts": [
       "克漏字",
       "現在式"
@@ -4300,7 +4300,7 @@
     "year": 105,
     "number": 39,
     "type": "reading",
-    "difficulty": "medium",
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -4344,7 +4344,7 @@
     "year": 105,
     "number": 41,
     "type": "reading",
-    "difficulty": "difficult",
+    "difficulty": "medium",
     "concepts": [
       "閱讀推理"
     ],
@@ -4388,7 +4388,7 @@
     "year": 106,
     "number": 2,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -4410,7 +4410,7 @@
     "year": 106,
     "number": 3,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -4432,7 +4432,7 @@
     "year": 106,
     "number": 4,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -4454,7 +4454,7 @@
     "year": 106,
     "number": 5,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -4476,7 +4476,7 @@
     "year": 106,
     "number": 6,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -4498,7 +4498,7 @@
     "year": 106,
     "number": 7,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -4520,7 +4520,7 @@
     "year": 106,
     "number": 8,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -4542,7 +4542,7 @@
     "year": 106,
     "number": 9,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解",
       "未來式"
@@ -4565,7 +4565,7 @@
     "year": 106,
     "number": 10,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -4587,7 +4587,7 @@
     "year": 106,
     "number": 11,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解",
       "未來式"
@@ -4610,7 +4610,7 @@
     "year": 106,
     "number": 12,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "對話理解"
     ],
@@ -4632,7 +4632,7 @@
     "year": 106,
     "number": 13,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -4654,7 +4654,7 @@
     "year": 106,
     "number": 14,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "對話理解",
       "未來式"
@@ -4677,7 +4677,7 @@
     "year": 106,
     "number": 15,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -4699,7 +4699,7 @@
     "year": 106,
     "number": 16,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -4721,7 +4721,7 @@
     "year": 106,
     "number": 17,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解",
       "過去式"
@@ -4744,7 +4744,7 @@
     "year": 106,
     "number": 18,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -4766,7 +4766,7 @@
     "year": 106,
     "number": 19,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -4788,7 +4788,7 @@
     "year": 106,
     "number": 20,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -4810,7 +4810,7 @@
     "year": 106,
     "number": 21,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -4832,7 +4832,7 @@
     "year": 106,
     "number": 22,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "詞義理解"
@@ -4855,7 +4855,7 @@
     "year": 106,
     "number": 23,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "詞義理解"
@@ -4878,7 +4878,7 @@
     "year": 106,
     "number": 24,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -4900,7 +4900,7 @@
     "year": 106,
     "number": 25,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -4922,7 +4922,7 @@
     "year": 106,
     "number": 26,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "詞義理解"
@@ -4945,7 +4945,7 @@
     "year": 106,
     "number": 27,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "詞義理解"
@@ -4990,7 +4990,7 @@
     "year": 106,
     "number": 29,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "閱讀推理"
     ],
@@ -5034,7 +5034,7 @@
     "year": 106,
     "number": 31,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "詞義理解"
@@ -5057,7 +5057,7 @@
     "year": 106,
     "number": 32,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -5102,7 +5102,7 @@
     "year": 106,
     "number": 34,
     "type": "cloze",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "克漏字",
       "現在完成式"
@@ -5125,7 +5125,7 @@
     "year": 106,
     "number": 35,
     "type": "cloze",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "克漏字",
       "現在完成式"
@@ -5148,7 +5148,7 @@
     "year": 106,
     "number": 36,
     "type": "cloze",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "克漏字",
       "現在式"
@@ -5171,7 +5171,7 @@
     "year": 106,
     "number": 37,
     "type": "cloze",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "克漏字",
       "現在式"
@@ -5194,7 +5194,7 @@
     "year": 106,
     "number": 38,
     "type": "cloze",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "克漏字",
       "現在式"
@@ -5217,7 +5217,7 @@
     "year": 106,
     "number": 39,
     "type": "cloze",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "克漏字",
       "現在完成式"
@@ -5240,7 +5240,7 @@
     "year": 106,
     "number": 40,
     "type": "cloze",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "克漏字",
       "現在式"
@@ -5263,7 +5263,7 @@
     "year": 106,
     "number": 41,
     "type": "cloze",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "克漏字",
       "現在式"
@@ -5308,7 +5308,7 @@
     "year": 107,
     "number": 2,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -5330,7 +5330,7 @@
     "year": 107,
     "number": 3,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -5352,7 +5352,7 @@
     "year": 107,
     "number": 4,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -5374,7 +5374,7 @@
     "year": 107,
     "number": 5,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -5396,7 +5396,7 @@
     "year": 107,
     "number": 6,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -5418,7 +5418,7 @@
     "year": 107,
     "number": 7,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -5440,7 +5440,7 @@
     "year": 107,
     "number": 8,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -5462,7 +5462,7 @@
     "year": 107,
     "number": 9,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解",
       "未來式"
@@ -5485,7 +5485,7 @@
     "year": 107,
     "number": 10,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解",
       "過去式"
@@ -5508,7 +5508,7 @@
     "year": 107,
     "number": 11,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -5530,7 +5530,7 @@
     "year": 107,
     "number": 12,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -5552,7 +5552,7 @@
     "year": 107,
     "number": 13,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -5574,7 +5574,7 @@
     "year": 107,
     "number": 14,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解",
       "未來式"
@@ -5597,7 +5597,7 @@
     "year": 107,
     "number": 15,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -5619,7 +5619,7 @@
     "year": 107,
     "number": 16,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -5641,7 +5641,7 @@
     "year": 107,
     "number": 17,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -5663,7 +5663,7 @@
     "year": 107,
     "number": 18,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -5685,7 +5685,7 @@
     "year": 107,
     "number": 19,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "主旨與細節"
@@ -5708,7 +5708,7 @@
     "year": 107,
     "number": 20,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "主旨與細節"
@@ -5731,7 +5731,7 @@
     "year": 107,
     "number": 21,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "主旨與細節"
@@ -5754,7 +5754,7 @@
     "year": 107,
     "number": 22,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -5776,7 +5776,7 @@
     "year": 107,
     "number": 23,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "閱讀推理"
     ],
@@ -5798,7 +5798,7 @@
     "year": 107,
     "number": 24,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "閱讀推理",
       "詞義理解"
@@ -5821,7 +5821,7 @@
     "year": 107,
     "number": 25,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "閱讀推理"
     ],
@@ -5843,7 +5843,7 @@
     "year": 107,
     "number": 26,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "閱讀推理"
     ],
@@ -5865,7 +5865,7 @@
     "year": 107,
     "number": 27,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "閱讀推理"
     ],
@@ -5887,7 +5887,7 @@
     "year": 107,
     "number": 28,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -5909,7 +5909,7 @@
     "year": 107,
     "number": 29,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -5931,7 +5931,7 @@
     "year": 107,
     "number": 30,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "閱讀推理"
     ],
@@ -5953,7 +5953,7 @@
     "year": 107,
     "number": 31,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "閱讀推理"
     ],
@@ -5975,7 +5975,7 @@
     "year": 107,
     "number": 32,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "主旨與細節"
@@ -5998,7 +5998,7 @@
     "year": 107,
     "number": 33,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "閱讀推理"
     ],
@@ -6020,7 +6020,7 @@
     "year": 107,
     "number": 34,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "閱讀推理"
     ],
@@ -6042,7 +6042,7 @@
     "year": 107,
     "number": 35,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -6064,7 +6064,7 @@
     "year": 107,
     "number": 36,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "閱讀推理"
     ],
@@ -6086,7 +6086,7 @@
     "year": 107,
     "number": 37,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "閱讀推理"
     ],
@@ -6108,7 +6108,7 @@
     "year": 107,
     "number": 38,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -6130,7 +6130,7 @@
     "year": 107,
     "number": 39,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "閱讀推理"
     ],
@@ -6152,7 +6152,7 @@
     "year": 107,
     "number": 40,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -6174,7 +6174,7 @@
     "year": 107,
     "number": 41,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -6218,7 +6218,7 @@
     "year": 108,
     "number": 2,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -6240,7 +6240,7 @@
     "year": 108,
     "number": 3,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -6262,7 +6262,7 @@
     "year": 108,
     "number": 4,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -6284,7 +6284,7 @@
     "year": 108,
     "number": 5,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解",
       "過去式"
@@ -6307,7 +6307,7 @@
     "year": 108,
     "number": 6,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -6329,7 +6329,7 @@
     "year": 108,
     "number": 7,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解",
       "過去式"
@@ -6352,7 +6352,7 @@
     "year": 108,
     "number": 8,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -6374,7 +6374,7 @@
     "year": 108,
     "number": 9,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -6396,7 +6396,7 @@
     "year": 108,
     "number": 10,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -6418,7 +6418,7 @@
     "year": 108,
     "number": 11,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解",
       "過去式"
@@ -6441,7 +6441,7 @@
     "year": 108,
     "number": 12,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -6463,7 +6463,7 @@
     "year": 108,
     "number": 13,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -6485,7 +6485,7 @@
     "year": 108,
     "number": 14,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -6507,7 +6507,7 @@
     "year": 108,
     "number": 15,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -6529,7 +6529,7 @@
     "year": 108,
     "number": 16,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "詞義理解"
@@ -6552,7 +6552,7 @@
     "year": 108,
     "number": 17,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "閱讀推理"
     ],
@@ -6574,7 +6574,7 @@
     "year": 108,
     "number": 18,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "主旨與細節"
@@ -6597,7 +6597,7 @@
     "year": 108,
     "number": 19,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "閱讀推理",
       "主旨與細節"
@@ -6620,7 +6620,7 @@
     "year": 108,
     "number": 20,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -6642,7 +6642,7 @@
     "year": 108,
     "number": 21,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "閱讀推理",
       "詞義理解"
@@ -6665,7 +6665,7 @@
     "year": 108,
     "number": 22,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "閱讀推理"
     ],
@@ -6687,7 +6687,7 @@
     "year": 108,
     "number": 23,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -6709,7 +6709,7 @@
     "year": 108,
     "number": 24,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "閱讀推理",
       "詞義理解"
@@ -6732,7 +6732,7 @@
     "year": 108,
     "number": 25,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "閱讀推理"
     ],
@@ -6754,7 +6754,7 @@
     "year": 108,
     "number": 26,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -6776,7 +6776,7 @@
     "year": 108,
     "number": 27,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "閱讀推理",
       "詞義理解"
@@ -6799,7 +6799,7 @@
     "year": 108,
     "number": 28,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "閱讀推理"
     ],
@@ -6821,7 +6821,7 @@
     "year": 108,
     "number": 29,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -6843,7 +6843,7 @@
     "year": 108,
     "number": 30,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "詞義理解"
@@ -6866,7 +6866,7 @@
     "year": 108,
     "number": 31,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "閱讀推理"
     ],
@@ -6888,7 +6888,7 @@
     "year": 108,
     "number": 32,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -6910,7 +6910,7 @@
     "year": 108,
     "number": 33,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "詞義理解"
@@ -6933,7 +6933,7 @@
     "year": 108,
     "number": 34,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "閱讀推理",
       "詞義理解"
@@ -6978,7 +6978,7 @@
     "year": 108,
     "number": 36,
     "type": "cloze",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "克漏字",
       "現在完成式"
@@ -7001,7 +7001,7 @@
     "year": 108,
     "number": 37,
     "type": "cloze",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "克漏字",
       "現在完成式"
@@ -7024,7 +7024,7 @@
     "year": 108,
     "number": 38,
     "type": "cloze",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "克漏字",
       "現在完成式"
@@ -7047,7 +7047,7 @@
     "year": 108,
     "number": 39,
     "type": "cloze",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "克漏字",
       "現在完成式"
@@ -7070,7 +7070,7 @@
     "year": 108,
     "number": 40,
     "type": "cloze",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "克漏字",
       "現在式"
@@ -7093,7 +7093,7 @@
     "year": 108,
     "number": 41,
     "type": "cloze",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "克漏字",
       "現在完成式"
@@ -7138,7 +7138,7 @@
     "year": 109,
     "number": 2,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -7160,7 +7160,7 @@
     "year": 109,
     "number": 3,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -7182,7 +7182,7 @@
     "year": 109,
     "number": 4,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -7204,7 +7204,7 @@
     "year": 109,
     "number": 5,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -7226,7 +7226,7 @@
     "year": 109,
     "number": 6,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解",
       "未來式"
@@ -7249,7 +7249,7 @@
     "year": 109,
     "number": 7,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -7271,7 +7271,7 @@
     "year": 109,
     "number": 8,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -7293,7 +7293,7 @@
     "year": 109,
     "number": 9,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -7315,7 +7315,7 @@
     "year": 109,
     "number": 10,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解",
       "未來式"
@@ -7338,7 +7338,7 @@
     "year": 109,
     "number": 11,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -7360,7 +7360,7 @@
     "year": 109,
     "number": 12,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -7382,7 +7382,7 @@
     "year": 109,
     "number": 13,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -7404,7 +7404,7 @@
     "year": 109,
     "number": 14,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -7426,7 +7426,7 @@
     "year": 109,
     "number": 15,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -7448,7 +7448,7 @@
     "year": 109,
     "number": 16,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -7470,7 +7470,7 @@
     "year": 109,
     "number": 17,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -7492,7 +7492,7 @@
     "year": 109,
     "number": 18,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -7514,7 +7514,7 @@
     "year": 109,
     "number": 19,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -7536,7 +7536,7 @@
     "year": 109,
     "number": 20,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "閱讀推理",
       "主旨與細節"
@@ -7559,7 +7559,7 @@
     "year": 109,
     "number": 21,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "閱讀推理"
     ],
@@ -7603,7 +7603,7 @@
     "year": 109,
     "number": 23,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "詞義理解"
@@ -7626,7 +7626,7 @@
     "year": 109,
     "number": 24,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "主旨與細節"
@@ -7649,7 +7649,7 @@
     "year": 109,
     "number": 25,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "詞義理解"
@@ -7672,7 +7672,7 @@
     "year": 109,
     "number": 26,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "詞義理解"
@@ -7695,7 +7695,7 @@
     "year": 109,
     "number": 27,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "詞義理解"
@@ -7718,7 +7718,7 @@
     "year": 109,
     "number": 28,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -7740,7 +7740,7 @@
     "year": 109,
     "number": 29,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -7762,7 +7762,7 @@
     "year": 109,
     "number": 30,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -7784,7 +7784,7 @@
     "year": 109,
     "number": 31,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -7806,7 +7806,7 @@
     "year": 109,
     "number": 32,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "詞義理解"
@@ -7829,7 +7829,7 @@
     "year": 109,
     "number": 33,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "詞義理解"
@@ -7852,7 +7852,7 @@
     "year": 109,
     "number": 34,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "詞義理解"
@@ -7875,7 +7875,7 @@
     "year": 109,
     "number": 35,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -7897,7 +7897,7 @@
     "year": 109,
     "number": 36,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -7919,7 +7919,7 @@
     "year": 109,
     "number": 37,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -7941,7 +7941,7 @@
     "year": 109,
     "number": 38,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -7963,7 +7963,7 @@
     "year": 109,
     "number": 39,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -7985,7 +7985,7 @@
     "year": 109,
     "number": 40,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -8007,7 +8007,7 @@
     "year": 109,
     "number": 41,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -8051,7 +8051,7 @@
     "year": 110,
     "number": 2,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -8073,7 +8073,7 @@
     "year": 110,
     "number": 3,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -8095,7 +8095,7 @@
     "year": 110,
     "number": 4,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -8117,7 +8117,7 @@
     "year": 110,
     "number": 5,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解",
       "過去式"
@@ -8140,7 +8140,7 @@
     "year": 110,
     "number": 6,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -8162,7 +8162,7 @@
     "year": 110,
     "number": 7,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -8184,7 +8184,7 @@
     "year": 110,
     "number": 8,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -8206,7 +8206,7 @@
     "year": 110,
     "number": 9,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -8228,7 +8228,7 @@
     "year": 110,
     "number": 10,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -8250,7 +8250,7 @@
     "year": 110,
     "number": 11,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -8272,7 +8272,7 @@
     "year": 110,
     "number": 12,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -8294,7 +8294,7 @@
     "year": 110,
     "number": 13,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -8316,7 +8316,7 @@
     "year": 110,
     "number": 14,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -8338,7 +8338,7 @@
     "year": 110,
     "number": 15,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -8360,7 +8360,7 @@
     "year": 110,
     "number": 16,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解",
       "未來式"
@@ -8383,7 +8383,7 @@
     "year": 110,
     "number": 17,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -8405,7 +8405,7 @@
     "year": 110,
     "number": 18,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -8427,7 +8427,7 @@
     "year": 110,
     "number": 19,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -8471,7 +8471,7 @@
     "year": 110,
     "number": 21,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -8493,7 +8493,7 @@
     "year": 110,
     "number": 22,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -8515,7 +8515,7 @@
     "year": 110,
     "number": 23,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -8537,7 +8537,7 @@
     "year": 110,
     "number": 24,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -8559,7 +8559,7 @@
     "year": 110,
     "number": 25,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -8581,7 +8581,7 @@
     "year": 110,
     "number": 26,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -8603,7 +8603,7 @@
     "year": 110,
     "number": 27,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -8625,7 +8625,7 @@
     "year": 110,
     "number": 28,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -8647,7 +8647,7 @@
     "year": 110,
     "number": 29,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -8669,7 +8669,7 @@
     "year": 110,
     "number": 30,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -8691,7 +8691,7 @@
     "year": 110,
     "number": 31,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -8713,7 +8713,7 @@
     "year": 110,
     "number": 32,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -8735,7 +8735,7 @@
     "year": 110,
     "number": 33,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -8757,7 +8757,7 @@
     "year": 110,
     "number": 34,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "對話理解"
     ],
@@ -8779,7 +8779,7 @@
     "year": 110,
     "number": 35,
     "type": "cloze",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "克漏字",
       "過去式"
@@ -8802,7 +8802,7 @@
     "year": 110,
     "number": 36,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -8824,7 +8824,7 @@
     "year": 110,
     "number": 37,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -8846,7 +8846,7 @@
     "year": 110,
     "number": 38,
     "type": "cloze",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "克漏字",
       "過去式"
@@ -8869,7 +8869,7 @@
     "year": 110,
     "number": 39,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -8891,7 +8891,7 @@
     "year": 110,
     "number": 40,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -8913,7 +8913,7 @@
     "year": 110,
     "number": 41,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -8957,7 +8957,7 @@
     "year": 111,
     "number": 2,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -8979,7 +8979,7 @@
     "year": 111,
     "number": 3,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -9001,7 +9001,7 @@
     "year": 111,
     "number": 4,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -9023,7 +9023,7 @@
     "year": 111,
     "number": 5,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -9045,7 +9045,7 @@
     "year": 111,
     "number": 6,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -9067,7 +9067,7 @@
     "year": 111,
     "number": 7,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -9089,7 +9089,7 @@
     "year": 111,
     "number": 8,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -9111,7 +9111,7 @@
     "year": 111,
     "number": 9,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -9133,7 +9133,7 @@
     "year": 111,
     "number": 10,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -9155,7 +9155,7 @@
     "year": 111,
     "number": 11,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -9177,7 +9177,7 @@
     "year": 111,
     "number": 12,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解",
       "未來式"
@@ -9200,7 +9200,7 @@
     "year": 111,
     "number": 13,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解",
       "過去式"
@@ -9223,7 +9223,7 @@
     "year": 111,
     "number": 14,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -9245,7 +9245,7 @@
     "year": 111,
     "number": 15,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -9267,7 +9267,7 @@
     "year": 111,
     "number": 16,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -9289,7 +9289,7 @@
     "year": 111,
     "number": 17,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -9311,7 +9311,7 @@
     "year": 111,
     "number": 18,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -9333,7 +9333,7 @@
     "year": 111,
     "number": 19,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -9355,7 +9355,7 @@
     "year": 111,
     "number": 20,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -9394,7 +9394,7 @@
     "year": 111,
     "number": 22,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -9416,7 +9416,7 @@
     "year": 111,
     "number": 23,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -9438,7 +9438,7 @@
     "year": 111,
     "number": 24,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -9460,7 +9460,7 @@
     "year": 111,
     "number": 25,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "對話理解",
       "過去式"
@@ -9483,7 +9483,7 @@
     "year": 111,
     "number": 26,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -9522,7 +9522,7 @@
     "year": 111,
     "number": 28,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "對話理解"
     ],
@@ -9544,7 +9544,7 @@
     "year": 111,
     "number": 29,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -9566,7 +9566,7 @@
     "year": 111,
     "number": 30,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -9588,7 +9588,7 @@
     "year": 111,
     "number": 31,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -9610,7 +9610,7 @@
     "year": 111,
     "number": 32,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -9632,7 +9632,7 @@
     "year": 111,
     "number": 33,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -9654,7 +9654,7 @@
     "year": 111,
     "number": 34,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -9676,7 +9676,7 @@
     "year": 111,
     "number": 35,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "對話理解"
     ],
@@ -9698,7 +9698,7 @@
     "year": 111,
     "number": 36,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -9720,7 +9720,7 @@
     "year": 111,
     "number": 37,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -9742,7 +9742,7 @@
     "year": 111,
     "number": 38,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -9787,7 +9787,7 @@
     "year": 111,
     "number": 40,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "閱讀推理"
     ],
@@ -9804,7 +9804,7 @@
     "year": 111,
     "number": 40,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -9826,7 +9826,7 @@
     "year": 111,
     "number": 41,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "對話理解"
     ],
@@ -9848,7 +9848,7 @@
     "year": 111,
     "number": 42,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -9870,7 +9870,7 @@
     "year": 111,
     "number": 43,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -9914,7 +9914,7 @@
     "year": 112,
     "number": 2,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -9936,7 +9936,7 @@
     "year": 112,
     "number": 3,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -9958,7 +9958,7 @@
     "year": 112,
     "number": 4,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -9980,7 +9980,7 @@
     "year": 112,
     "number": 5,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -10002,7 +10002,7 @@
     "year": 112,
     "number": 6,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -10024,7 +10024,7 @@
     "year": 112,
     "number": 7,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -10046,7 +10046,7 @@
     "year": 112,
     "number": 8,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -10068,7 +10068,7 @@
     "year": 112,
     "number": 9,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -10090,7 +10090,7 @@
     "year": 112,
     "number": 10,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -10112,7 +10112,7 @@
     "year": 112,
     "number": 11,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -10134,7 +10134,7 @@
     "year": 112,
     "number": 12,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -10156,7 +10156,7 @@
     "year": 112,
     "number": 13,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -10178,7 +10178,7 @@
     "year": 112,
     "number": 14,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -10200,7 +10200,7 @@
     "year": 112,
     "number": 15,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -10222,7 +10222,7 @@
     "year": 112,
     "number": 16,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -10244,7 +10244,7 @@
     "year": 112,
     "number": 17,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -10266,7 +10266,7 @@
     "year": 112,
     "number": 18,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -10288,7 +10288,7 @@
     "year": 112,
     "number": 19,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -10310,7 +10310,7 @@
     "year": 112,
     "number": 20,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -10332,7 +10332,7 @@
     "year": 112,
     "number": 21,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解",
       "未來式"
@@ -10355,7 +10355,7 @@
     "year": 112,
     "number": 22,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -10377,7 +10377,7 @@
     "year": 112,
     "number": 23,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -10399,7 +10399,7 @@
     "year": 112,
     "number": 24,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -10421,7 +10421,7 @@
     "year": 112,
     "number": 25,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -10443,7 +10443,7 @@
     "year": 112,
     "number": 26,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解",
       "未來式"
@@ -10466,7 +10466,7 @@
     "year": 112,
     "number": 27,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解",
       "未來式"
@@ -10489,7 +10489,7 @@
     "year": 112,
     "number": 28,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -10511,7 +10511,7 @@
     "year": 112,
     "number": 29,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -10533,7 +10533,7 @@
     "year": 112,
     "number": 30,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -10555,7 +10555,7 @@
     "year": 112,
     "number": 31,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -10577,7 +10577,7 @@
     "year": 112,
     "number": 32,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -10599,7 +10599,7 @@
     "year": 112,
     "number": 33,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -10621,7 +10621,7 @@
     "year": 112,
     "number": 34,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -10643,7 +10643,7 @@
     "year": 112,
     "number": 35,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -10665,7 +10665,7 @@
     "year": 112,
     "number": 36,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解",
       "未來式"
@@ -10688,7 +10688,7 @@
     "year": 112,
     "number": 37,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -10710,7 +10710,7 @@
     "year": 112,
     "number": 38,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -10732,7 +10732,7 @@
     "year": 112,
     "number": 39,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -10754,7 +10754,7 @@
     "year": 112,
     "number": 40,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -10776,7 +10776,7 @@
     "year": 112,
     "number": 41,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -10798,7 +10798,7 @@
     "year": 112,
     "number": 42,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -10820,7 +10820,7 @@
     "year": 112,
     "number": 43,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -10864,7 +10864,7 @@
     "year": 113,
     "number": 2,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -10886,7 +10886,7 @@
     "year": 113,
     "number": 3,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解",
       "過去式"
@@ -10909,7 +10909,7 @@
     "year": 113,
     "number": 4,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解",
       "過去式"
@@ -10932,7 +10932,7 @@
     "year": 113,
     "number": 5,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -10954,7 +10954,7 @@
     "year": 113,
     "number": 6,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -10976,7 +10976,7 @@
     "year": 113,
     "number": 7,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -10998,7 +10998,7 @@
     "year": 113,
     "number": 8,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -11020,7 +11020,7 @@
     "year": 113,
     "number": 9,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -11042,7 +11042,7 @@
     "year": 113,
     "number": 10,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -11064,7 +11064,7 @@
     "year": 113,
     "number": 11,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解",
       "未來式"
@@ -11087,7 +11087,7 @@
     "year": 113,
     "number": 12,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -11109,7 +11109,7 @@
     "year": 113,
     "number": 13,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -11131,7 +11131,7 @@
     "year": 113,
     "number": 14,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -11153,7 +11153,7 @@
     "year": 113,
     "number": 15,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -11175,7 +11175,7 @@
     "year": 113,
     "number": 16,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -11197,7 +11197,7 @@
     "year": 113,
     "number": 17,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -11219,7 +11219,7 @@
     "year": 113,
     "number": 18,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -11241,7 +11241,7 @@
     "year": 113,
     "number": 19,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -11263,7 +11263,7 @@
     "year": 113,
     "number": 20,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解",
       "過去式"
@@ -11286,7 +11286,7 @@
     "year": 113,
     "number": 21,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "對話理解"
     ],
@@ -11308,7 +11308,7 @@
     "year": 113,
     "number": 22,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -11330,7 +11330,7 @@
     "year": 113,
     "number": 23,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -11352,7 +11352,7 @@
     "year": 113,
     "number": 24,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -11374,7 +11374,7 @@
     "year": 113,
     "number": 25,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "對話理解"
     ],
@@ -11396,7 +11396,7 @@
     "year": 113,
     "number": 26,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -11440,7 +11440,7 @@
     "year": 113,
     "number": 28,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -11462,7 +11462,7 @@
     "year": 113,
     "number": 29,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解"
     ],
@@ -11484,7 +11484,7 @@
     "year": 113,
     "number": 30,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -11506,7 +11506,7 @@
     "year": 113,
     "number": 31,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "對話理解"
     ],
@@ -11528,7 +11528,7 @@
     "year": 113,
     "number": 32,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "對話理解"
     ],
@@ -11550,7 +11550,7 @@
     "year": 113,
     "number": 33,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -11572,7 +11572,7 @@
     "year": 113,
     "number": 34,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "對話理解"
     ],
@@ -11594,7 +11594,7 @@
     "year": 113,
     "number": 35,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -11616,7 +11616,7 @@
     "year": 113,
     "number": 36,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "詞義理解"
@@ -11639,7 +11639,7 @@
     "year": 113,
     "number": 37,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "對話理解"
     ],
@@ -11661,7 +11661,7 @@
     "year": 113,
     "number": 38,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -11683,7 +11683,7 @@
     "year": 113,
     "number": 39,
     "type": "conversation",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "對話理解"
     ],
@@ -11705,7 +11705,7 @@
     "year": 113,
     "number": 40,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -11727,7 +11727,7 @@
     "year": 113,
     "number": 41,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解"
     ],
@@ -11749,7 +11749,7 @@
     "year": 113,
     "number": 42,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -11771,7 +11771,7 @@
     "year": 113,
     "number": 43,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解"
     ],
@@ -11816,7 +11816,7 @@
     "year": 114,
     "number": 2,
     "type": "grammar",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "現在完成式",
       "介係詞",
@@ -11840,7 +11840,7 @@
     "year": 114,
     "number": 3,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解",
       "現在式"
@@ -11863,7 +11863,7 @@
     "year": 114,
     "number": 4,
     "type": "grammar",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "現在完成式",
       "介係詞",
@@ -11887,7 +11887,7 @@
     "year": 114,
     "number": 5,
     "type": "grammar",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "未來式",
       "介係詞",
@@ -11911,7 +11911,7 @@
     "year": 114,
     "number": 6,
     "type": "grammar",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "現在式",
       "介係詞",
@@ -11935,7 +11935,7 @@
     "year": 114,
     "number": 7,
     "type": "grammar",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "現在完成式",
       "介係詞",
@@ -11959,7 +11959,7 @@
     "year": 114,
     "number": 8,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解",
       "現在完成式"
@@ -11982,7 +11982,7 @@
     "year": 114,
     "number": 9,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解",
       "現在完成式"
@@ -12005,7 +12005,7 @@
     "year": 114,
     "number": 10,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "詞義理解",
       "現在完成式"
@@ -12028,7 +12028,7 @@
     "year": 114,
     "number": 11,
     "type": "grammar",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "現在完成式",
       "介係詞",
@@ -12052,7 +12052,7 @@
     "year": 114,
     "number": 12,
     "type": "grammar",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "現在完成式",
       "代名詞",
@@ -12076,7 +12076,7 @@
     "year": 114,
     "number": 13,
     "type": "grammar",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "未來式",
       "代名詞",
@@ -12100,7 +12100,7 @@
     "year": 114,
     "number": 14,
     "type": "grammar",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "現在完成式",
       "介係詞",
@@ -12124,7 +12124,7 @@
     "year": 114,
     "number": 15,
     "type": "grammar",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "過去式",
       "介係詞",
@@ -12148,7 +12148,7 @@
     "year": 114,
     "number": 16,
     "type": "grammar",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "現在式",
       "介係詞",
@@ -12172,7 +12172,7 @@
     "year": 114,
     "number": 17,
     "type": "grammar",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "現在式",
       "介係詞",
@@ -12196,7 +12196,7 @@
     "year": 114,
     "number": 18,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "詞義理解",
       "現在完成式"
@@ -12219,7 +12219,7 @@
     "year": 114,
     "number": 19,
     "type": "grammar",
-    "difficulty": null,
+    "difficulty": "basic",
     "concepts": [
       "現在式",
       "介係詞",
@@ -12243,7 +12243,7 @@
     "year": 114,
     "number": 20,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -12265,7 +12265,7 @@
     "year": 114,
     "number": 21,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -12287,7 +12287,7 @@
     "year": 114,
     "number": 22,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -12309,7 +12309,7 @@
     "year": 114,
     "number": 23,
     "type": "vocabulary",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "詞義理解",
       "現在式"
@@ -12332,7 +12332,7 @@
     "year": 114,
     "number": 24,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "medium",
     "concepts": [
       "閱讀推理"
     ],
@@ -12354,7 +12354,7 @@
     "year": 114,
     "number": 25,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -12376,7 +12376,7 @@
     "year": 114,
     "number": 26,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -12398,7 +12398,7 @@
     "year": 114,
     "number": 27,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -12420,7 +12420,7 @@
     "year": 114,
     "number": 28,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "詞義理解"
@@ -12443,7 +12443,7 @@
     "year": 114,
     "number": 29,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -12465,7 +12465,7 @@
     "year": 114,
     "number": 30,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -12487,7 +12487,7 @@
     "year": 114,
     "number": 31,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "詞義理解"
@@ -12510,7 +12510,7 @@
     "year": 114,
     "number": 32,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -12532,7 +12532,7 @@
     "year": 114,
     "number": 33,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -12554,7 +12554,7 @@
     "year": 114,
     "number": 34,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -12576,7 +12576,7 @@
     "year": 114,
     "number": 35,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理",
       "主旨與細節"
@@ -12599,7 +12599,7 @@
     "year": 114,
     "number": 36,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -12621,7 +12621,7 @@
     "year": 114,
     "number": 37,
     "type": "reading",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "閱讀推理"
     ],
@@ -12643,7 +12643,7 @@
     "year": 114,
     "number": 38,
     "type": "grammar",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "現在式",
       "介係詞",
@@ -12667,7 +12667,7 @@
     "year": 114,
     "number": 39,
     "type": "grammar",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "現在式"
     ],
@@ -12689,7 +12689,7 @@
     "year": 114,
     "number": 40,
     "type": "grammar",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "現在式",
       "介係詞",
@@ -12713,7 +12713,7 @@
     "year": 114,
     "number": 41,
     "type": "grammar",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "現在式",
       "代名詞"
@@ -12736,7 +12736,7 @@
     "year": 114,
     "number": 42,
     "type": "grammar",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "現在式"
     ],
@@ -12758,7 +12758,7 @@
     "year": 114,
     "number": 43,
     "type": "grammar",
-    "difficulty": null,
+    "difficulty": "difficult",
     "concepts": [
       "現在式",
       "介係詞",
