@@ -371,7 +371,8 @@
         "C": "There are special flowers in the Amazon.",
         "D": "There are few people living in the Amazon."
       },
-      "answer": "D"
+      "answer": null,
+      "unusable_reason": "原文缺失，需重新 OCR 原始 PDF"
     },
     {
       "year": 102,
@@ -506,7 +507,8 @@
         "C": "has fun",
         "D": "has trouble"
       },
-      "answer": "D"
+      "answer": null,
+      "unusable_reason": "原文缺失，需重新 OCR 原始 PDF"
     },
     {
       "year": 103,
@@ -773,7 +775,8 @@
         "C": "Cindy, who wants to share her ideas about car racing.",
         "D": "Debby, who wants to collect news about the car racers."
       },
-      "answer": "B"
+      "answer": null,
+      "unusable_reason": "原文缺失，需重新 OCR 原始 PDF"
     },
     {
       "year": 103,
@@ -849,7 +852,8 @@
         "C": "She lost her little boy when the school bus was hit by a truck.",
         "D": "She liked Lonnie's idea about what to wear for the Christmas party."
       },
-      "answer": "B"
+      "answer": null,
+      "unusable_reason": "原文缺失，需重新 OCR 原始 PDF"
     },
     {
       "year": 103,
@@ -861,14 +865,15 @@
         "movie review analysis",
         "Nathan Lang movies"
       ],
-      "question": "50. Here are reviews about Nathan Lang's movies. From the reading, which is most likely a review for Dreams?",
+      "question": "50. Here are reviews about Nathan Lang’s movies. From the reading, which is most likely a review for Dreams?",
       "options": {
-        "A": "...nothing new in the story; Nathan Lang clearly didn't do enough homework about his part in the movie. It was no surprise that the movie didn't make it into the top 10 list the first week it was out...",
-        "B": "...it became Nathan Lang's second best-selling movie and also this year's third best-selling movie in the country and may even get him another best actor award...",
+        "A": "...nothing new in the story; Nathan Lang clearly didn’t do enough homework about his part in the movie. It was no surprise that the movie didn’t make it into the top 10 list the first week it was out...",
+        "B": "...it became Nathan Lang’s second best-selling movie and also this year’s third best-selling movie in the country and may even get him another best actor award...",
         "C": "...see him not as the actor Nathan Lang anymore but as the poor old man in the movie. However, good acting does not always help with the ticket sales...",
-        "D": "...the story is fresh and interesting, but the acting is not. However, it has been the country's best-selling movie for the past three weeks. Clearly Nathan Lang's fans cared less about his acting than his handsome face...."
+        "D": "...the story is fresh and interesting, but the acting is not. However, it has been the country’s best-selling movie for the past three weeks. Clearly Nathan Lang’s fans cared less about his acting than his handsome face...."
       },
-      "answer": "C"
+      "answer": null,
+      "unusable_reason": "原文缺失，需重新 OCR 原始 PDF"
     },
     {
       "year": 103,
@@ -903,10 +908,11 @@
       "options": {
         "A": "①Tigerville ②Goosetown ③Cowtown ④Oxtown ⑤Duckland ⑥Goatville ⑦Lionville ⑧Sharkville ⑨Foxland ⑩Turtleland",
         "B": "①Tigerville ②Goosetown ③Duckland ④Beartown ⑤Lionville ⑥Sharkville ⑦Goatville ⑧Cowtown ⑨Foxland ⑩Oxtown",
-        "C": "①Goosestown ②Tigerville ③Duckland ④Foxland ⑤Beartown ⑥Goatville ⑦Cowtown ⑧Lionville ⑨Oxtown ⑩Sharkville",
+        "C": "①Goosetown ②Tigerville ③Duckland ④Foxland ⑤Beartown ⑥Goatville ⑦Cowtown ⑧Lionville ⑨Oxtown ⑩Sharkville",
         "D": "①Tigerville ②Goosetown ③Duckland ④Oxtown ⑤Beartown ⑥Goatville ⑦Cowtown ⑧Lionville ⑨Foxland ⑩Sharkville"
       },
-      "answer": "A"
+      "answer": null,
+      "unusable_reason": "原文缺失，需重新 OCR 原始 PDF"
     },
     {
       "year": 103,
@@ -944,7 +950,8 @@
         "C": "It makes the building a more comfortable place during summer.",
         "D": "It gives people in the building a chance to grow their own food."
       },
-      "answer": "B"
+      "answer": null,
+      "unusable_reason": "原文缺失，需重新 OCR 原始 PDF"
     },
     {
       "year": 104,
@@ -5291,7 +5298,8 @@
         "C": "Taiwan eats more sugar for each person than the US does.",
         "D": "400 ml of rice milk has less sugar than 400 ml of grape juice."
       },
-      "answer": "A"
+      "answer": null,
+      "unusable_reason": "原文缺失，需重新 OCR 原始 PDF"
     },
     {
       "year": 111,
@@ -5309,7 +5317,8 @@
         "C": "To tell us that we often have more sugar than we can without knowing it.",
         "D": "To let us know how much sugar is enough to make foods and drinks taste good."
       },
-      "answer": "C"
+      "answer": null,
+      "unusable_reason": "原文缺失，需重新 OCR 原始 PDF"
     },
     {
       "year": 111,
@@ -5399,7 +5408,8 @@
         "C": "Men usually have a bigger chance to get paid more and rise higher when they work the same hours as women.",
         "D": "Men and women have almost the same chance to get paid more and rise higher when they work 2,200 hours."
       },
-      "answer": "D"
+      "answer": null,
+      "unusable_reason": "原文缺失，需重新 OCR 原始 PDF"
     },
     {
       "year": 111,
@@ -5417,7 +5427,8 @@
         "C": "UK's Cameroon + Republic of Cameroun",
         "D": "Federal Republic of Cameroon"
       },
-      "answer": "D"
+      "answer": null,
+      "unusable_reason": "原文缺失，需重新 OCR 原始 PDF"
     },
     {
       "year": 111,
@@ -5451,7 +5462,8 @@
         "C": "It does not want to be part of Ambazonia.",
         "D": "It does not agree that Ambazonia is a country."
       },
-      "answer": "D"
+      "answer": null,
+      "unusable_reason": "原文缺失，需重新 OCR 原始 PDF"
     },
     {
       "year": 111,
@@ -6176,7 +6188,8 @@
         "C": "Therese Malfatti changed \"For Elise\" to \"For Therese.\"",
         "D": "Elise Barensfeld was Beethoven's student."
       },
-      "answer": "B"
+      "answer": null,
+      "unusable_reason": "原文缺失，需重新 OCR 原始 PDF"
     },
     {
       "year": 112,
@@ -6212,7 +6225,8 @@
         "C": "Children may not be able to learn from playing with toys.",
         "D": "Children may miss the chance to find out what they really like."
       },
-      "answer": "D"
+      "answer": null,
+      "unusable_reason": "原文缺失，需重新 OCR 原始 PDF"
     },
     {
       "year": 112,
@@ -6768,7 +6782,8 @@
         "C": "Lunch.",
         "D": "One of Chang's ducks or chickens."
       },
-      "answer": "B"
+      "answer": null,
+      "unusable_reason": "原文缺失，需重新 OCR 原始 PDF"
     },
     {
       "year": 113,

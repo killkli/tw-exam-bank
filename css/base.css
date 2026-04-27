@@ -1,0 +1,23 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font-sans);
+  background: var(--gray-100);
+  color: var(--gray-800);
+  min-height: 100vh;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Loading spinner */
+.loading { text-align: center; padding: 3rem; color: var(--gray-500); }
+.spinner { width: 36px; height: 36px; border: 3px solid var(--gray-200); border-top-color: var(--primary); border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto 1rem; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* Print styles */
+@media print {
+  @page { size: A4; margin: 1.5cm 2cm; }
+  header, nav, .practice-nav, .btn, .reveal-section { display: none !important; }
+  body { background: white; font-size: 13px; }
+  .card, .question-box { box-shadow: none; border: 1px solid #ccc; break-inside: avoid; }
+}

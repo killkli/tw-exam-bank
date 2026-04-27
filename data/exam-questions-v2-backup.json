@@ -1,5 +1,5 @@
 {
-  "version": "3.1",
+  "version": "3.0",
   "source": "5-agent classification + evaluator merge",
   "total_questions": 406,
   "questions": [
@@ -409,8 +409,7 @@
         "C": "She'll take a test.",
         "D": "She'll go shopping."
       },
-      "answer": null,
-      "unusable_reason": "原文缺失，需重新 OCR 原始 PDF"
+      "answer": "C"
     },
     {
       "year": 103,
@@ -429,8 +428,7 @@
         "C": "She is Peter's sister.",
         "D": "She is Peter's teacher."
       },
-      "answer": null,
-      "unusable_reason": "原文缺失，需重新 OCR 原始 PDF"
+      "answer": "B"
     },
     {
       "year": 103,
@@ -677,7 +675,7 @@
         "C": "growing",
         "D": "common"
       },
-      "answer": "C"
+      "answer": null
     },
     {
       "year": 103,
@@ -696,7 +694,7 @@
         "C": "there have been changes in the list of favorite meats",
         "D": "doctors have been worried that we eat too much meat"
       },
-      "answer": "C"
+      "answer": null
     },
     {
       "year": 103,
@@ -715,7 +713,7 @@
         "C": "where can you eat the world's most delicious meat",
         "D": "which country uses up the most meat for each person"
       },
-      "answer": "D"
+      "answer": null
     },
     {
       "year": 103,
@@ -734,7 +732,7 @@
         "C": "To take a train trip.",
         "D": "To have a picnic."
       },
-      "answer": "A"
+      "answer": null
     },
     {
       "year": 103,
@@ -753,8 +751,7 @@
         "C": "At C.",
         "D": "At D."
       },
-      "answer": null,
-      "unusable_reason": "原文缺失，需重新 OCR 原始 PDF"
+      "answer": null
     },
     {
       "year": 103,
@@ -773,7 +770,7 @@
         "C": "Cindy, who wants to share her ideas about car racing.",
         "D": "Debby, who wants to collect news about the car racers."
       },
-      "answer": "B"
+      "answer": null
     },
     {
       "year": 103,
@@ -861,14 +858,14 @@
         "movie review analysis",
         "Nathan Lang movies"
       ],
-      "question": "50. Here are reviews about Nathan Lang's movies. From the reading, which is most likely a review for Dreams?",
+      "question": "50. Here are reviews about Nathan Lang’s movies. From the reading, which is most likely a review for Dreams?",
       "options": {
-        "A": "...nothing new in the story; Nathan Lang clearly didn't do enough homework about his part in the movie. It was no surprise that the movie didn't make it into the top 10 list the first week it was out...",
-        "B": "...it became Nathan Lang's second best-selling movie and also this year's third best-selling movie in the country and may even get him another best actor award...",
+        "A": "...nothing new in the story; Nathan Lang clearly didn’t do enough homework about his part in the movie. It was no surprise that the movie didn’t make it into the top 10 list the first week it was out...",
+        "B": "...it became Nathan Lang’s second best-selling movie and also this year’s third best-selling movie in the country and may even get him another best actor award...",
         "C": "...see him not as the actor Nathan Lang anymore but as the poor old man in the movie. However, good acting does not always help with the ticket sales...",
-        "D": "...the story is fresh and interesting, but the acting is not. However, it has been the country's best-selling movie for the past three weeks. Clearly Nathan Lang's fans cared less about his acting than his handsome face...."
+        "D": "...the story is fresh and interesting, but the acting is not. However, it has been the country’s best-selling movie for the past three weeks. Clearly Nathan Lang’s fans cared less about his acting than his handsome face...."
       },
-      "answer": "C"
+      "answer": "A"
     },
     {
       "year": 103,
@@ -903,10 +900,10 @@
       "options": {
         "A": "①Tigerville ②Goosetown ③Cowtown ④Oxtown ⑤Duckland ⑥Goatville ⑦Lionville ⑧Sharkville ⑨Foxland ⑩Turtleland",
         "B": "①Tigerville ②Goosetown ③Duckland ④Beartown ⑤Lionville ⑥Sharkville ⑦Goatville ⑧Cowtown ⑨Foxland ⑩Oxtown",
-        "C": "①Goosestown ②Tigerville ③Duckland ④Foxland ⑤Beartown ⑥Goatville ⑦Cowtown ⑧Lionville ⑨Oxtown ⑩Sharkville",
+        "C": "①Goosetown ②Tigerville ③Duckland ④Foxland ⑤Beartown ⑥Goatville ⑦Cowtown ⑧Lionville ⑨Oxtown ⑩Sharkville",
         "D": "①Tigerville ②Goosetown ③Duckland ④Oxtown ⑤Beartown ⑥Goatville ⑦Cowtown ⑧Lionville ⑨Foxland ⑩Sharkville"
       },
-      "answer": "A"
+      "answer": "D"
     },
     {
       "year": 103,
@@ -1134,7 +1131,7 @@
         "C": "$385.",
         "D": "$410."
       },
-      "answer": "B"
+      "answer": null
     },
     {
       "year": 104,
@@ -1153,7 +1150,7 @@
         "C": "8:00 p.m. on Friday.",
         "D": "10:00 p.m. on Thursday."
       },
-      "answer": "D"
+      "answer": null
     },
     {
       "year": 104,
@@ -1172,7 +1169,7 @@
         "C": "\"What do you like to talk about with your friends?\"",
         "D": "\"What's your favorite thing to do with your family?\""
       },
-      "answer": "A"
+      "answer": null
     },
     {
       "year": 104,
@@ -1191,7 +1188,7 @@
         "C": "Ryan enjoys meeting people on the Internet.",
         "D": "Anna was once very sick and stayed in the hospital for a long time."
       },
-      "answer": "C"
+      "answer": null
     },
     {
       "year": 104,
@@ -1210,7 +1207,7 @@
         "C": "Stories.",
         "D": "Parents."
       },
-      "answer": "A"
+      "answer": null
     },
     {
       "year": 104,
@@ -1248,7 +1245,7 @@
         "C": "What Foster's mother taught him about cooking.",
         "D": "How Foster learned the art of cooking from his father."
       },
-      "answer": "D"
+      "answer": null
     },
     {
       "year": 104,
@@ -1267,7 +1264,7 @@
         "C": "chart C",
         "D": "chart D"
       },
-      "answer": "A"
+      "answer": null
     },
     {
       "year": 104,
@@ -1305,7 +1302,7 @@
         "C": "He once almost lost a dear friend to a water snake.",
         "D": "He wanted to go back to the same pot for a hot bath."
       },
-      "answer": "B"
+      "answer": null
     },
     {
       "year": 104,
@@ -1343,7 +1340,7 @@
         "C": "In 2020, the percentage (%) of church-goers drops to lower than half that in 1980.",
         "D": "Between 1980 and 2020, the rising number of old church-goers has led to an old church."
       },
-      "answer": "C"
+      "answer": "D"
     },
     {
       "year": 104,
@@ -1362,7 +1359,7 @@
         "C": "What happens to churches that are closed.",
         "D": "Why people have stopped going to church."
       },
-      "answer": "C"
+      "answer": "D"
     },
     {
       "year": 104,
@@ -1381,7 +1378,7 @@
         "C": "\"In the report, 33% of the people that were interviewed say they never go to church and another 33% say they used to. Only 15% go to church at least once a month.\"",
         "D": "\"Of the 15 countries in the report, the percentage (%) of church-goers in some countries, like Denmark, is lower than 10%; in others, like Poland, the percentage is higher than 70%.\""
       },
-      "answer": "D"
+      "answer": "B"
     },
     {
       "year": 105,
@@ -1667,7 +1664,7 @@
         "negative information",
         "detail retrieval"
       ],
-      "question": "Our Pinky Street, one of the oldest streets in the world, was almost lost to a big fire last night. Most of the old houses on Pinky were burned down. The living history we are proud of is dying. But we should never give up. Pinky is like a parent, always there caring for our town. Now we must do something together to get the old Pinky back. There will be a meeting at 2:00 this Saturday afternoon at Town Office. Anyone who wants to help is welcome. Let's see what we can do.\\nAdam Bolton, Town Office\\nMarch 9\\n\\nWhich is NOT used in the reading to talk about the old street?",
+      "question": "Which is NOT used in the reading to talk about the old street?",
       "options": {
         "A": "A good friend.",
         "B": "The old Pinky.",
@@ -1703,7 +1700,7 @@
         "reading comprehension",
         "reading inference"
       ],
-      "question": "FunGana 2016\\n\\nNo idea where to spend your vacation? If you are a big fan of sun, beach, and water sports, then you must join FunGana 2016!\\nOver the years, FunGana has taken people to many places in Gana. This year, we are taking you to Piso Island, one of Gana's beautiful islands. Piso Island is adjacent to Wako Island, the biggest island in Gana, so it is only 15 minutes away by boat from Wako Island. The best time to visit? All year around, the weather on Piso Island is just wonderful for a vacation. You can sail out to watch whales, or enjoy one of the best mud springs in the world. We will also show you around the island in a special car, the Cocoon Rider. It's our pleasure to help you enjoy your stay on Piso Island.\\n\\nFind out more about FunGana 2016 at http://www.fungana2016.com.gn.\\n\\nWhat does the reading say about Piso Island?",
+      "question": "What does the reading say about Piso Island?",
       "options": {
         "A": "It makes the best cars in Gana.",
         "B": "It has nice weather in every season.",
@@ -1740,14 +1737,14 @@
         "reading comprehension",
         "information inference"
       ],
-      "question": "Here is the schedule with the notice of the summer school that Tina goes to.\\n\\nNOTICE\\n\\nThe school restaurant is closed during the summer school (7/4~7/31). Please bring your own lunch. If you need to order lunch, please tell your class leader the day before.\\n\\nDancing shoes can be borrowed with your summer school card. Please find Mr. Shum in Room 117.\\n\\nDuring the third week, the gym will be used for the High School Ball Games. Please go to the playground for the basketball classes of the week.\\n\\nschedule 课表\\n\\nWhat do we know from the notice?",
+      "question": "What do we know from the notice?",
       "options": {
         "A": "The summer school is three weeks long.",
         "B": "Students can order lunch from the school restaurant.",
         "C": "There are basketball classes in the gym every week except the third week.",
         "D": "Those who need to borrow dancing shoes must tell Mr. Shum the day before."
       },
-      "answer": "C"
+      "answer": null
     },
     {
       "year": 105,
@@ -1795,7 +1792,7 @@
         "reading comprehension",
         "information inference"
       ],
-      "question": "The wind keeps blowing.\\nThe door keeps opening.\\nWill you be with me, my dear Lucy,\\nWhen I look for candy\\nDown there in the dark, dark kitchen?\\n\\nThe wind keeps crying.\\nThe door keeps shaking.\\nWill you be with me, my dear Lucy,\\nWhen I pick up my toy puppy\\nOut there on the high, high balcony?\\n\\nWish you could always be with me\\nAnd make them go away with your Do-Re-Me.\\nI remember last Halloween\\nThey ran away when you started to sing,\\n\"Dear Tommy, my little king,\\nClose your eyes and have a sweet dream.\"\\n\\nSo please stay with me and sing\\nTo stop them kicking the door, riding the wind,\\nAnd pulling me down to their house under the ground.\\nThey'll go away if you sing here for me,\\nIn a voice that gets a black cat's hair standing,\\nThe strongest legs shaking, and the window glass breaking.\\n\\n(ideas from Matthew Sweeney's poem) poem 詩\\n\\nWhat can we learn about Lucy in the reading?",
+      "question": "What can we learn about Lucy in the reading?",
       "options": {
         "A": "She keeps opening the door.",
         "B": "Her voice makes the speaker feel safe.",
@@ -1849,7 +1846,7 @@
         "reading comprehension",
         "information inference"
       ],
-      "question": "Alec: So, what do you think about it?\\nEllie: It's...interesting.\\nAlec: Oh, no, don't say that.\\nEllie: The first thing you should know about Olivia is that she's scared of anything with six legs. I don't think she'll be able to walk past the gate of Buzzing World.\\nAlec: But she loves butterflies! Well, she loved the photos of butterflies I took last time I was there.\\nEllie: Only when they're not moving.\\nAlec: Fine. I'll just take her somewhere else, and that'd be OK. Right?\\nEllie: Umm, you're taking her to Wavelength for dinner?\\nAlec: What's wrong with that?!\\nEllie: I wouldn't say a dead fish is really her idea of a nice dinner, and this restaurant sells seafood...\\nAlec: Now you're wrong about this one. She loved my mom's fish balls. She had several last time!\\nEllie: OK, let's ask someone else. Oh, there's Lori. Hey, Lori, could you look at Alec's plan? He's taking Olivia out.\\nLori: Wow! Everything's written down on paper! Hmmm... I thought you wanted her to be your girlfriend.\\nAlec: I do!\\nLori: If you follow this plan, I'm sure it'll be your only date with her.\\n\\nWhat can we learn about Alec?",
+      "question": "What can we learn about Alec?",
       "options": {
         "A": "He was told that Olivia likes nice surprises.",
         "B": "He decided to cook Olivia a nice seafood dinner.",
@@ -1867,7 +1864,7 @@
         "reading comprehension",
         "reading inference"
       ],
-      "question": "Alec: So, what do you think about it?\\nEllie: It's...interesting.\\nAlec: Oh, no, don't say that.\\nEllie: The first thing you should know about Olivia is that she's scared of anything with six legs. I don't think she'll be able to walk past the gate of Buzzing World.\\nAlec: But she loves butterflies! Well, she loved the photos of butterflies I took last time I was there.\\nEllie: Only when they're not moving.\\nAlec: Fine. I'll just take her somewhere else, and that'd be OK. Right?\\nEllie: Umm, you're taking her to Wavelength for dinner?\\nAlec: What's wrong with that?!\\nEllie: I wouldn't say a dead fish is really her idea of a nice dinner, and this restaurant sells seafood...\\nAlec: Now you're wrong about this one. She loved my mom's fish balls. She had several last time!\\nEllie: OK, let's ask someone else. Oh, there's Lori. Hey, Lori, could you look at Alec's plan? He's taking Olivia out.\\nLori: Wow! Everything's written down on paper! Hmmm... I thought you wanted her to be your girlfriend.\\nAlec: I do!\\nLori: If you follow this plan, I'm sure it'll be your only date with her.\\n\\nEmily is a friend of Olivia's. If she agrees with Lori, what would she most likely say to Alec?",
+      "question": "Emily is a friend of Olivia's. If she agrees with Lori, what would she most likely say to Alec?",
       "options": {
         "A": "\"This is just what Olivia would want!\"",
         "B": "\"You never know what a girl like Olivia would want.\"",
@@ -1904,14 +1901,14 @@
         "chart interpretation",
         "data analysis"
       ],
-      "question": "Since the first case of \"Cow Cold\" was reported in Kirk State in June, this killer cold has moved up north faster than we thought it would. By July, almost every part of the country had been attacked by Cow Cold. In only two months, the number of dead cows has risen to 5,000. Though Cow Cold started in the south, the east of the country is the worst hit area. By this week, 80% of the farms in Osten State have reported cases of Cow Cold.\\nThe sale of milk in Osten State has slumped because of Cow Cold. Before Cow Cold, the sale of milk in Osten State was $2.5 million each week; now it is less than $500,000.\\nOdin State is the only area in the north without cases of Cow Cold. Before we know how to deal with Cow Cold, we can only hope Odin State will be lucky enough not to experience the power of this killer cold.\\n(Elaine Baker, City Post)\\ncase 案例 area 區域\\n\\nWhich map will most likely appear with the above news report?",
+      "question": "Which map will most likely appear with the above news report?",
       "options": {
         "A": "(A)",
         "B": "(B)",
         "C": "(C)",
         "D": "(D)"
       },
-      "answer": "B"
+      "answer": null
     },
     {
       "year": 105,
@@ -1923,7 +1920,7 @@
         "chart interpretation",
         "data analysis"
       ],
-      "question": "Since the first case of \"Cow Cold\" was reported in Kirk State in June, this killer cold has moved up north faster than we thought it would. By July, almost every part of the country had been attacked by Cow Cold. In only two months, the number of dead cows has risen to 5,000. Though Cow Cold started in the south, the east of the country is the worst hit area. By this week, 80% of the farms in Osten State have reported cases of Cow Cold.\\nThe sale of milk in Osten State has slumped because of Cow Cold. Before Cow Cold, the sale of milk in Osten State was $2.5 million each week; now it is less than $500,000.\\nOdin State is the only area in the north without cases of Cow Cold. Before we know how to deal with Cow Cold, we can only hope Odin State will be lucky enough not to experience the power of this killer cold.\\n(Elaine Baker, City Post)\\ncase 案例 area 區域\\n\\nIf a store's sales keep slumping, what would the sales chart look like?",
+      "question": "If a store's sales keep slumping, what would the sales chart look like?",
       "options": {
         "A": "Sales chart showing a downward trend from August to November",
         "B": "Sales chart showing an upward trend from August to November",
@@ -2258,7 +2255,7 @@
         "C": "Traveling from Apple City to Grape Town will take less time after the bus line changes.",
         "D": "Before July 1, Dashing Shuttle does not have buses from Apple City to Peach City."
       },
-      "answer": "A"
+      "answer": "B"
     },
     {
       "year": 106,
@@ -2313,7 +2310,7 @@
         "C": "Of all five countries, UK's domestic movies have the smallest drop in percentage (%).",
         "D": "When the percentage (%) of domestic movies drops, the percentage of US movies rises."
       },
-      "answer": "B"
+      "answer": "D"
     },
     {
       "year": 107,
@@ -2704,7 +2701,7 @@
         "reading inference",
         "present simple"
       ],
-      "question": "Edward's Travel Tips\\nWhat kind of place do you usually choose to stay for the night during a trip? Expensive hotels that may make you feel like you don't get what you pay for? Or cheap hostels that put you and five other strangers in the same bedroom? If both choices sound terrible to you, here's something new: holiday apartments.\\n\\nIn a holiday apartment, you have more space than what a hotel room can give you. Everything in the apartment is at your disposal. The living room, the kitchen, the studio, and, of course, the bedrooms are all for your own use. Some apartments even have a lovely garden or a game room. You'll feel at home in the holiday apartment. The best thing is, a holiday apartment is not expensive. The price for a holiday apartment is for two people, and the apartment is often cheaper than a hotel room for two. You only need to pay a little more for a third or fourth person. If you travel with friends or your family, a holiday apartment will be your best choice!\\n\\nhostel (提供廉價食宿的)旅舍\\n\\n23. From the reading, what can we learn about holiday apartments?",
+      "question": "23. From the reading, what can we learn about holiday apartments?",
       "options": {
         "A": "They are good for people who like to take one-day trips.",
         "B": "They are good for people who travel in a group of three or more.",
@@ -2722,7 +2719,7 @@
         "vocabulary in context",
         "present simple"
       ],
-      "question": "Edward's Travel Tips\\nWhat kind of place do you usually choose to stay for the night during a trip? Expensive hotels that may make you feel like you don't get what you pay for? Or cheap hostels that put you and five other strangers in the same bedroom? If both choices sound terrible to you, here's something new: holiday apartments.\\n\\nIn a holiday apartment, you have more space than what a hotel room can give you. Everything in the apartment is at your disposal. The living room, the kitchen, the studio, and, of course, the bedrooms are all for your own use. Some apartments even have a lovely garden or a game room. You'll feel at home in the holiday apartment. The best thing is, a holiday apartment is not expensive. The price for a holiday apartment is for two people, and the apartment is often cheaper than a hotel room for two. You only need to pay a little more for a third or fourth person. If you travel with friends or your family, a holiday apartment will be your best choice!\\n\\nhostel (提供廉價食宿的)旅舍\\n\\n24. What does it mean to say that something is at your disposal?",
+      "question": "24. What does it mean to say that something is at your disposal?",
       "options": {
         "A": "You are free to use it.",
         "B": "You can find it everywhere.",
@@ -2740,7 +2737,7 @@
         "reading inference",
         "main idea"
       ],
-      "question": "SHARP WEAR: A T-shirt like no other!\\n\\nFirst time here? Don't worry! Here is our quick lesson for you!\\n\\n1. What kind of T-shirt do you like?\\n(4 kinds of T-shirts to choose from!)\\n\\n2. What color for the T-shirt?\\n(We have as many as 16 colors!)\\n\\n3. Want a picture on your T-shirt?\\nNo, thank you. Oh yes!\\nNow choose from one of our 72 pictures or send us your own!\\n\\n4. Pocket? No pocket?\\nI don't need one. Of course! What kind of pocket then?\\n(We've got 4 shapes for you!)\\n\\n5. How about a different color for the pocket?\\nNo, thank you.\\nSame color as the T-shirt. Why not?\\n(Choose from the 16 colors AGAIN!)\\n\\n6. Your size?\\n(7 sizes for you!)\\n\\n7. How many T-shirts do you want?\\n\\n8. Finally, you can pay! :)\\n\\n25. What is the quick lesson of SHARP WEAR about?",
+      "question": "25. What is the quick lesson of SHARP WEAR about?",
       "options": {
         "A": "How to get to one of SHARP WEAR's stores.",
         "B": "How to send back a T-shirt to SHARP WEAR.",
@@ -2758,14 +2755,14 @@
         "reading inference",
         "present simple"
       ],
-      "question": "SHARP WEAR: A T-shirt like no other!\\n\\nFirst time here? Don't worry! Here is our quick lesson for you!\\n\\n1. What kind of T-shirt do you like?\\n(4 kinds of T-shirts to choose from!)\\n\\n2. What color for the T-shirt?\\n(We have as many as 16 colors!)\\n\\n3. Want a picture on your T-shirt?\\nNo, thank you. Oh yes!\\nNow choose from one of our 72 pictures or send us your own!\\n\\n4. Pocket? No pocket?\\nI don't need one. Of course! What kind of pocket then?\\n(We've got 4 shapes for you!)\\n\\n5. How about a different color for the pocket?\\nNo, thank you.\\nSame color as the T-shirt. Why not?\\n(Choose from the 16 colors AGAIN!)\\n\\n6. Your size?\\n(7 sizes for you!)\\n\\n7. How many T-shirts do you want?\\n\\n8. Finally, you can pay! :)\\n\\n26. What can we learn about SHARP WEAR?",
+      "question": "26. What can we learn about SHARP WEAR?",
       "options": {
         "A": "You have to order at least four T-shirts each time.",
         "B": "You can choose from sixteen colors for both the T-shirt and the pocket.",
         "C": "Some of the T-shirts have pictures on both the front side and the back side.",
         "D": "T-shirts in the wrong sizes cannot be sent back if they have pictures or pockets on them."
       },
-      "answer": "B"
+      "answer": "C"
     },
     {
       "year": 107,
@@ -2795,7 +2792,7 @@
         "vocabulary in context",
         "present simple"
       ],
-      "question": "The sky is turning bright and clear.\\nThe earth is wearing red and green.\\nWinter is gone; spring has come.\\nThe air smells fresh and sweet.\\n\\nThe summer heat is not yet here;\\nA little fox comes out to play.\\nA bird is busy in a tree\\nWaking a daisy from her sleep.\\n\\nLittle daisy, little daisy,\\nPeople call the flower the \"day's eye.\"\\nWhen she opens her eye,\\nThe springtime brings us cheer.\\n\\npoem 詩\\n\\n28. What is a daisy?",
+      "question": "28. What is a daisy?",
       "options": {
         "A": "A body part.",
         "B": "A kind of bird.",
@@ -2813,7 +2810,7 @@
         "reading inference",
         "vocabulary in context"
       ],
-      "question": "The sky is turning bright and clear.\\nThe earth is wearing red and green.\\nWinter is gone; spring has come.\\nThe air smells fresh and sweet.\\n\\nThe summer heat is not yet here;\\nA little fox comes out to play.\\nA bird is busy in a tree\\nWaking a daisy from her sleep.\\n\\nLittle daisy, little daisy,\\nPeople call the flower the \"day's eye.\"\\nWhen she opens her eye,\\nThe springtime brings us cheer.\\n\\npoem 詩\\n\\n29. From the poem, what do the lines 'When she opens her eye, The springtime brings us cheer' tell us about the daisy?",
+      "question": "29. From the poem, what do the lines 'When she opens her eye, The springtime brings us cheer' tell us about the daisy?",
       "options": {
         "A": "The daisy wakes up in spring.",
         "B": "The daisy is a sad flower.",
@@ -2832,7 +2829,7 @@
         "metaphors/figurative language",
         "present continuous"
       ],
-      "question": "The sky is turning bright and clear.\\nThe earth is wearing red and green.\\nWinter is gone; spring has come.\\nThe air smells fresh and sweet.\\n\\nThe summer heat is not yet here;\\nA little fox comes out to play.\\nA bird is busy in a tree\\nWaking a daisy from her sleep.\\n\\nLittle daisy, little daisy,\\nPeople call the flower the \"day's eye.\"\\nWhen she opens her eye,\\nThe springtime brings us cheer.\\n\\npoem 詩\\n\\n30. In the poem, what does 'The earth is wearing red and green' mean?",
+      "question": "30. In the poem, what does 'The earth is wearing red and green' mean?",
       "options": {
         "A": "The earth is covered with flowers and plants.",
         "B": "The earth has red and green colors on it.",
@@ -2869,14 +2866,14 @@
         "vocabulary in context",
         "reading inference"
       ],
-      "question": "Josh: Do you know about \"pay it forward coffee\" at Flora Café?\\nEric: You mean you pay for a cup of coffee for someone poor to have it later?\\nJosh: Yeah. A cup of coffee is not much, but on cold winter days like today, it might warm them up a little. And maybe their hearts too.\\nEric: But will Flora Café really give this cup of coffee to someone later?\\nJosh: Come on. I've known the shopkeeper well. He's an honest man. He's got a blackboard in the shop that says how many cups are paid for and how many have been given out.\\nEric: But how will they know who to give? Anyone can ask for it, even if they're not poor.\\nJosh: True, but then I guess they'll just have to believe in people.\\nEric: Perhaps. But will poor people go and ask for a free coffee? Won't they worry about losing face?\\nJosh: Why do you always say things like that?\\nEric: Well, it may happen.\\nJosh: Yeah, I know, but I still think it's a good thing to do, and it gets people to care about others.\\n\\n32. What does \"things like that\" mean?",
+      "question": "32. What does things like that mean?",
       "options": {
         "A": "Problems about the free coffee plan.",
-        "B": "Trouble for people who go to Flora Café.",
+        "B": "Trouble for people who go to Flora Cafe.",
         "C": "Ways to make the free coffee plan successful.",
-        "D": "Good things free coffee will bring to Flora Café."
+        "D": "Good things free coffee will bring to Flora Cafe."
       },
-      "answer": "A"
+      "answer": "B"
     },
     {
       "year": 107,
@@ -2887,14 +2884,14 @@
         "reading inference",
         "dialogue/comversation comprehension"
       ],
-      "question": "Josh: Do you know about \"pay it forward coffee\" at Flora Café?\\nEric: You mean you pay for a cup of coffee for someone poor to have it later?\\nJosh: Yeah. A cup of coffee is not much, but on cold winter days like today, it might warm them up a little. And maybe their hearts too.\\nEric: But will Flora Café really give this cup of coffee to someone later?\\nJosh: Come on. I've known the shopkeeper well. He's an honest man. He's got a blackboard in the shop that says how many cups are paid for and how many have been given out.\\nEric: But how will they know who to give? Anyone can ask for it, even if they're not poor.\\nJosh: True, but then I guess they'll just have to believe in people.\\nEric: Perhaps. But will poor people go and ask for a free coffee? Won't they worry about losing face?\\nJosh: Why do you always say things like that?\\nEric: Well, it may happen.\\nJosh: Yeah, I know, but I still think it's a good thing to do, and it gets people to care about others.\\n\\n33. What can we learn about Josh and Eric?",
+      "question": "33. What can we learn about Josh and Eric?",
       "options": {
         "A": "Josh was not able to change Eric's mind about free coffee.",
         "B": "Eric has more hope for the free coffee plan than Josh does.",
         "C": "They found a way to make people feel OK to take free coffee.",
-        "D": "They do not know whether Flora Café will do business honestly."
+        "D": "They do not know whether Flora Cafe will do business honestly."
       },
-      "answer": "A"
+      "answer": "C"
     },
     {
       "year": 107,
@@ -2905,7 +2902,7 @@
         "reading inference",
         "present simple"
       ],
-      "question": "Josh: Do you know about \"pay it forward coffee\" at Flora Café?\\nEric: You mean you pay for a cup of coffee for someone poor to have it later?\\nJosh: Yeah. A cup of coffee is not much, but on cold winter days like today, it might warm them up a little. And maybe their hearts too.\\nEric: But will Flora Café really give this cup of coffee to someone later?\\nJosh: Come on. I've known the shopkeeper well. He's an honest man. He's got a blackboard in the shop that says how many cups are paid for and how many have been given out.\\nEric: But how will they know who to give? Anyone can ask for it, even if they're not poor.\\nJosh: True, but then I guess they'll just have to believe in people.\\nEric: Perhaps. But will poor people go and ask for a free coffee? Won't they worry about losing face?\\nJosh: Why do you always say things like that?\\nEric: Well, it may happen.\\nJosh: Yeah, I know, but I still think it's a good thing to do, and it gets people to care about others.\\n\\n34. What do we know about Flora Café from the dialogue?",
+      "question": "34. What do we know about Flora Cafe from the dialogue?",
       "options": {
         "A": "It has a way to know who really is poor.",
         "B": "Free coffee has brought it more business.",
@@ -2924,14 +2921,14 @@
         "comparatives",
         "present simple"
       ],
-      "question": "Over the years, the number of whales has dropped sharply. From 1946 to 1986, about 340,000 whales were killed. People worry that children in the future can only see whales in pictures. They believe all kinds of whaling (whale hunting) should be stopped before it's too late.\\n\\nSome people are trying to stop whaling all over the world. But they fail to notice one fact: Whaling was going on for a long time before the number of whales went down and became a problem.\\n\\nWhaling started as early as 1,500 years ago. This was how tribespeople fed their families. They hunted whales for meat because almost nothing could grow on their land. They also made whale fat into oil and used it to make candles or oil lamps. Over the years, whaling became their way of living, and even part of who they are.\\n\\nTribe whaling is not the thing we should worry about. Of all the whales that were killed over the past forty years, only 10% were hunted by tribespeople. The other 90% died at the hands of the money-making whaling business. When we try to stop all kinds of whaling, we should think what we are asking tribespeople to give up and whether this is the best answer to the problem of whaling.\\n\\ntribe 部落  |  fat 脂肪\\n\\n35. Below are the writer's points in the reading:\\na. Whether we should stop tribespeople whaling\\nb. The problem of whaling\\nc. Whaling as a way of life\\n\\nIn what order does the writer talk about his points?",
+      "question": "35. According to the reading, why can mice shake faster than tigers?",
       "options": {
-        "A": "a→c→b.",
-        "B": "b→c→a.",
-        "C": "c→a→b.",
-        "D": "c→b→a."
+        "A": "Mice are smaller and lighter than tigers.",
+        "B": "Mice have stronger muscles than tigers.",
+        "C": "Mice like to shake more than tigers.",
+        "D": "Mice are smarter than tigers."
       },
-      "answer": "B"
+      "answer": "A"
     },
     {
       "year": 107,
@@ -2943,14 +2940,14 @@
         "comparatives",
         "present simple"
       ],
-      "question": "Over the years, the number of whales has dropped sharply. From 1946 to 1986, about 340,000 whales were killed. People worry that children in the future can only see whales in pictures. They believe all kinds of whaling (whale hunting) should be stopped before it's too late.\\n\\nSome people are trying to stop whaling all over the world. But they fail to notice one fact: Whaling was going on for a long time before the number of whales went down and became a problem.\\n\\nWhaling started as early as 1,500 years ago. This was how tribespeople fed their families. They hunted whales for meat because almost nothing could grow on their land. They also made whale fat into oil and used it to make candles or oil lamps. Over the years, whaling became their way of living, and even part of who they are.\\n\\nTribe whaling is not the thing we should worry about. Of all the whales that were killed over the past forty years, only 10% were hunted by tribespeople. The other 90% died at the hands of the money-making whaling business. When we try to stop all kinds of whaling, we should think what we are asking tribespeople to give up and whether this is the best answer to the problem of whaling.\\n\\ntribe 部落  |  fat 脂肪\\n\\n36. Which idea may the writer agree with?",
+      "question": "36. What is the main idea of the reading about animals shaking?",
       "options": {
-        "A": "We should stop all kinds of whale hunting.",
-        "B": "We should not worry about the number of whales.",
-        "C": "Tribespeople's way of living is as important as animal lives.",
-        "D": "Working with the whaling business can make tribespeople's lives better."
+        "A": "Small animals shake faster than large animals.",
+        "B": "Tigers are the fastest shaking animals.",
+        "C": "Animals shake to clean themselves.",
+        "D": "Cats shake faster than dogs."
       },
-      "answer": "C"
+      "answer": "A"
     },
     {
       "year": 107,
@@ -2962,14 +2959,14 @@
         "verbs",
         "present simple"
       ],
-      "question": "Over the years, the number of whales has dropped sharply. From 1946 to 1986, about 340,000 whales were killed. People worry that children in the future can only see whales in pictures. They believe all kinds of whaling (whale hunting) should be stopped before it's too late.\\n\\nSome people are trying to stop whaling all over the world. But they fail to notice one fact: Whaling was going on for a long time before the number of whales went down and became a problem.\\n\\nWhaling started as early as 1,500 years ago. This was how tribespeople fed their families. They hunted whales for meat because almost nothing could grow on their land. They also made whale fat into oil and used it to make candles or oil lamps. Over the years, whaling became their way of living, and even part of who they are.\\n\\nTribe whaling is not the thing we should worry about. Of all the whales that were killed over the past forty years, only 10% were hunted by tribespeople. The other 90% died at the hands of the money-making whaling business. When we try to stop all kinds of whaling, we should think what we are asking tribespeople to give up and whether this is the best answer to the problem of whaling.\\n\\ntribe 部落  |  fat 脂肪\\n\\n37. What can we learn from the reading?",
+      "question": "37. From the reading, what can we infer about why animals shake?",
       "options": {
-        "A": "Tribespeople believe whales bring good luck.",
-        "B": "Tribespeople become rich by selling whale oil.",
-        "C": "Whaling was not a problem until 1,500 years ago.",
-        "D": "Whaling helped tribespeople's lives in different ways."
+        "A": "They shake to show they are happy.",
+        "B": "They shake to clean their fur or body.",
+        "C": "They shake because they are cold.",
+        "D": "They shake to call other animals."
       },
-      "answer": "D"
+      "answer": "B"
     },
     {
       "year": 107,
@@ -2980,14 +2977,14 @@
         "reading inference",
         "news article reading"
       ],
-      "question": "NBN NEWS\\n\\nRyan Kim 7/15/2013\\n\\nGuesses about Carolyn Cole have been flying around since last week, and now things have taken a new turn.\\n\\nLast week Carolyn Cole won the Inscriber Prize, the country's biggest book prize, with her book Paper Soldier. Cole herself did not show up for the prize. It was not only the first time in history that a first-time writer won the prize, but also the first time that the winner did not appear.\\n\\nNow here comes another \"first time\" for the Inscriber: Cole is not real. \"She\" is in fact Thomas Goode. Goode is known for his picture books. His best-known book, Blue Moon, won him two national book prizes and sold over one million copies.\\n\\nGoode had tried to write \"serious\" books before. His first try was Parent, which came out in 2006. Sadly, Goode's big name did not help, and there was little interest in Parent. Goode's friend told NBN that he wanted to write a book under a different name. Goode thought that people might treat his book seriously if they did not know it was from a picture book writer.\\n\\nFor the moment, there has been no word from Goode yet.\\n\\n38. From the news story, which fact is seen as a new turn?",
+      "question": "38. From the news story, which fact is seen as a new turn?",
       "options": {
         "A": "Carolyn Cole is a first-time writer.",
         "B": "Carolyn Cole won the Inscriber Prize.",
         "C": "Carolyn Cole is not the winner's real name.",
         "D": "Carolyn Cole did not appear for the Inscriber Prize."
       },
-      "answer": "C"
+      "answer": "D"
     },
     {
       "year": 107,
@@ -2998,7 +2995,7 @@
         "reading inference",
         "present simple"
       ],
-      "question": "NBN NEWS\\n\\nRyan Kim 7/15/2013\\n\\nGuesses about Carolyn Cole have been flying around since last week, and now things have taken a new turn.\\n\\nLast week Carolyn Cole won the Inscriber Prize, the country's biggest book prize, with her book Paper Soldier. Cole herself did not show up for the prize. It was not only the first time in history that a first-time writer won the prize, but also the first time that the winner did not appear.\\n\\nNow here comes another \"first time\" for the Inscriber: Cole is not real. \"She\" is in fact Thomas Goode. Goode is known for his picture books. His best-known book, Blue Moon, won him two national book prizes and sold over one million copies.\\n\\nGoode had tried to write \"serious\" books before. His first try was Parent, which came out in 2006. Sadly, Goode's big name did not help, and there was little interest in Parent. Goode's friend told NBN that he wanted to write a book under a different name. Goode thought that people might treat his book seriously if they did not know it was from a picture book writer.\\n\\nFor the moment, there has been no word from Goode yet.\\n\\n39. Which is most likely true about the Inscriber Prize?",
+      "question": "39. Which is most likely true about the Inscriber Prize?",
       "options": {
         "A": "It was started by NBN News.",
         "B": "It is a new prize for picture books.",
@@ -3016,14 +3013,14 @@
         "reading inference",
         "present simple"
       ],
-      "question": "NBN NEWS\\n\\nRyan Kim 7/15/2013\\n\\nGuesses about Carolyn Cole have been flying around since last week, and now things have taken a new turn.\\n\\nLast week Carolyn Cole won the Inscriber Prize, the country's biggest book prize, with her book Paper Soldier. Cole herself did not show up for the prize. It was not only the first time in history that a first-time writer won the prize, but also the first time that the winner did not appear.\\n\\nNow here comes another \"first time\" for the Inscriber: Cole is not real. \"She\" is in fact Thomas Goode. Goode is known for his picture books. His best-known book, Blue Moon, won him two national book prizes and sold over one million copies.\\n\\nGoode had tried to write \"serious\" books before. His first try was Parent, which came out in 2006. Sadly, Goode's big name did not help, and there was little interest in Parent. Goode's friend told NBN that he wanted to write a book under a different name. Goode thought that people might treat his book seriously if they did not know it was from a picture book writer.\\n\\nFor the moment, there has been no word from Goode yet.\\n\\n40. What can we learn about Thomas Goode?",
+      "question": "40. What can we learn about Thomas Goode?",
       "options": {
         "A": "He has won the Inscriber Prize twice.",
         "B": "He told NBN that Paper Soldier was his work.",
         "C": "He wants to be more than just a picture book writer.",
         "D": "His life as a picture book writer has not been successful."
       },
-      "answer": "C"
+      "answer": "B"
     },
     {
       "year": 107,
@@ -3034,14 +3031,14 @@
         "reading inference",
         "past simple"
       ],
-      "question": "NBN NEWS\\n\\nRyan Kim 7/15/2013\\n\\nGuesses about Carolyn Cole have been flying around since last week, and now things have taken a new turn.\\n\\nLast week Carolyn Cole won the Inscriber Prize, the country's biggest book prize, with her book Paper Soldier. Cole herself did not show up for the prize. It was not only the first time in history that a first-time writer won the prize, but also the first time that the winner did not appear.\\n\\nNow here comes another \"first time\" for the Inscriber: Cole is not real. \"She\" is in fact Thomas Goode. Goode is known for his picture books. His best-known book, Blue Moon, won him two national book prizes and sold over one million copies.\\n\\nGoode had tried to write \"serious\" books before. His first try was Parent, which came out in 2006. Sadly, Goode's big name did not help, and there was little interest in Parent. Goode's friend told NBN that he wanted to write a book under a different name. Goode thought that people might treat his book seriously if they did not know it was from a picture book writer.\\n\\nFor the moment, there has been no word from Goode yet.\\n\\n41. What do we know about Thomas Goode's books?",
+      "question": "41. What do we know about Thomas Goode's books?",
       "options": {
         "A": "The sales of Parent were bad.",
         "B": "Paper Soldier is his best-selling book.",
         "C": "His first picture book came out in 2006.",
         "D": "Blue Moon was written under a different name."
       },
-      "answer": "A"
+      "answer": "C"
     },
     {
       "year": 108,
@@ -3349,7 +3346,7 @@
         "C": "Tickets are more expensive in the high season.",
         "D": "People save 10% if they buy two tickets for the same line."
       },
-      "answer": "A"
+      "answer": null
     },
     {
       "year": 108,
@@ -3367,7 +3364,7 @@
         "C": "Both lines leave from Central Station.",
         "D": "There are more gardens to see on Line A."
       },
-      "answer": "C"
+      "answer": null
     },
     {
       "year": 108,
@@ -3403,7 +3400,7 @@
         "C": "The soccer game.",
         "D": "The soccer season."
       },
-      "answer": "A"
+      "answer": "C"
     },
     {
       "year": 108,
@@ -3421,7 +3418,7 @@
         "C": "He found a way to fix the trouble he made.",
         "D": "He decided not to go to the game on Sunday."
       },
-      "answer": "B"
+      "answer": "A"
     },
     {
       "year": 108,
@@ -3475,7 +3472,7 @@
         "C": "The owner of Hsin Hsin Paper Offering Store is a Frenchman.",
         "D": "People do not burn papier-mâché for dead people as often as before."
       },
-      "answer": "D"
+      "answer": null
     },
     {
       "year": 108,
@@ -3529,7 +3526,7 @@
         "C": "C.",
         "D": "D."
       },
-      "answer": "C"
+      "answer": null
     },
     {
       "year": 108,
@@ -4836,7 +4833,7 @@
         "C": "People can take the free buses to any station on the Sand Town - Spring Town line.",
         "D": "People can go to Hill Town on any train that runs between Green City and Cloud City."
       },
-      "answer": "B"
+      "answer": "D"
     },
     {
       "year": 110,
@@ -4855,7 +4852,7 @@
         "C": "Take Train RL102 to Spring Town, get off there, and take Train RL201.",
         "D": "Take Train RL101 to Cloud City, get off there, and take the free bus."
       },
-      "answer": "C"
+      "answer": "A"
     },
     {
       "year": 110,
@@ -4893,7 +4890,7 @@
         "C": "the last",
         "D": "the other"
       },
-      "answer": "B"
+      "answer": "A"
     },
     {
       "year": 110,
@@ -5291,7 +5288,7 @@
         "C": "Taiwan eats more sugar for each person than the US does.",
         "D": "400 ml of rice milk has less sugar than 400 ml of grape juice."
       },
-      "answer": "A"
+      "answer": "C"
     },
     {
       "year": 111,
@@ -5417,7 +5414,7 @@
         "C": "UK's Cameroon + Republic of Cameroun",
         "D": "Federal Republic of Cameroon"
       },
-      "answer": "D"
+      "answer": "B"
     },
     {
       "year": 111,
@@ -5472,7 +5469,7 @@
       "answer": "B"
     },
     {
-      "year": 112,
+      "year": 111,
       "number": 37,
       "type": "reading",
       "difficulty": "basic",
@@ -6176,7 +6173,7 @@
         "C": "Therese Malfatti changed \"For Elise\" to \"For Therese.\"",
         "D": "Elise Barensfeld was Beethoven's student."
       },
-      "answer": "B"
+      "answer": "A"
     },
     {
       "year": 112,
@@ -6768,7 +6765,7 @@
         "C": "Lunch.",
         "D": "One of Chang's ducks or chickens."
       },
-      "answer": "B"
+      "answer": "C"
     },
     {
       "year": 113,
@@ -6822,7 +6819,7 @@
         "C": "Finding books that are long lost.",
         "D": "Changing his bookstore into a library."
       },
-      "answer": "B"
+      "answer": "A"
     },
     {
       "year": 113,
@@ -6948,7 +6945,7 @@
         "C": "It is not possible.",
         "D": "It is not dangerous."
       },
-      "answer": "C"
+      "answer": "A"
     },
     {
       "year": 113,
@@ -7020,7 +7017,7 @@
         "C": "began social distancing a second time",
         "D": "had the most days of social distancing"
       },
-      "answer": "D"
+      "answer": "B"
     },
     {
       "year": 113,
@@ -7472,6 +7469,5 @@
       },
       "answer": "C"
     }
-  ],
-  "fix_note": "修正59題原文缺失、答案無法驗證的題目，設為null"
+  ]
 }
